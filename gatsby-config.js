@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Silentmaker\'s Blog',
+    title: 'Elvin\'s Blog',
     author: 'Elvin Ma',
-    description: 'Silentmaker\'s Blog',
+    description: 'Elvin\'s Blog',
     siteUrl: 'https://silentmaker.github.io/blog',
   },
   pathPrefix: '/blog',
