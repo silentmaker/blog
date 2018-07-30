@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
+import favicon from '../../static/favicon.ico';
 
 import 'prismjs/themes/prism-tomorrow.css';
 
@@ -15,7 +16,9 @@ class BlogIndex extends React.Component {
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Helmet title={siteTitle} link={[
+          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+        ]} />
         <Bio />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
