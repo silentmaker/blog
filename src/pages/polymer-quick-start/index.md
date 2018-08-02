@@ -1,6 +1,7 @@
 ---
 title: Ploymer Quick Start
-date: "2018-07-26T17:51:17.748Z"
+
+date: "2018-07-29"
 ---
 
 > Everything is an element.
@@ -15,6 +16,8 @@ Web Components are now implemented natively on Safari and Chrome, and run well o
 
 #### scripts
 
+load webcomponents-loader.js to check and load any polyfills your browser needs
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -28,39 +31,45 @@ Web Components are now implemented natively on Safari and Chrome, and run well o
 </html>
 ```
 
-#### register an element
+#### basic Polymer element definition
 
 Note: ==LiteElement== is the successor to PolymerElement now.
 
 ```javascript
-import {PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
 
-class CustomElement extends PolymerElement {
+// Define the element's API using an ES2015 class
+class XCustom extends PolymerElement {
   constructor() {
     super();
-    console.log(this.tagName);
-    this.textContent = 'I\'m a custom-element.';
+    this.greeting = 'Hello!';
   }
-}
-
-customElements.define('custom-element', CustomElement);
-```
-
-#### add shadow DOM (templating )
-
-```javascript
-import {PolymerElement, html} from '@polymer/polymer/polymer-element.js'
-
-class DomElement extends PolymerElement {
-  static get template () {
+  // Define optional shadow DOM template
+  // Data bindings in shadow DOM
+  static get template() { 
     return html`
-      <h1>A heading!</h1> 
-      <p>I'm a DOM element. This is my shadow DOM!</p>
+      <style>
+        /* scoped CSS rules for your element */
+      </style>
+      <div>[[greeting]]</div> 
     `;
   }
+  // Declare properties for the element's public API
+  static get properties() {
+    return {
+      greeting: {
+        type: String
+      }
+    }
+  }
+  // Add methods to the element's public API
+  greetMe() {
+    console.log(this.greeting);
+  }
 }
 
-customElements.define('dom-element', DomElement);
+// Register the x-custom element with the browser
+customElements.define('x-custom', XCustom);
 ```
 
 #### element composition
@@ -113,7 +122,7 @@ class NameTag extends PolymerElement {
 customElements.define('name-tag', NameTag);
 ```
 
-#### Declare properties
+#### declare properties
 
 ```javascript
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js'
@@ -342,9 +351,4 @@ Then,
 ### More
 
 Find out more at [ploymer-project.org](https://www.polymer-project.org)
-
-
-
-
-
 
