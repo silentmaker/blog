@@ -8,6 +8,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
+    const tagTemplate = path.resolve("src/templates/tags.js");
+    const categroyTemplate = path.resolve("src/templates/categories.js");
+
     resolve(
       graphql(
         `
@@ -20,6 +23,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   }
                   frontmatter {
                     title
+                    tags
+                    categories
                   }
                 }
               }
@@ -34,10 +39,19 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         // Create blog posts pages.
         const posts = result.data.allMarkdownRemark.edges;
+        let tags = []
+        let categories = []
 
         _.each(posts, (post, index) => {
           const previous = index === posts.length - 1 ? null : posts[index + 1].node;
           const next = index === 0 ? null : posts[index - 1].node;
+
+          if (_.get(post, "node.frontmatter.tags")) {
+            tags = tags.concat(post.node.frontmatter.tags);
+          }
+          if (_.get(post, "node.frontmatter.categories")) {
+            categories = categories.concat(post.node.frontmatter.categories);
+          }
 
           createPage({
             path: post.node.fields.slug,
@@ -47,6 +61,24 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               previous,
               next,
             },
+          })
+        })
+
+        tags = _.uniq(tags)
+        _.each(tags, tag => {
+          createPage({
+            path: `/tags/${_.kebabCase(tag)}/`,
+            component: tagTemplate,
+            context: { tag },
+          })
+        })
+
+        categories = _.uniq(categories)
+        _.each(categories, category => {
+          createPage({
+            path: `/categories/${_.kebabCase(category)}/`,
+            component: categroyTemplate,
+            context: { category },
           })
         })
       })
