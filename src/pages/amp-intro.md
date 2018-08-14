@@ -1,5 +1,5 @@
 ---
-title: 'amp-intro'
+title: 'AMP Introduction'
 date: '2018-07-22'
 tags: ['amp', 'javascript']
 categories: ['dev']
