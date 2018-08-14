@@ -1,9 +1,9 @@
 ---
-title: "GraphQL: Basics"
-date: "2018-04-20"
-tags: ['GraphQL']
-categories: ['Dev']
-path: '/blog/graphql-introduction'
+title: 'GraphQL: Basics'
+date: '2018-04-20'
+tags: ['graphql']
+categories: ['dev']
+path: '/graphql-introduction'
 ---
 
 ### Definition
