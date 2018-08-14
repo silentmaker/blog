@@ -1,0 +1,2 @@
+webpackJsonp([84586273293571],{482:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Animation",fields:{slug:"/animation-in-vue-and-react/"},frontmatter:{date:"26 July, 2018",title:"Animation in Vue and React"}}},{node:{excerpt:"Typescript",fields:{slug:"/typescript-with-react/"},frontmatter:{date:"26 June, 2018",title:"Typescript with React"}}}]}},pathContext:{tag:"react"}}}});
+//# sourceMappingURL=path---tags-react-c375e583921b0ada6f03.js.map

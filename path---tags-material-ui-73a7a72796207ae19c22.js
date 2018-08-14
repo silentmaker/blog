@@ -1,0 +1,2 @@
+webpackJsonp([0x7f27d09b4e82],{473:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Material-UI",fields:{slug:"/ui-frameworks-notes-material-ui/"},frontmatter:{date:"26 July, 2018",title:"UI Frameworks Notes: Material-UI"}}}]}},pathContext:{tag:"material ui"}}}});
+//# sourceMappingURL=path---tags-material-ui-73a7a72796207ae19c22.js.map

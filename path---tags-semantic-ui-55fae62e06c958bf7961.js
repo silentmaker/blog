@@ -1,0 +1,2 @@
+webpackJsonp([0xab444585248f],{485:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Semantic-UI",fields:{slug:"/ui-frameworks-notes-semantic-ui/"},frontmatter:{date:"26 July, 2018",title:"UI Frameworks Notes: Semantic-UI"}}}]}},pathContext:{tag:"semantic ui"}}}});
+//# sourceMappingURL=path---tags-semantic-ui-55fae62e06c958bf7961.js.map

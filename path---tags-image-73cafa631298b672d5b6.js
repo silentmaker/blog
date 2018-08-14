@@ -1,0 +1,2 @@
+webpackJsonp([64666208081412],{469:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"",fields:{slug:"/image-editing-with-javascript/"},frontmatter:{date:"20 July, 2018",title:"Image Editing with Javascript"}}}]}},pathContext:{tag:"image"}}}});
+//# sourceMappingURL=path---tags-image-73cafa631298b672d5b6.js.map
