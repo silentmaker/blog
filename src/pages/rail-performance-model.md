@@ -1,9 +1,12 @@
 ---
-title: RAIL Performance Model
-date: "2018-07-26T17:51:17.748Z"
+title: 'RAIL Performance Model'
+date: '2018-07-26'
+tags: ['performance', 'javascript']
+categories: ['dev']
+path: '/rail-performance-model'
 ---
 
-![RAIL](./rail.png)
+![RAIL](./images/rail.png)
 
 RAIL is a User-centric performance model that breaks down the user's experience into key actions.
 
@@ -32,7 +35,7 @@ Actions that takes more than 50ms need to provide feedback.
 
 Idle tasks affect the input response budget.
 
-![](./rail-response-details.png)
+![](./images/rail-response-details.png)
 
 ### Animation
 
@@ -72,7 +75,7 @@ For subsequent loads, a good target is to load the page in under 2 seconds.
 2. Enable progressive rendering and do some work in the background. Defer non-essential loads to periods of idle time. 
 3. Recognize the factors that affect page load performance: Network speed and latency, Hardware, Cache eviction, L2/L3 caching, Parsing javascript.
 
-![](./speed-metrics.png)
+![](./images/speed-metrics.png)
 
 ### Tools
 

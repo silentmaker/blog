@@ -1,7 +1,9 @@
 ---
 title: Ploymer Features
-
-date: "2018-07-26T17:51:17.748Z"
+date: "2018-07-26"
+tags: ['polymer', 'javascript']
+categories: ['dev']
+path: '/polymer-features'
 ---
 
 ### Custom Elements

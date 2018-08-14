@@ -22,6 +22,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                     slug
                   }
                   frontmatter {
+                    path
                     title
                     tags
                     categories
@@ -37,11 +38,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
 
-        // Create blog posts pages.
         const posts = result.data.allMarkdownRemark.edges;
         let tags = []
         let categories = []
-
+        // Blog posts pages
         _.each(posts, (post, index) => {
           const previous = index === posts.length - 1 ? null : posts[index + 1].node;
           const next = index === 0 ? null : posts[index - 1].node;
@@ -63,7 +63,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             },
           })
         })
-
+        // Tags pages
         tags = _.uniq(tags)
         _.each(tags, tag => {
           createPage({
@@ -72,7 +72,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             context: { tag },
           })
         })
-
+        // Categories pages
         categories = _.uniq(categories)
         _.each(categories, category => {
           createPage({

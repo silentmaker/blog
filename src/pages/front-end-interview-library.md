@@ -1,6 +1,9 @@
 ---
-title: "Front End Interview Library"
-date: "2018-08-02"
+title: 'Front End Interview Library'
+date: '2018-08-02'
+tags: ['interview']
+categories: ['dev']
+path: 'front-end-interview-library'
 ---
 
 ### CSS

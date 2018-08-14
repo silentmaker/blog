@@ -1,7 +1,9 @@
 ---
-title: Redux Cheatsheet
-
-date: "2018-07-26T17:51:17.748Z"
+title: 'Redux Cheatsheet'
+date: '2018-07-26'
+tags: ['redux', 'javascript']
+categories: ['dev']
+path: '/redux-cheatsheet'
 ---
 
 ### Redux
