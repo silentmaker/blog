@@ -8,10 +8,12 @@ import { rhythm } from '../utils/typography'
 class Categories extends React.Component {
   render() {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const category = get(this, 'props.pathContext.category')
 
     return (
       <div>
         <Bio />
+        <h3>Category: {category.toUpperCase()}</h3>
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (

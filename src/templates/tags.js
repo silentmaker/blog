@@ -8,10 +8,12 @@ import { rhythm } from '../utils/typography'
 class Tags extends React.Component {
   render() {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const tag = get(this, 'props.pathContext.tag')
 
     return (
       <div>
         <Bio />
+        <h3>Tag: {tag.toUpperCase()}</h3>
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (

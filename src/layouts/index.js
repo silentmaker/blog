@@ -15,55 +15,36 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
+        <h1 style={{
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
+          }}>
+          <Link to={'/'} style={{
               boxShadow: 'none',
               textDecoration: 'none',
               color: 'inherit',
-            }}
-            to={'/'}
-          >
-            Elvin's Blog
-          </Link>
+            }}>Elvin's Blog</Link>
         </h1>
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
+        <h3 style={{ marginTop: 0 }}>
+          <Link to={'/'} style={{
               boxShadow: 'none',
               textDecoration: 'none',
               color: '#007acc',
-            }}
-            to={'/'}
-          >
-            Elvin's Blog
-          </Link>
+            }}>← Elvin's Blog</Link>
         </h3>
       )
     }
     return (
-      <div
-        style={{
+      <div style={{
           marginLeft: 'auto',
           marginRight: 'auto',
           maxWidth: rhythm(32),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+        }}>
         {header}
         {children()}
       </div>

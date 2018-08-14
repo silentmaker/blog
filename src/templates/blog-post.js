@@ -11,48 +11,45 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const tags = (post.frontmatter.tags || []).map(tag => 
-      <Link key={tag} to={`/tags/${tag}`}>{tag}</Link>)
+      <Link style={{ marginLeft: rhythm(1/4) }} key={tag} to={`/tags/${tag}`}>{tag}</Link>)
     const categories = (post.frontmatter.categories || []).map(category => 
-      <Link key={category} to={`/categories/${category}`}>{category}</Link>)
+      <Link style={{ marginLeft: rhythm(1/4) }} key={category} to={`/categories/${category}`}>{category}</Link>)
     const { previous, next } = this.props.pathContext
 
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+
         <h1>{post.frontmatter.title}</h1>
-        <div style={{ ...scale(-1) }}>
-          {post.frontmatter.date}
+
+        <div style={{ ...scale(-1/10) }}>
+          {post.frontmatter.date && <span style={{ marginRight: rhythm(1) }}>{post.frontmatter.date}</span>}
+          {post.frontmatter.tags && <span style={{ marginRight: rhythm(1) }}>Tags:{tags}</span>}
+          {post.frontmatter.categories && <span>Categories:{categories}</span>}
         </div>
-        {post.frontmatter.tags && <div>tags: {tags}</div>}
-        {post.frontmatter.categories && <div>categories: {categories}</div>}
+
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+
+        <hr style={{ marginBottom: rhythm(1) }} />
+
         <Bio />
 
-        <ul
-          style={{
+        <ul style={{
             display: 'flex',
             flexWrap: 'wrap',
             justifyContent: 'space-between',
             listStyle: 'none',
             padding: 0,
-          }}
-        >
+          }}>
           <li>
-            {
-              previous &&
+            {previous &&
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             }
           </li>
           <li>
-            {
-              next &&
+            {next &&
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>

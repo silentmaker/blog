@@ -10,6 +10,7 @@ class Projects extends React.Component {
 
     return (
       <ul style={{
+        margin: 0,
         display: 'flex',
         visibility: hidden ? 'hidden' : 'visible',
         opacity: hidden ? 0 : 1,
@@ -17,9 +18,12 @@ class Projects extends React.Component {
         listStyle: 'none',
         flexWrap: 'wrap',
         transition: 'all 0.5s ease',
+        textAlign: 'center',
+        fontSize: '0.8rem',
+        lineHeight: '2rem',
         }}>
         {projects.map((project, index) => 
-          <li key={project} style={{ flex: '0 1 120px' }}>
+          <li key={project} style={{ flex: '0 1 100px' }}>
             <a target="blank" href={`https://silentmaker.github.io/${project}`}>
               <div style={{
                 width: 64,
@@ -30,7 +34,7 @@ class Projects extends React.Component {
                 backgroundSize: `auto 125px`,
                 backgroundPosition: `${-64 * index}px 0`,
               }}></div>
-              <div style={{ color: '#999', textAlign: 'center' }}>
+              <div style={{ color: '#999' }}>
                 {project.charAt(0).toUpperCase() + project.slice(1)}
               </div>
             </a>
