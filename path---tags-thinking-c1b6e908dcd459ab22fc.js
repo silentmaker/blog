@@ -1,0 +1,2 @@
+webpackJsonp([0xf9f52b3772c],{586:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"What Makes It Special",fields:{slug:"/front-end-way-of-thinking/"},frontmatter:{date:"06 August, 2018",title:"Front-End Way of Thinking"}}}]}},pathContext:{tag:"thinking"}}}});
+//# sourceMappingURL=path---tags-thinking-c1b6e908dcd459ab22fc.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([20628440515933],{538:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"What",fields:{slug:"/when-to-use-arrow-function/"},frontmatter:{date:"26 May, 2018",title:"When to Use Arrow Functin"}}}]}},pathContext:{tag:"arrow function"}}}});
+//# sourceMappingURL=path---tags-arrow-function-201eb541c0dabdbce20e.js.map

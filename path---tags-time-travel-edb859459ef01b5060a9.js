@@ -1,2 +1,2 @@
-webpackJsonp([23764712287137],{488:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Time Travel",fields:{slug:"/time-travel-with-redux/"},frontmatter:{date:"26 July, 2018",title:"Time Travel with Redux"}}}]}},pathContext:{tag:"time travel"}}}});
+webpackJsonp([23764712287137],{588:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Time Travel",fields:{slug:"/time-travel-with-redux/"},frontmatter:{date:"26 July, 2018",title:"Time Travel with Redux"}}}]}},pathContext:{tag:"time travel"}}}});
 //# sourceMappingURL=path---tags-time-travel-edb859459ef01b5060a9.js.map

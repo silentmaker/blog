@@ -1,0 +1,2 @@
+webpackJsonp([0x95744131eb8d],{575:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"How React Native works",fields:{slug:"/more-of-react-native/"},frontmatter:{date:"27 April, 2018",title:"More of React Native"}}},{node:{excerpt:"What is RN",fields:{slug:"/react-native-intro/"},frontmatter:{date:"26 April, 2018",title:"React Native Introduction"}}}]}},pathContext:{tag:"react native"}}}});
+//# sourceMappingURL=path---tags-react-native-939ff05c0647573fb7f0.js.map

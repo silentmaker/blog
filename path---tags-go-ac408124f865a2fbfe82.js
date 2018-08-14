@@ -1,2 +1,2 @@
-webpackJsonp([29981209658063],{467:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Controls Functions Data",fields:{slug:"/go-syntax-cheat-sheet/"},frontmatter:{date:"26 July, 2018",title:"Go Syntax Cheatsheet"}}}]}},pathContext:{tag:"go"}}}});
+webpackJsonp([29981209658063],{553:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Controls Functions Data",fields:{slug:"/go-syntax-cheat-sheet/"},frontmatter:{date:"26 July, 2018",title:"Go Syntax Cheatsheet"}}}]}},pathContext:{tag:"go"}}}});
 //# sourceMappingURL=path---tags-go-ac408124f865a2fbfe82.js.map

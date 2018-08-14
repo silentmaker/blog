@@ -1,2 +1,2 @@
-webpackJsonp([51720743109199],{489:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Typescript",fields:{slug:"/typescript-with-react/"},frontmatter:{date:"26 June, 2018",title:"Typescript with React"}}}]}},pathContext:{tag:"typescript"}}}});
+webpackJsonp([51720743109199],{589:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Typescript",fields:{slug:"/typescript-with-react/"},frontmatter:{date:"26 June, 2018",title:"Typescript with React"}}}]}},pathContext:{tag:"typescript"}}}});
 //# sourceMappingURL=path---tags-typescript-4b8406d2a96cadb1899e.js.map

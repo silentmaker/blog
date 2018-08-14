@@ -1,0 +1,2 @@
+webpackJsonp([0x63460c3f08ab],{546:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Fetch",fields:{slug:"/fetch-vs-axios/"},frontmatter:{date:"02 June, 2018",title:"Fetch vs Axios"}}}]}},pathContext:{tag:"fetch"}}}});
+//# sourceMappingURL=path---tags-fetch-9dd05f2ee316cd337029.js.map

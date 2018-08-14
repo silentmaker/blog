@@ -1,2 +1,2 @@
-webpackJsonp([82932475285288],{461:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Babylon.js",fields:{slug:"/babylon-js-intro/"},frontmatter:{date:"20 August, 2018",title:"Babylon.js Introduction"}}}]}},pathContext:{tag:"babylon.js"}}}});
+webpackJsonp([82932475285288],{541:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Babylon.js",fields:{slug:"/babylon-js-intro/"},frontmatter:{date:"20 August, 2018",title:"Babylon.js Introduction"}}}]}},pathContext:{tag:"babylon.js"}}}});
 //# sourceMappingURL=path---tags-babylon-js-7bdfd9f75a69ee665c28.js.map

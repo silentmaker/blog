@@ -1,2 +1,2 @@
-webpackJsonp([0x73f62a23064a],{463:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Data Visualization",fields:{slug:"/d3-js-intro/"},frontmatter:{date:"20 June, 2018",title:"D3.js Introduction"}}}]}},pathContext:{tag:"d3.js"}}}});
+webpackJsonp([0x73f62a23064a],{543:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Data Visualization",fields:{slug:"/d3-js-intro/"},frontmatter:{date:"20 June, 2018",title:"D3.js Introduction"}}}]}},pathContext:{tag:"d3.js"}}}});
 //# sourceMappingURL=path---tags-d-3-js-baaba2e4feca0c19ae01.js.map

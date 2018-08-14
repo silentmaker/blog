@@ -1,0 +1,2 @@
+webpackJsonp([0xa1ac44f272db],{555:function(e,a){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"",fields:{slug:"/gulp-webpack-parcel-roolup/"},frontmatter:{date:"20 June, 2018",title:"Gulp, Webpack, Parcel and Rollup"}}}]}},pathContext:{tag:"gulp"}}}});
+//# sourceMappingURL=path---tags-gulp-496bc8063ee4d7c3e349.js.map

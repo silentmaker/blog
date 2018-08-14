@@ -1,2 +1,2 @@
-webpackJsonp([0xf388c40c091a],{475:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Mini-program",fields:{slug:"/build-mini-program-with-mpvue/"},frontmatter:{date:"26 July, 2018",title:"Build Mini-Program with Mpvue"}}}]}},pathContext:{tag:"mini-program"}}}});
+webpackJsonp([0xf388c40c091a],{563:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Mini-program",fields:{slug:"/build-mini-program-with-mpvue/"},frontmatter:{date:"26 July, 2018",title:"Build Mini-Program with Mpvue"}}}]}},pathContext:{tag:"mini-program"}}}});
 //# sourceMappingURL=path---tags-mini-program-b29a8c4018128ff0c8e9.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([65069821371953],{580:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"",fields:{slug:"/scope-chain-notes/"},frontmatter:{date:"16 June, 2018",title:"Scope Chain Notes"}}}]}},pathContext:{tag:"scope chain"}}}});
+//# sourceMappingURL=path---tags-scope-chain-614b109af132104d0897.js.map
