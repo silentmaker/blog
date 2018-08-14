@@ -1,0 +1,2 @@
+webpackJsonp([28815772698465],{394:function(e,a){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Basics Phaser.js is a 2D game engine, support both canvas and webGL rendering.",fields:{slug:"/build-games-with-phaser/"},frontmatter:{date:"26 July, 2018",title:"Build Games with Phaser"}}}]}},pathContext:{tag:"Game Engine"}}}});
+//# sourceMappingURL=path---tags-game-engine-2da6886f884327b745c1.js.map
