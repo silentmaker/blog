@@ -1,0 +1,2 @@
+webpackJsonp([0x9bf94622c97a],{397:function(e,a){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Definition GraphQL is a query language proposed by Facebook. Why GraphQL",fields:{slug:"/graphql-intro/"},frontmatter:{date:"20 April, 2018",title:"GraphQL: Basics"}}}]}},pathContext:{category:"Dev"}}}});
+//# sourceMappingURL=path---categories-dev-12166a780d7c49e3d96c.js.map

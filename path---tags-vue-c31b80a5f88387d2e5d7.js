@@ -1,0 +1,2 @@
+webpackJsonp([0x6f6e17de0fd6],{421:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Reactivity",fields:{slug:"/vue-in-depth/"},frontmatter:{date:"02 August, 2018",title:"Vue in Depth"}}}]}},pathContext:{tag:"vue"}}}});
+//# sourceMappingURL=path---tags-vue-c31b80a5f88387d2e5d7.js.map

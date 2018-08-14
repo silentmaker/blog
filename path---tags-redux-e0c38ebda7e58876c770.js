@@ -1,0 +1,2 @@
+webpackJsonp([0x90c85c7886b1],{418:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Redux Create a store Use a store React Redux Provider Mapping state Shorthand Combining reducers Middleware Signature Applying Middleware…",fields:{slug:"/redux-cheatsheet/"},frontmatter:{date:"26 July, 2018",title:"Redux Cheatsheet"}}}]}},pathContext:{tag:"redux"}}}});
+//# sourceMappingURL=path---tags-redux-e0c38ebda7e58876c770.js.map
