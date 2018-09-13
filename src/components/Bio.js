@@ -14,7 +14,10 @@ class Bio extends React.Component {
   }
   render() {
     return (
-      <div style={{ display: 'flex' }}>
+      <div style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+      }}>
         <img src={profileImage} style={{
             marginRight: rhythm(1/2),
             marginBottom: 0,
@@ -27,8 +30,8 @@ class Bio extends React.Component {
             <span style={{ cursor: 'pointer', color: '#007acc' }} 
               onClick={this.showProjects}> interesting stuff</span>.
           </p>
-          <Projects hidden={this.state.isHideProjects} />
         </div>
+        <Projects hidden={this.state.isHideProjects} />
       </div>
     )
   }
