@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
 
         <h1>{post.frontmatter.title}</h1>
 
-        <div style={{ ...scale(-1/10) }}>
+        <div style={{ ...scale(-1/10), marginBottom: rhythm(1) }}>
           {post.frontmatter.date && <span style={{ marginRight: rhythm(1) }}>{post.frontmatter.date}</span>}
           {post.frontmatter.tags && <span style={{ marginRight: rhythm(1) }}>Tags:{tags}</span>}
           {post.frontmatter.categories && <span>Categories:{categories}</span>}
