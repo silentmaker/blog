@@ -1,0 +1,2 @@
+webpackJsonp([95217966481093],{613:function(e,r){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Worker  是在 Javascript 中实现多线程的一种方法，通常用于进行耗时/次要的任务，可以提高计算速度，并且达到不阻塞UI的目的 在 Web Workers API 中，Worker可以分为  dedicated Woker ， SharedWorker…",fields:{slug:"/web-workers-notes/"},frontmatter:{date:"26 June, 2018",title:"Web Workers总结"}}}]}},pathContext:{tag:"worker"}}}});
+//# sourceMappingURL=path---tags-worker-6714db2db6af352834e9.js.map

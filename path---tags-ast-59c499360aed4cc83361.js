@@ -1,2 +1,2 @@
-webpackJsonp([52360534645560],{539:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"AST",fields:{slug:"/abstract-syntax-tree/"},frontmatter:{date:"22 July, 2018",title:"Abstract Syntax Tree"}}}]}},pathContext:{tag:"ast"}}}});
+webpackJsonp([52360534645560],{553:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"AST",fields:{slug:"/abstract-syntax-tree/"},frontmatter:{date:"22 July, 2018",title:"Abstract Syntax Tree"}}}]}},pathContext:{tag:"ast"}}}});
 //# sourceMappingURL=path---tags-ast-59c499360aed4cc83361.js.map

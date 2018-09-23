@@ -1,2 +1,2 @@
-webpackJsonp([0xff199b5f5429],{578:function(e,a){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Parallax Scrolling",fields:{slug:"/rellax-js-usage/"},frontmatter:{date:"26 July, 2018",title:"Rellax.js Usage"}}}]}},pathContext:{tag:"rellax.js"}}}});
+webpackJsonp([0xff199b5f5429],{595:function(e,a){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Parallax Scrolling",fields:{slug:"/rellax-js-usage/"},frontmatter:{date:"26 July, 2018",title:"Rellax.js Usage"}}}]}},pathContext:{tag:"rellax.js"}}}});
 //# sourceMappingURL=path---tags-rellax-js-f4c73e4814dffbcc7453.js.map

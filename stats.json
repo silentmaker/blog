@@ -4,10 +4,6 @@
       "path---workbox-usage-b0e86b3d209e7ebef56c.js",
       "path---workbox-usage-b0e86b3d209e7ebef56c.js.map"
     ],
-    "path---tags-thinking": [
-      "path---tags-thinking-c1b6e908dcd459ab22fc.js",
-      "path---tags-thinking-c1b6e908dcd459ab22fc.js.map"
-    ],
     "path---tags-ui-frameworks": [
       "path---tags-ui-frameworks-391d2ebc71ce944e7c22.js",
       "path---tags-ui-frameworks-391d2ebc71ce944e7c22.js.map"
@@ -24,6 +20,10 @@
       "path---tags-arrow-function-201eb541c0dabdbce20e.js",
       "path---tags-arrow-function-201eb541c0dabdbce20e.js.map"
     ],
+    "path---tags-programming": [
+      "path---tags-programming-3ac9aa7e2438bbe46f67.js",
+      "path---tags-programming-3ac9aa7e2438bbe46f67.js.map"
+    ],
     "path---d-3-js-intro": [
       "path---d-3-js-intro-43d6e191b2ef1fe598ab.js",
       "path---d-3-js-intro-43d6e191b2ef1fe598ab.js.map"
@@ -33,8 +33,8 @@
       "path---tags-time-travel-edb859459ef01b5060a9.js.map"
     ],
     "path---ssr-intro": [
-      "path---ssr-intro-94a649d3896eb17b596d.js",
-      "path---ssr-intro-94a649d3896eb17b596d.js.map"
+      "path---ssr-intro-137ef41f066fbe05b41f.js",
+      "path---ssr-intro-137ef41f066fbe05b41f.js.map"
     ],
     "component---src-templates-categories-js": [
       "component---src-templates-categories-js-40d57939ad0b9035c4c1.js",
@@ -53,16 +53,16 @@
       "path---tags-go-ac408124f865a2fbfe82.js.map"
     ],
     "path---tags-animation": [
-      "path---tags-animation-291b53ae8e47aaeaa998.js",
-      "path---tags-animation-291b53ae8e47aaeaa998.js.map"
+      "path---tags-animation-7315c8bbf5f2f7638a97.js",
+      "path---tags-animation-7315c8bbf5f2f7638a97.js.map"
     ],
     "path---amp-intro": [
       "path---amp-intro-0b2713b71262a0f81357.js",
       "path---amp-intro-0b2713b71262a0f81357.js.map"
     ],
     "path---tags-vpn": [
-      "path---tags-vpn-8696d14e2511f6b93902.js",
-      "path---tags-vpn-8696d14e2511f6b93902.js.map"
+      "path---tags-vpn-c3ed8af87cbe52905314.js",
+      "path---tags-vpn-c3ed8af87cbe52905314.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-bfb01f977f86e284a839.js",
@@ -71,6 +71,10 @@
     "path---web-storage": [
       "path---web-storage-f8069a2e4f6d1e1fec72.js",
       "path---web-storage-f8069a2e4f6d1e1fec72.js.map"
+    ],
+    "path---functional-programming-basics": [
+      "path---functional-programming-basics-8ea0117d0502b47cc08d.js",
+      "path---functional-programming-basics-8ea0117d0502b47cc08d.js.map"
     ],
     "path---typescript-with-react": [
       "path---typescript-with-react-1542bb0275de33f0362c.js",
@@ -113,8 +117,8 @@
       "path---tags-phaser-b64cc13abc159120a06e.js.map"
     ],
     "path---font-awesome-usage": [
-      "path---font-awesome-usage-2a33bc785fe83d129dcd.js",
-      "path---font-awesome-usage-2a33bc785fe83d129dcd.js.map"
+      "path---font-awesome-usage-3108b4db2e834849131e.js",
+      "path---font-awesome-usage-3108b4db2e834849131e.js.map"
     ],
     "path---tags-web-api": [
       "path---tags-web-api-98428b2f469b5ab49ad8.js",
@@ -141,20 +145,20 @@
       "path---go-syntax-cheat-sheet-aeed89b533cfdbb60872.js.map"
     ],
     "path---tags-javascript": [
-      "path---tags-javascript-c6c7a740edd7e132932d.js",
-      "path---tags-javascript-c6c7a740edd7e132932d.js.map"
+      "path---tags-javascript-e0e023197c7ef347e424.js",
+      "path---tags-javascript-e0e023197c7ef347e424.js.map"
     ],
     "path---more-of-react-native": [
       "path---more-of-react-native-edca0afbc4d47ebddaf3.js",
       "path---more-of-react-native-edca0afbc4d47ebddaf3.js.map"
     ],
     "path---electron-intro": [
-      "path---electron-intro-3fe500bb287640c5c1f1.js",
-      "path---electron-intro-3fe500bb287640c5c1f1.js.map"
+      "path---electron-intro-7ab5942c6fc6db24e240.js",
+      "path---electron-intro-7ab5942c6fc6db24e240.js.map"
     ],
     "path---web-security": [
-      "path---web-security-edb27c3f0d56ef03de9c.js",
-      "path---web-security-edb27c3f0d56ef03de9c.js.map"
+      "path---web-security-c1d2917fcabeec32d2d7.js",
+      "path---web-security-c1d2917fcabeec32d2d7.js.map"
     ],
     "path---tags-cheatsheet": [
       "path---tags-cheatsheet-27404c9e3d0f4be14fa2.js",
@@ -172,13 +176,9 @@
       "path---scope-chain-notes-01ae3efd0753138fdab0.js",
       "path---scope-chain-notes-01ae3efd0753138fdab0.js.map"
     ],
-    "path---tags-babylon-js": [
-      "path---tags-babylon-js-7bdfd9f75a69ee665c28.js",
-      "path---tags-babylon-js-7bdfd9f75a69ee665c28.js.map"
-    ],
     "path---tags-react": [
-      "path---tags-react-e7d9e48907f08682e335.js",
-      "path---tags-react-e7d9e48907f08682e335.js.map"
+      "path---tags-react-bd882b8785336fc22ce6.js",
+      "path---tags-react-bd882b8785336fc22ce6.js.map"
     ],
     "path---tags-electron": [
       "path---tags-electron-f2dfbd63336f3e5619ef.js",
@@ -189,8 +189,16 @@
       "path---tags-performance-613939b7306cf6a8c1dd.js.map"
     ],
     "path---using-ionic": [
-      "path---using-ionic-0073a857413889b8d5a2.js",
-      "path---using-ionic-0073a857413889b8d5a2.js.map"
+      "path---using-ionic-a8cea91723e9b9f0057c.js",
+      "path---using-ionic-a8cea91723e9b9f0057c.js.map"
+    ],
+    "path---ocserv-letsencrypt-vpn": [
+      "path---ocserv-letsencrypt-vpn-69a3a28b48499b2cfe07.js",
+      "path---ocserv-letsencrypt-vpn-69a3a28b48499b2cfe07.js.map"
+    ],
+    "path---tags-worker": [
+      "path---tags-worker-6714db2db6af352834e9.js",
+      "path---tags-worker-6714db2db6af352834e9.js.map"
     ],
     "path---gatsby-js-intro": [
       "path---gatsby-js-intro-3e424651fef0b3624d2d.js",
@@ -213,8 +221,8 @@
       "path---ui-frameworks-notes-semantic-ui-bc67fe8f3159ad2689ee.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-0e8cf7e71375bfe15362.js",
-      "component---src-templates-blog-post-js-0e8cf7e71375bfe15362.js.map"
+      "component---src-templates-blog-post-js-74a1f27b159f9f13fa8a.js",
+      "component---src-templates-blog-post-js-74a1f27b159f9f13fa8a.js.map"
     ],
     "path---tags-p-5-js": [
       "path---tags-p-5-js-909a35df9415397e2a45.js",
@@ -253,8 +261,8 @@
       "path---build-games-with-phaser-0ddf5e5cd997592d2a40.js.map"
     ],
     "path---tags-vue": [
-      "path---tags-vue-a04f2eaf15f11b26f0cd.js",
-      "path---tags-vue-a04f2eaf15f11b26f0cd.js.map"
+      "path---tags-vue-dad4a667a0ac512a7b28.js",
+      "path---tags-vue-dad4a667a0ac512a7b28.js.map"
     ],
     "path---d-3-force-directed-graph": [
       "path---d-3-force-directed-graph-0e253032ef1872fb2079.js",
@@ -265,12 +273,20 @@
       "path---tags-gatsby-js-449d65848b4e3173c808.js.map"
     ],
     "path---vue-in-depth": [
-      "path---vue-in-depth-23f8079d5ce7b2fa85b7.js",
-      "path---vue-in-depth-23f8079d5ce7b2fa85b7.js.map"
+      "path---vue-in-depth-f141f41872a97eda565a.js",
+      "path---vue-in-depth-f141f41872a97eda565a.js.map"
+    ],
+    "path---mini-program-notes": [
+      "path---mini-program-notes-4ca75c2277474e728dff.js",
+      "path---mini-program-notes-4ca75c2277474e728dff.js.map"
     ],
     "path---tags-workbox": [
       "path---tags-workbox-7e9a40d616bbd538f5fe.js",
       "path---tags-workbox-7e9a40d616bbd538f5fe.js.map"
+    ],
+    "path---tags-cdn": [
+      "path---tags-cdn-3ac870e534160c2e2893.js",
+      "path---tags-cdn-3ac870e534160c2e2893.js.map"
     ],
     "path---tags-d-3-js": [
       "path---tags-d-3-js-c95f3867cce668abb273.js",
@@ -283,6 +299,10 @@
     "path---build-snake-game-with-p-5-js": [
       "path---build-snake-game-with-p-5-js-721ec3e42197a9140982.js",
       "path---build-snake-game-with-p-5-js-721ec3e42197a9140982.js.map"
+    ],
+    "path---tags-architecture": [
+      "path---tags-architecture-7c8edac3f92b4f75f53d.js",
+      "path---tags-architecture-7c8edac3f92b4f75f53d.js.map"
     ],
     "path---optimizing-runtime-performance": [
       "path---optimizing-runtime-performance-cbffda884092eca01887.js",
@@ -297,12 +317,16 @@
       "path---tags-material-ui-73a7a72796207ae19c22.js.map"
     ],
     "path---index": [
-      "path---index-05e25d947d083f20f7a0.js",
-      "path---index-05e25d947d083f20f7a0.js.map"
+      "path---index-acd315173fd2f7c6caea.js",
+      "path---index-acd315173fd2f7c6caea.js.map"
+    ],
+    "path---arrow-function-notices": [
+      "path---arrow-function-notices-854906bd90ac62d18d76.js",
+      "path---arrow-function-notices-854906bd90ac62d18d76.js.map"
     ],
     "path---pwa-checklist": [
-      "path---pwa-checklist-0766ac4027735cc572ee.js",
-      "path---pwa-checklist-0766ac4027735cc572ee.js.map"
+      "path---pwa-checklist-4925731f895d2937f159.js",
+      "path---pwa-checklist-4925731f895d2937f159.js.map"
     ],
     "path---time-travel-with-redux": [
       "path---time-travel-with-redux-f56cf2b01d66afc43f77.js",
@@ -335,8 +359,8 @@
       "build-js-styles.css.map"
     ],
     "path---categories-dev": [
-      "path---categories-dev-4cfabb3716271570b4b6.js",
-      "path---categories-dev-4cfabb3716271570b4b6.js.map"
+      "path---categories-dev-5b139c4968c615227e72.js",
+      "path---categories-dev-5b139c4968c615227e72.js.map"
     ],
     "path---fetch-vs-axios": [
       "path---fetch-vs-axios-fb987a373a6283046159.js",
@@ -366,6 +390,10 @@
       "path---tags-semantic-ui-55fae62e06c958bf7961.js",
       "path---tags-semantic-ui-55fae62e06c958bf7961.js.map"
     ],
+    "path---cdn-notes": [
+      "path---cdn-notes-d52c995cf2a9508d18cd.js",
+      "path---cdn-notes-d52c995cf2a9508d18cd.js.map"
+    ],
     "path---ui-frameworks-notes-ant-design": [
       "path---ui-frameworks-notes-ant-design-56604fc639713e1a57e7.js",
       "path---ui-frameworks-notes-ant-design-56604fc639713e1a57e7.js.map"
@@ -378,13 +406,13 @@
       "path---tags-ssr-f59d0df5110dcc1906d4.js",
       "path---tags-ssr-f59d0df5110dcc1906d4.js.map"
     ],
+    "path---front-end-monitor": [
+      "path---front-end-monitor-4cf1312adf4dc2b2ed74.js",
+      "path---front-end-monitor-4cf1312adf4dc2b2ed74.js.map"
+    ],
     "path---tags-amp": [
       "path---tags-amp-74c81f0163348f2dab29.js",
       "path---tags-amp-74c81f0163348f2dab29.js.map"
-    ],
-    "path---babylon-js-intro": [
-      "path---babylon-js-intro-44fb39bf3c6cd614b064.js",
-      "path---babylon-js-intro-44fb39bf3c6cd614b064.js.map"
     ],
     "path---matter-js-intro": [
       "path---matter-js-intro-81e1a58086d1ffbf5eb9.js",
@@ -418,6 +446,10 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---tags-functional": [
+      "path---tags-functional-92acc642e8b92887cd24.js",
+      "path---tags-functional-92acc642e8b92887cd24.js.map"
+    ],
     "path---react-notes": [
       "path---react-notes-d881ecc9cde53b562bf6.js",
       "path---react-notes-d881ecc9cde53b562bf6.js.map"
@@ -443,17 +475,17 @@
       "path---abstract-syntax-tree-0031621c2adf222f5ef0.js.map"
     ],
     "path---animation-with-anime-js": [
-      "path---animation-with-anime-js-94a744540107b8137cf8.js",
-      "path---animation-with-anime-js-94a744540107b8137cf8.js.map"
+      "path---animation-with-anime-js-d170f188c0c567f9e10b.js",
+      "path---animation-with-anime-js-d170f188c0c567f9e10b.js.map"
     ],
     "path---tags-ant-design": [
       "path---tags-ant-design-72c41630326e24b17f22.js",
       "path---tags-ant-design-72c41630326e24b17f22.js.map"
     ],
     "app": [
-      "app-ef4524fad29db1455d06.js",
+      "app-4b0efb4442d1348b71cc.js",
       "build-js-styles.css",
-      "app-ef4524fad29db1455d06.js.map",
+      "app-4b0efb4442d1348b71cc.js.map",
       "build-js-styles.css.map"
     ],
     "path---ui-frameworks-notes-material-ui": [
@@ -463,6 +495,14 @@
     "path---tags-generator": [
       "path---tags-generator-9a09b030781ec08ac1e2.js",
       "path---tags-generator-9a09b030781ec08ac1e2.js.map"
+    ],
+    "path---web-workers-notes": [
+      "path---web-workers-notes-39c22f1e110419e6b690.js",
+      "path---web-workers-notes-39c22f1e110419e6b690.js.map"
+    ],
+    "path---tags-monitor": [
+      "path---tags-monitor-bc9166727064962c1138.js",
+      "path---tags-monitor-bc9166727064962c1138.js.map"
     ],
     "path---tags-event-loop": [
       "path---tags-event-loop-7da1fe0d6058e97a0306.js",
@@ -501,16 +541,12 @@
       "path---react-native-intro-e6db355d69b484a8b5a8.js.map"
     ],
     "path---tags-front-end": [
-      "path---tags-front-end-67ed663384f58a79cac7.js",
-      "path---tags-front-end-67ed663384f58a79cac7.js.map"
-    ],
-    "path---animation-in-vue-and-react": [
-      "path---animation-in-vue-and-react-4363c61e77deeea08005.js",
-      "path---animation-in-vue-and-react-4363c61e77deeea08005.js.map"
+      "path---tags-front-end-acbaebe56b08c26727c5.js",
+      "path---tags-front-end-acbaebe56b08c26727c5.js.map"
     ],
     "path---tags-mini-program": [
-      "path---tags-mini-program-b29a8c4018128ff0c8e9.js",
-      "path---tags-mini-program-b29a8c4018128ff0c8e9.js.map"
+      "path---tags-mini-program-ade53ea7af1de0671ed8.js",
+      "path---tags-mini-program-ade53ea7af1de0671ed8.js.map"
     ],
     "path---tags-font-awesome": [
       "path---tags-font-awesome-b330231d0b3c6daa305b.js",
@@ -524,10 +560,6 @@
       "path---rail-performance-model-2d638dcdbe7cc262a0f5.js",
       "path---rail-performance-model-2d638dcdbe7cc262a0f5.js.map"
     ],
-    "path---front-end-way-of-thinking": [
-      "path---front-end-way-of-thinking-7a847dadb5076395cddf.js",
-      "path---front-end-way-of-thinking-7a847dadb5076395cddf.js.map"
-    ],
     "path---modern-web-media": [
       "path---modern-web-media-531d098c17a6ca0ddcac.js",
       "path---modern-web-media-531d098c17a6ca0ddcac.js.map"
@@ -540,9 +572,13 @@
       "path---tags-yarn-1d6b2af9c4df57439baa.js",
       "path---tags-yarn-1d6b2af9c4df57439baa.js.map"
     ],
+    "path---10-common-architecture-patterns": [
+      "path---10-common-architecture-patterns-29f25eac846edc960f25.js",
+      "path---10-common-architecture-patterns-29f25eac846edc960f25.js.map"
+    ],
     "path---notes-on-javascript-ninja": [
-      "path---notes-on-javascript-ninja-19a07f35bfa66675b2be.js",
-      "path---notes-on-javascript-ninja-19a07f35bfa66675b2be.js.map"
+      "path---notes-on-javascript-ninja-d11cd370e5c62b7542bb.js",
+      "path---notes-on-javascript-ninja-d11cd370e5c62b7542bb.js.map"
     ],
     "path---tags-rellax-js": [
       "path---tags-rellax-js-f4c73e4814dffbcc7453.js",

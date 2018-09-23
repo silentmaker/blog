@@ -1,2 +1,2 @@
-webpackJsonp([0x67fc9d35bf1a],{561:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Matter.js",fields:{slug:"/matter-js-intro/"},frontmatter:{date:"01 August, 2018",title:"Matter.js Introduction"}}}]}},pathContext:{tag:"matter.js"}}}});
+webpackJsonp([0x67fc9d35bf1a],{576:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Matter.js",fields:{slug:"/matter-js-intro/"},frontmatter:{date:"01 August, 2018",title:"Matter.js Introduction"}}}]}},pathContext:{tag:"matter.js"}}}});
 //# sourceMappingURL=path---tags-matter-js-0b470ef4d5902fa6d5c2.js.map

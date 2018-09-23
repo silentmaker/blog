@@ -1,2 +1,2 @@
-webpackJsonp([0xf38946e57222],{547:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Why Font-awesome",fields:{slug:"/font-awesome-usage/"},frontmatter:{date:"22 June, 2018",title:"Font-Awesome Usage"}}}]}},pathContext:{tag:"font-awesome"}}}});
+webpackJsonp([0xf38946e57222],{561:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Why Font-awesome",fields:{slug:"/font-awesome-usage/"},frontmatter:{date:"22 June, 2018",title:"Font-Awesome Usage"}}}]}},pathContext:{tag:"font-awesome"}}}});
 //# sourceMappingURL=path---tags-font-awesome-b330231d0b3c6daa305b.js.map

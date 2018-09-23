@@ -1,2 +1,2 @@
-webpackJsonp([0xd11f105344f4],{537:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Ant-Design",fields:{slug:"/ui-frameworks-notes-ant-design/"},frontmatter:{date:"26 July, 2018",title:"UI Frameworks Notes: Ant-Design"}}}]}},pathContext:{tag:"ant design"}}}});
+webpackJsonp([0xd11f105344f4],{550:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Ant-Design",fields:{slug:"/ui-frameworks-notes-ant-design/"},frontmatter:{date:"26 July, 2018",title:"UI Frameworks Notes: Ant-Design"}}}]}},pathContext:{tag:"ant design"}}}});
 //# sourceMappingURL=path---tags-ant-design-72c41630326e24b17f22.js.map

@@ -1,2 +1,2 @@
-webpackJsonp([0xe8f6ee9528bf],{566:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Difference",fields:{slug:"/npm-vs-yarn/"},frontmatter:{date:"26 March, 2018",title:"Npm vs Yarn"}}}]}},pathContext:{tag:"npm"}}}});
+webpackJsonp([0xe8f6ee9528bf],{582:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Difference",fields:{slug:"/npm-vs-yarn/"},frontmatter:{date:"26 March, 2018",title:"Npm vs Yarn"}}}]}},pathContext:{tag:"npm"}}}});
 //# sourceMappingURL=path---tags-npm-e770f5858d559cc16ea6.js.map

@@ -1,4 +1,521 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elvin's Blog]]></title><description><![CDATA[Elvin's Blog]]></description><link>https://silentmaker.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 14 Sep 2018 03:33:52 GMT</lastBuildDate><item><title><![CDATA[PWA Checklist]]></title><description><![CDATA[PWA]]></description><link>https://silentmaker.github.io/blog/pwa-checklist/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/pwa-checklist/</guid><content:encoded>&lt;h3&gt;PWA&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Babylon.js Introduction]]></title><description><![CDATA[Babylon.js]]></description><link>https://silentmaker.github.io/blog/babylon-js-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/babylon-js-intro/</guid><pubDate>Mon, 20 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Babylon.js&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Front-End Way of Thinking]]></title><description><![CDATA[What Makes It Special]]></description><link>https://silentmaker.github.io/blog/front-end-way-of-thinking/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/front-end-way-of-thinking/</guid><pubDate>Mon, 06 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;What Makes It Special&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Vue in Depth]]></title><description><![CDATA[Reactivity]]></description><link>https://silentmaker.github.io/blog/vue-in-depth/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/vue-in-depth/</guid><pubDate>Thu, 02 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Reactivity&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Build Snake Game with P5.js]]></title><description><![CDATA[Processing.js & P5.js]]></description><link>https://silentmaker.github.io/blog/build-snake-game-with-p5-js/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/build-snake-game-with-p5-js/</guid><pubDate>Thu, 02 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Processing.js &amp;#x26; P5.js&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Front End Interview Library]]></title><description><![CDATA[CSS Make layout in columns ? (float & margin, flex, css - columns/grid) Vertical centering ? (absolute, translateY, flex, table, inline…]]></description><link>https://silentmaker.github.io/blog/front-end-interview-library/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/front-end-interview-library/</guid><pubDate>Thu, 02 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;CSS&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elvin's Blog]]></title><description><![CDATA[Elvin's Blog]]></description><link>https://silentmaker.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Sun, 23 Sep 2018 11:11:47 GMT</lastBuildDate><item><title><![CDATA[PWA Checklist]]></title><description><![CDATA[PWA]]></description><link>https://silentmaker.github.io/blog/pwa-checklist/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/pwa-checklist/</guid><content:encoded>&lt;h3&gt;PWA&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[CDN笔记]]></title><description><![CDATA[CDN(Content Delivery Network, 内容分发网络) 是可用于改善网络性能的解决方案之一 CDN…]]></description><link>https://silentmaker.github.io/blog/cdn-notes/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/cdn-notes/</guid><pubDate>Wed, 26 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;CDN(Content Delivery Network, 内容分发网络)&lt;/strong&gt;是可用于改善网络性能的解决方案之一&lt;/p&gt;
+&lt;h3&gt;CDN解决的问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;减少浏览器请求与服务器响应之间的延迟，服务器和用户之间的平均地理距离越大，平均延迟越严重&lt;/li&gt;
+&lt;li&gt;提高网站的可用性，即更好的负载处理能力，并减少源站服务器上的带宽压力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CDN无法解决的问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CDN只是做缓存，对于臃肿的页面优化效果不明显&lt;/li&gt;
+&lt;li&gt;全球覆盖一般需要多CDN解决方案，比如2个全球CDN + 本地CDN，因为在一些国家/地区，很多全球CDN只有一个PoP(Point of Presence，存在点)，并不能充分覆盖所有网络用户&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;无需使用CDN的情况&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;流量小且主要用户区域与服务器相近&lt;/li&gt;
+&lt;li&gt;页面渲染缓慢/禁用了缓存/体积臃肿(&gt;10M)&lt;/li&gt;
+&lt;li&gt;CDN的潜在成本过高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;选择CDN注意事项&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;要先了解用户的地理分布&lt;/li&gt;
+&lt;li&gt;移动设备的性能提升一般低于桌面设备，因为移动设置的网络延迟和带宽才是主要的性能瓶颈&lt;/li&gt;
+&lt;li&gt;为了解决由于CDN系统的复杂性可能导致的可用性/稳定性问题，可以选择多CDN解决方案&lt;/li&gt;
+&lt;li&gt;有些CDN不支持HTTP/2，有些则不支持高级特性，比如 Stream Priorization / Server Pushing&lt;/li&gt;
+&lt;li&gt;权衡不同供应商的成本与性能&lt;/li&gt;
+&lt;li&gt;选择合适的业务类型：图片/网页等小文件，文档/软件等大文件，视音频点播，直播流媒体，全站加速&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CDN性能波动的原因&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;某个时间段内的CDN上的流量高并发&lt;/li&gt;
+&lt;li&gt;由于跨运营商，寻址错误，BGP路由错误，硬件故障，或服务器缓存容量等问题导致的抖动&lt;/li&gt;
+&lt;li&gt;超出了CDN地理覆盖范围&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CDN与FEO&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CDN使内容更靠近用户，可以算是“中端”优化，FEO(Front End Optimization，前端优化)关注的是减少请求数量，减小文体大小，并优化元素加载到浏览器的顺序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一般FEO的性能提升高于使用CDN，所以要优先或者结合使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;使用CDN&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;开通服务&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加域名，复制CNAME地址，配置到DNS服务商 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ping域名验证是否生效 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CDN效率低的原因（命中率）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;源站设置了no-cache不缓存，命中率为0&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在CDN控制台设置了不缓存规则(cache-control=no-cache/no-store/max-age=0/private, Pragma=no-cache, etag/last-modified不存在)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;源站上的必要Header缺失或设置不当&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;url中带有可变参数，则每次都会MISS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;动态内空居多的情况下，回源也会比较多&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CDN上的刷新操作太频繁&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[常见架构模式笔记]]></title><description><![CDATA[维基百科定义中，架构模式是指：在给定环境中，对常见的软件架构问题的一种通用的、可复用的解决方案，架构模式与设计模式很相似，只是边界范围更明确 Layered Pattern 层级模式 Client-Sever Pattern 客户端-服务端模式 Master-Slave…]]></description><link>https://silentmaker.github.io/blog/10-common-architecture-patterns/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/10-common-architecture-patterns/</guid><pubDate>Wed, 22 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;维基百科定义中，架构模式是指：在给定环境中，对常见的软件架构问题的一种通用的、可复用的解决方案，架构模式与设计模式很相似，只是边界范围更明确&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Layered Pattern 层级模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Client-Sever Pattern 客户端-服务端模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Master-Slave Pattern 主从模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pipe-Filter Pattern 管道模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Broker Pattern 经纪人模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Peer-to-Peer Pattern 点对点/对等模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Event-Bus Pattern 事件总线模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model-View-Controller Pattern 模型-视图-控制器模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blackboard Pattern 黑板模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interpreter Pattern 拦截器模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;层级模式（Layered Pattern）&lt;/h3&gt;
+&lt;p&gt;软件架构可以可分解为很多不同的子任务层次时，刚适合此模式，每个层级都代表不同程度的任务抽象，并且每一层都负责像上一层提供服务&lt;/p&gt;
+&lt;p&gt;通用信息系统中最常见的四个层级如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;表现层/UI层（Presentation Layer / UI Layer）&lt;/li&gt;
+&lt;li&gt;应用层/服务层（Application Layer / Service Layer）&lt;/li&gt;
+&lt;li&gt;业务逻辑层/领域层（Business Logic Layer / Domain Layer）&lt;/li&gt;
+&lt;li&gt;数据接入层/持久层（Data Access Layer / Persistence Layer）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-9fc5f.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 188px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 175%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAIAAAAblL1PAAAACXBIWXMAAAsSAAALEgHS3X78AAADDklEQVRIx+1VXU/bMBTl/7/wBn8AKlCFmDSkMqQieFmRKgRoqCrQlqZN0iY0X7YTx4mT7rhxS8VAHex11ql1r33P/bDdm635P4wt/HLf54NBOhqlhqEwHGrhXYxGvN/Pg0CTwSziuMzzMssUIABFAXleFIBWMQsBFUxh25oMf8puMbCNvVJKyRisZRzDbyGEJASLlQ0WM8dZkodD5XIxUAK7uwubzcnOjn9yYm1vvxwcIDW3VhOmqcmUZtPpGjnPdeQ8Zzc34NPr6/j2VhgGMiySBKEKzjWZsVcyHOMM0vFYndl4LCYTmCJOYhjcsjLbVou2jRUUqNa7XTEaaTKKUYUliUYcw/dcCM+27cFgnmWqcsbWDar6t969wLIsMftBMFmkV6nv33P5xyhwQ/N5EATO4lShvjF4JX8UuffY69x3NkRmgpmRaRN7BTM0QxnWG/X9b/tREUHFokUszBMyGYdjUDR54A+82KMppYJiJikBIh4lMgEgYz1KoyRLsAsa+FZkabIRGLlU95zmqZDqtZRznWdRqmoxQ4a7vFBmsYgdunxhQ3+YZimEB/cBKZ10To5+HZ12T3d/7kKG673rPdQF2aUuzBB/SqevkTOp3jb8tYat86fzRrdxObhsGa2u24Xp/eQe1nZk84y/jfw0e0JAeHWZCws/8ZHLlExxELN4hkUIwEv8As6MzfpeH/GWzzPj2AMHCHgAOeQhTsjyLMMxwjSEi4pf2UDlOd9wz5xzRtmGe/6InCQJpfQ/+TNkQsgXyXHMCAk3kKUsCZHrCMMM7eD4+Mfh4XcIUN8YgKLJo5Fqkmh7tq2BhmdZ+eNj2OmgkUnTFItGqDCdZmiWEJb/qmGKj8HffJyq9NEL4WJFFkJoMlKCikRaLYb54oK026hcttvxbKZ7O6VrZKS9ikypvLpiZ2dRreY1GlG97jebBLvPz6nnaTIasePkmtzrpVEkOdddGQEdJ0ORKLVq2NhCL69auxCF6+amuYyMfJAq9PFYoTo5kAGcXLW4Asz6feF5Hzf9T3zccYZfAMZv+xXb2rrJbcwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Layered Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-9fc5f.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-c96ad.png 148w,
+/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-9fc5f.png 188w&quot;
+        sizes=&quot;(max-width: 188px) 100vw, 188px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：桌面应用，电商网站应用&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：低的层级可以被不同的高层级调用，只要层级定义清晰，可以很容易做到标准化，层级内的变更不会影响到其他层级&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：并不是万试万灵；特定情况下有的层级需要被跳过&lt;/p&gt;
+&lt;h3&gt;客户端-服务端模式（Client-Sever Pattern）&lt;/h3&gt;
+&lt;p&gt;服务端与客户端是一对多关系，客户端发出对服务的请求，而服务端监听并响应请求&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-0e013.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 284px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 112.67605633802818%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAAsSAAALEgHS3X78AAACTElEQVQ4y32UW2+iUBSF/f8/pUnT5ya2qWniS33QyeAlEwc4chFULIgXEHA+2Q6COrNAcjxnr732DVpFUSRJstvttv9FHMdZlp2aaMHs9/uLxSKKovV6/f0PcOS67g2/td/vfd/3PA8L3G8EUXS+a0Acm9FoRKRXMrthGOLYMAzTNA2BUudb1893CV3XLcviiRg0cdEiW9GESQp5nmd5nm42aRznp1NWFFmaHo9HrDHDJk3ThjKyBMZBldJhNIre3sLX183nZ/z1JZsi0CDzZz6f41UphSP+Jmm6dd2NroeaFrPpOEkpHgTBLZkfaQyHQ7MGZVmGZf1i4Tgm67IcgJwPh8M1Z/GBJuLST0EUhnPXpfthGZQ0AhuKckuuN0CAEb5YUAh6Wdk0WlWRbwBHyGRLUVCWuPYl6NGVfA+UmTkhL5fLwWDQ6/W63W6n02m325PJ5EIuHgFlcQ+ZsKkT40lT8cgsN8J+qFzlLNb3dWlhRA1lQutYrVbMI/vEPJ1OabIEkpe4kImHfLCgDEjt/oI1EUptWLMgbBnsqzJnePVKsEBwybVaYUqFZAeIjaZplKAx2xI2k2CXcGzH93yG6f3tHRe2ZZ9vHpY1m80aE1a9VcygzG1yTObR/FLzPEuzVJJEoLK5KEMjJCFLSHESP/98ftFeukb36cfTx+8PMWU8b8l4JTaaQdj4JguM7IVt+EbwHaiF8gJvG58LSbcfvFV0cjwel98PJW/PTM0sZSlTseBpmOe3ilMKwQfjdrYJGN9JDQeuO9Cq+qj8AZ1JGsS7xcCQAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Client Sever Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-0e013.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-cbf60.png 148w,
+/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-0e013.png 284w&quot;
+        sizes=&quot;(max-width: 284px) 100vw, 284px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：email，文档在线共享，在线理财&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：很好了模拟了多客户请求多服务的场景&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：请求一般需要服务端进行多线程处理，用户有多点表征时内部通信管理困难&lt;/p&gt;
+&lt;h3&gt;主从模式（Master-Slave Pattern）&lt;/h3&gt;
+&lt;p&gt;主机可以将任务分配到各个从机上，每个从机都是独立、可标识的，主机可以对从机的返回结果进行汇总计算&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-59b8a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 542px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 39.11439114391143%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAA90lEQVQY041Py27CQAzM//8XHBAS4gZHmrZJNmQT4rX36YWR6IWqVWutrBmvZ2w399eoqoVImVVEvUcGrTnff4rmuziESpSNWbfbdbOJXVdhxPw/sSpPk0xTMMb3fbCWjNGU/haXgh2JRYBjSj4EAB/jShRj/FWsigO9I1dyeVZEBEZf69QKyo5zeTm+WfzCmfuxH+zgknPR3fwNYLpN4zwCgEoSAEu27VryRIHWsGrVJpZ4/DwePg7t0sLsylef/UDD7m13Hs+gqSQrtmi5zJf9+/5kTlDCDsIGxrOf0bTI8rTELrPMxhk8APxyYmRYoIJOYPRg8gM/8c6XEkdTzgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Master Slave Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-59b8a.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-70593.png 148w,
+/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-427b7.png 295w,
+/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-59b8a.png 542w&quot;
+        sizes=&quot;(max-width: 542px) 100vw, 542px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用情景&lt;/em&gt;：数据库的主从同步和读写分离，电脑系统中通过总线接入外部设备&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：准确性 - 服务的执行委托到不同的从机，不同的从机可以有不同的实现&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：从机是分离的，没有共享状态；主从延时在实时性系统中会造成问题；只适用于解决于可分解的问题&lt;/p&gt;
+&lt;h3&gt;管道-过滤器模式（Pipe-Filter Pattern）&lt;/h3&gt;
+&lt;p&gt;此模式适用于处理并生成一系列数据流的软件架构，其中每个处理步骤后都附带一个过滤器组件，数据通过管道来传输，管道可用于缓存或者同步&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-381b1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 19.095477386934675%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsSAAALEgHS3X78AAAAj0lEQVQI11WOiwrCMAxF+/+/ad2jrrileSzpxoytiB4CzYVecoKqmhkx+3M1jvOw47M79aw+fdf+syEiYWsQkcxzHUYmmGF6yspltVuknBKmBRfZ0WKUaeJSAICZETGkBpZiTJfswiWu8YGLKr8jwrDdBxh3FY+K6OWcs/f9XnDnWiv/a389e/T51fZK134BDLnnCUML+QcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Pipe Filter Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-fb8a0.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-1a291.png 148w,
+/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-2bc4a.png 295w,
+/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-fb8a0.png 590w,
+/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-381b1.png 796w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：编译器（词法分析，转义，语义分析，代码生成等一系列连贯的过滤器），生物信息学中的工作流（如DNA序列分析）&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：可以很好地表现同步处理过程；数据流一产生即可开始处理；增加过滤器非常方便，过滤器可复用并且可以组合成不同的流水线&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：有短板效应，更换过滤器的时候要管理数据异构&lt;/p&gt;
+&lt;h3&gt;经纪人模式（Broker Pattern）&lt;/h3&gt;
+&lt;p&gt;此模式适用于组件解耦化的系统，组件之间可以通过远程服务调用来交互，同时，有一个经纪人组件负责协调组件间的通信，组件将自己的特征和服务等能力信息注册给经纪人，客户端向经纪人请求服务的时候，经纪再根据注册信息将请求重定向到合适的模式&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-0b4cf.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.79545454545454%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABOElEQVQoz42Si27DIAxF8//fmKkPVaJ5iYQAxmDIbkq1Vm03zbKQbY6NMTTbJxHnMlFeV5nn3fB+y/kdaz4mZ2ux0vHov762UpBcRP6dHMLGbLWmxZTAOfA7U8ovyVUohBjjH0DjfX5X54R5m7XprgNs3JqovDDWSoPR1B6qVhsSY+l7GQZ2zkOZ4wtmzFMyJKVkjLlfO2/n83o6mdsujvVd1wH4gffk20Pc+xxHo9QEo7rTpLVeMDsAcJUah8HcXKmdPwYmgpB/ngcz16MeIySSpzdrUk6cOOe8LEtIgWV/lShRCn6K8+QBwN1rCccU52WukSSpoUjQw3Q4TkdsoxBWSmTZtkN70RdUBIBgiEGTbvv2aq7A1rA24Bw7ZVRvex89XBQGbYKpQRfdPZhIe61WNboRwMrrNzxrvbHi5QzqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Broker Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-fb8a0.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-1a291.png 148w,
+/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-2bc4a.png 295w,
+/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-fb8a0.png 590w,
+/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-0b4cf.png 704w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：ActiveMQ、Kafka、RabbitMQ 和 JBoss Messaging&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：支持动态地改动和增删对象，服务分布对开发者而言更透明&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：必须要对服务描述进行标准化&lt;/p&gt;
+&lt;h3&gt;点对点/对等模式（Peer-to-Peer Pattern）&lt;/h3&gt;
+&lt;p&gt;在此模式中，独立组件都是对等的Peer，并且的动态地切换角色，做为客户端时向其他Peer请求服务，做为服务端时可以提供服务&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-2a034.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 260px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 95.38461538461539%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsSAAALEgHS3X78AAACZUlEQVQ4y4VSaW/aQBD1//8fqZREIgpfiBQIzaFEUS5VJDQtIPDaxvjCt3e9B+6znUIbUdV6WmZm35t5jK1VVbXhXFH6F4qiRp7X56erBpuyhFDDDyOEBwH3vA+4rkwSmWUyTRGIIBBhiOKO4PvMMDZSamiDvKoNbLZn+vSU3N4W43Hx/l5TCflEQEf43S+m8zn0Yb+PFjKOMXZHaB7h+x9iRHBIZzM6nZa2XRoGdxxUtlYxp1wucYVKaZpoJ9brRlwUiGAvubuLBoPg6Ci+ukqfn6Ph0Ds8jIfD4vU1OD0Nul36+Bh0OlG/XxKCLWBZzcIWCzTGyW07J4RhguNgAtJ6YDOTWZY3mZSWVTMNg+n6Rgit/i9CwAO2h9i17SJNK6XqYgvOKylZnp/3eqqh1WQh6le13cGm2Yfn+5TSat/juK5S6s/KZ7Hruv8S27b9H3EYhoyx/ZNXzh6xVJJJxgRTlRp8HTi+IyuJtEUpS5xccd3UKadcclQgqcVISEjczF0lKy/3RrMR8UnCEiCmcUQjP/eDPHBSxwgMcBC4qQsJ9BqaeZm3td2eL9bLvX4/8SZTfwoxqDtCVZ8oYqpGxR7x2Blfzi67b93+pL8u1mZkbq/a57eYU0RooYc6JoRFCFcQoALPLVKWBkUAxCzGpKzMQKjFBS8geFu93cxvet97X16+DCaDB+PhYnpx8Hxw/vN8ZI9ORiedUed6fn387fjsx9l8PUdHrE3DJklEVulqsV7YiW3GJlbiZA6sLpMlgCsrtgAYbItWYhmRIVTzeaIHgAROhBRtingHxds3VHMUbwkQ/gJaDDGrX8QwmwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Peer to Peer Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-2a034.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-67ba2.png 148w,
+/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-2a034.png 260w&quot;
+        sizes=&quot;(max-width: 260px) 100vw, 260px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：Gnutella 和 G2 等文档共享网络，P2PTV 和 PDTP 等多媒体协议&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：支持去中心化计算；单点故障时的鲁棒性高；资源和算力的伸缩性比较高&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：服务的质量无法保障，Peer之间的协作比较脆弱，安全很难保障，性能取决于Peer的数量&lt;/p&gt;
+&lt;h3&gt;事件总线模式（Event-Bus Pattern）&lt;/h3&gt;
+&lt;p&gt;此模式主要用于处理事件，主要的组件有如下四种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;事件源（Event Source）&lt;/li&gt;
+&lt;li&gt;事件监听器（Event Listener）&lt;/li&gt;
+&lt;li&gt;频道（Channel）&lt;/li&gt;
+&lt;li&gt;事件总线（Event Bus）- 事件源通过向特定频道发布消息，而监听器则订阅了特定的频道，从而得知事件发生&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-f18e1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.92405063291139%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABhklEQVQoz21SyXLCMBTL/39eOXDoAQhLQjbvz7upjDudtvDGcZ6FZMsi3aNVKZmohFBizN6jf+QMOBtTwedAD9rjV3Xf2pSSEO54tIdDmOekFNjAoxBA3OnkrlcQynPHF3HOSUo/TW4cI2NVnFIVA7zfAYZpipy/P/mnCOb/MlDO+1ewiuHXex9jwEAJIXxA36o2ACXOr5y2+i4sOq01TsPV1pWkdH1/E4K2jTi3UtYGy/N5ZMwwZjkn51xTQtUR2ZyztQXW+j6cTvF2w08FMeMGAC+X2PcVxJKoBjYMw4xQU+qMIYRlTBYiIZe+p/s9KJW0xl+TloWGwV8udhw9CMBxd2O0Uqraho3mnMh4D7ercxYg53yeJ86Zs3DOrDWV8Sz7rGr7J7ryqHkyxqBEbJhbwniwUUr5TdrtlUpSTmmvF7lselvVmktlc8uBA8QsrGjgizhX8X7afwwfV3nVQYdUv7DVrJ/L527cHbbDopf3YjjEscYbCoRhgmm8BtpgMWP3f5/KF6Af8kk7iI3wAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Event Bus Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-fb8a0.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-1a291.png 148w,
+/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-2bc4a.png 295w,
+/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-fb8a0.png 590w,
+/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-f18e1.png 632w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：安卓开发，消息类服务&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：发布者、订阅者和链接都可以很方便地增加；对高分布性的系统来说很有效&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：系统规模的伸缩性不好，并且所有的消息都必须经过总线&lt;/p&gt;
+&lt;h3&gt;模型-视图-控制器模式（Model-View-Controller Pattern）&lt;/h3&gt;
+&lt;p&gt;MVC 模式则是将交互型应用拆分为三部分，使得信息从产生到被用户接收的过程变得更清晰，有利于组件的解耦和复用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型（Model）包含核心的功能和数据&lt;/li&gt;
+&lt;li&gt;视图（View）向用户展示数据&lt;/li&gt;
+&lt;li&gt;控制器（Controller）处理用户的输入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-0ccd1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.48925410872314%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABEklEQVQoz32Q247DIAxE+/+f19dWVdSLsiQESFLA2EA6abSXdrVrIWTZnLGZnTHGWttrPc/zIpKJakqFuSARcc6N49j3fQhBipBQkpRyQiJZdiCVUh36SgVjllrpcuGuq8w0Tf0wrJ0P1elu8tPgh6M+4rjooLJbPqOUso5l5mmK1m7za62ob93IcRgHPeo5zYHXRb7hn5GwWs4gm6bZ7/fYDkURoUgll69nL/AqHyNIIoIFyG+32/l81lpDywfP8tyllhcYJdze+8Ph0Lbt9Xq11jCnrY4bcpCAFgyCHLZ4n/wWMTKshhXGuBgJEmBWa54/+g8OoaRU2zadTnS/i/fl+f4l/oRhPHjnslISwpr/hh9b7wsAgLPRtAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;MVC Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-fb8a0.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-1a291.png 148w,
+/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-2bc4a.png 295w,
+/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-fb8a0.png 590w,
+/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-0ccd1.png 791w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：Web站点，Web框架&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：同个模型可以有多种视图，并且在运行时动态展示&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：复杂性增加，用户行为可能会触发很多不必要的更新&lt;/p&gt;
+&lt;h3&gt;黑板模式（Blackboard Pattern）&lt;/h3&gt;
+&lt;p&gt;这类模式一般用于已知解决方案不确定的问题，核心的三个组件为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;黑板（Blackboard）- 结构性的全局内存，包含了所有可能的解决方案&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;知识源（Knowledge Source）- 带有自身实现的特定模块&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;控制组件（Control Component）- 选择和配置并运行模块&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所有的组件都可访问黑板组件，组件可以产生新数据并添加到黑板上，同时，组件也可以通过对知识源的模式匹配在黑板上找到特定类型的数据&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-fde3e.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 530px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.41509433962264%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABgUlEQVQoz4VRXU/jMBDM//9XiIc+IKC5SkioCFG4po7j2I436287bAOl0t0Do5UV25nZ8Wyz/IZcs3a6h54Z9lUcuLTSRtv8SnbRMWAta+/+3t2+3W4+Ng/dw17slVVXcq0VEed5xh9YBAO96DveHd4OVN2xO3WnnvW5ZOPNlZxSAoBSSl5RVpCiT16jBgSwoI1WRqHDkAJ4uJKd95MxXxb+cR5yIIlYIxOMXPjsMWIqqSmIyZg8jmq/58/PeRhom7T+X4LgqYMPP9smjWPUGp6eYLPBx0ds2zLPifOa0iWLJYRClctCMUwGcj6fpFQbK+X76+vH8TgBpJxDjCEEr9RSyvdzXBGC/C2HQ7i5Mff3KCUZTUKkxinFuq7v+2manHOWxK3FcawXcgiV81kIuq3WUvPiPX1UrfO585/ttt3tHN1c0rLj2J9ONCwAoxS+vLzvdlvOmZRDWUVpDgC5ofk4IbyU59joYK2kFE1sFaoxFqWiUn4YcBgspUm/0DrP+RPKo3bDsyvDeQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Blackboard Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-fde3e.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-8803e.png 148w,
+/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-77437.png 295w,
+/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-fde3e.png 530w&quot;
+        sizes=&quot;(max-width: 530px) 100vw, 530px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：语音识别，车辆识别和追踪，蛋白质结构识别，声纳信号拦截&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：添加新应用很方便，数据空间的拓展也很容易&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：变更数据空间很难，因为所有的应用都会被影响到；经常需要做同步或者访问限制&lt;/p&gt;
+&lt;h3&gt;拦截器模式（Interpreter Pattern）&lt;/h3&gt;
+&lt;p&gt;此模式主要用于在现存软件架构中设计拦截器组件，比如用于识别一种语言的程序中特定的几行语句或者表达式，从而使得语言中的每种符号都能被分类&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-7c491.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.75757575757575%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABfUlEQVQoz41Sa3PCIBD0//+6aqs2nzJtRcxD5RHggBC7gbbOWO30csOQO/ZuuWVxuWdjthijUmr4NufczbHFbyQwWmvvvZSy73vGWFVVnPMCnqbpCkbIWoujRITyKSVs8FvSSBljSuef4BVc0tvtFk1AEt1Kics/7AsshNDZUB6REAJyybnRmOLYJ2unHL+Cp2zlMmUDJO4wX75p3Hptnp8N1tWK6joNwyUffTgwgMEFFPqPD1bXh/f3/dvbifPJOd11IcbgfbnXHTD6A+mI3Pk8Ec0D1BqEwdwKUUpTprZ4NIw4jrMEWYzT8TiL4WYVoH9WxP8FHvSAJhFfNpDFq0ElaAFq9ztTJOEEvJGN8kqSdHF+G1onKScpx6ah0ym0rcHsb8HKqaqplrvl0+4J62v72g9HxOvaLZdqsxlWK/3yYqqKGPO3YGnlbr/jBw5vuzamqL1GvOs0Y3vOW8b4+awQESL+oh2IRvIYFjx5G6wJBnE8E7zO4kRQDZKPn8ONLKITwXVrAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Interpreter Pattern&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-fb8a0.png&quot;
+        srcset=&quot;/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-1a291.png 148w,
+/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-2bc4a.png 295w,
+/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-fb8a0.png 590w,
+/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-7c491.png 660w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;常用场景&lt;/em&gt;：数据库查询语言，用于描述通信协议的程序语言pa&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;优点&lt;/em&gt;：高度动态化，对用户重编程很友好，拦截器的替换很方便，所以提高了可拓展性&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;缺点&lt;/em&gt;：拦截器模式的编程语言一般要比编译的语言慢，性能可能会成为问题&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vue in Depth]]></title><description><![CDATA[Reactivity]]></description><link>https://silentmaker.github.io/blog/vue-in-depth/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/vue-in-depth/</guid><pubDate>Thu, 02 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Reactivity&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Build Snake Game with P5.js]]></title><description><![CDATA[Processing.js & P5.js]]></description><link>https://silentmaker.github.io/blog/build-snake-game-with-p5-js/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/build-snake-game-with-p5-js/</guid><pubDate>Thu, 02 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Processing.js &amp;#x26; P5.js&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Front End Interview Library]]></title><description><![CDATA[CSS Make layout in columns ? (float & margin, flex, css - columns/grid) Vertical centering ? (absolute, translateY, flex, table, inline…]]></description><link>https://silentmaker.github.io/blog/front-end-interview-library/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/front-end-interview-library/</guid><pubDate>Thu, 02 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;CSS&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Make layout in columns ? (float &amp;#x26; margin, flex, css - columns/grid)&lt;/li&gt;
 &lt;li&gt;Vertical centering ? (absolute, translateY, flex, table, inline-block)&lt;/li&gt;
@@ -366,7 +883,7 @@ React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; store &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStore&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; enhancer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h3&gt;More&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using Ionic]]></title><description><![CDATA[IONIC]]></description><link>https://silentmaker.github.io/blog/using-ionic/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/using-ionic/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;IONIC&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Animation in Vue and React]]></title><description><![CDATA[Animation]]></description><link>https://silentmaker.github.io/blog/animation-in-vue-and-react/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/animation-in-vue-and-react/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Animation&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Animation With Anime.js]]></title><description><![CDATA[What]]></description><link>https://silentmaker.github.io/blog/animation-with-anime-js/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/animation-with-anime-js/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;What&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Build Mini-Program with Mpvue]]></title><description><![CDATA[Mini-program]]></description><link>https://silentmaker.github.io/blog/build-mini-program-with-mpvue/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/build-mini-program-with-mpvue/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Mini-program&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Ploymer Features]]></title><description><![CDATA[Custom Elements Shadow Dom Events Data System]]></description><link>https://silentmaker.github.io/blog/polymer-features/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/polymer-features/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Custom Elements&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using Ionic]]></title><description><![CDATA[IONIC]]></description><link>https://silentmaker.github.io/blog/using-ionic/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/using-ionic/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;IONIC&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Animation With Anime.js]]></title><description><![CDATA[What]]></description><link>https://silentmaker.github.io/blog/animation-with-anime-js/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/animation-with-anime-js/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;What&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Build Mini-Program with Mpvue]]></title><description><![CDATA[Mini-program]]></description><link>https://silentmaker.github.io/blog/build-mini-program-with-mpvue/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/build-mini-program-with-mpvue/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Mini-program&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Ploymer Features]]></title><description><![CDATA[Custom Elements Shadow Dom Events Data System]]></description><link>https://silentmaker.github.io/blog/polymer-features/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/polymer-features/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Custom Elements&lt;/h3&gt;
 &lt;h3&gt;Shadow Dom&lt;/h3&gt;
 &lt;h3&gt;Events&lt;/h3&gt;
 &lt;h3&gt;Data System&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Ploymer Quick Start]]></title><description><![CDATA[Everything is an element. Concepts Polymer lets you build encapsulated, reusable  Web Components  that work just like standard HTML elements…]]></description><link>https://silentmaker.github.io/blog/polymer-introduction/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/polymer-introduction/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
@@ -670,7 +1187,602 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;customElemen
       &lt;/div&gt;
 &lt;h3&gt;More&lt;/h3&gt;
 &lt;p&gt;Find out more at &lt;a href=&quot;https://www.polymer-project.org&quot;&gt;ploymer-project.org&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Presentation on the Web with Reveal.js]]></title><description><![CDATA[Presentation Problems]]></description><link>https://silentmaker.github.io/blog/presentation-on-the-web-with-reveal-js/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/presentation-on-the-web-with-reveal-js/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Presentation Problems&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Rellax.js Usage]]></title><description><![CDATA[Parallax Scrolling]]></description><link>https://silentmaker.github.io/blog/rellax-js-usage/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/rellax-js-usage/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Parallax Scrolling&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Three.js Introduction]]></title><description><![CDATA[WebGL]]></description><link>https://silentmaker.github.io/blog/three-js-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/three-js-intro/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;WebGL&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Time Travel with Redux]]></title><description><![CDATA[Time Travel]]></description><link>https://silentmaker.github.io/blog/time-travel-with-redux/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/time-travel-with-redux/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Time Travel&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[UI Frameworks Notes: Ant-Design]]></title><description><![CDATA[Ant-Design]]></description><link>https://silentmaker.github.io/blog/ui-frameworks-notes-ant-design/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ui-frameworks-notes-ant-design/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Ant-Design&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[UI Frameworks Notes: Material-UI]]></title><description><![CDATA[Material-UI]]></description><link>https://silentmaker.github.io/blog/ui-frameworks-notes-material-ui/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ui-frameworks-notes-material-ui/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Material-UI&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[UI Frameworks Notes: Semantic-UI]]></title><description><![CDATA[Semantic-UI]]></description><link>https://silentmaker.github.io/blog/ui-frameworks-notes-semantic-ui/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ui-frameworks-notes-semantic-ui/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Semantic-UI&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Event Loop]]></title><link>https://silentmaker.github.io/blog/event-loop/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/event-loop/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Asnycnous: Promise, Async/Await and Generator]]></title><description><![CDATA[Asnycnous in Javascript]]></description><link>https://silentmaker.github.io/blog/promise-async-await-generator/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/promise-async-await-generator/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Asnycnous in Javascript&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Vue Reviews]]></title><description><![CDATA[Review]]></description><link>https://silentmaker.github.io/blog/vue-reviews/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/vue-reviews/</guid><pubDate>Thu, 26 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Review&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Abstract Syntax Tree]]></title><description><![CDATA[AST]]></description><link>https://silentmaker.github.io/blog/abstract-syntax-tree/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/abstract-syntax-tree/</guid><pubDate>Sun, 22 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;AST&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[AMP Introduction]]></title><description><![CDATA[Accelerated Mobile Page]]></description><link>https://silentmaker.github.io/blog/amp-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/amp-intro/</guid><pubDate>Sun, 22 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Accelerated Mobile Page&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Workbox Usage]]></title><description><![CDATA[Service Worker Workbox is a set of service worker libraries that making build progressive web apps easy.]]></description><link>https://silentmaker.github.io/blog/workbox-usage/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/workbox-usage/</guid><pubDate>Sat, 21 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Service Worker&lt;/h3&gt;
-&lt;p&gt;Workbox is a set of service worker libraries that making build progressive web apps easy.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Image Editing with Javascript]]></title><link>https://silentmaker.github.io/blog/image-editing-with-javascript/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/image-editing-with-javascript/</guid><pubDate>Fri, 20 Jul 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Javascript Meta-Programming]]></title><description><![CDATA[Meta-Programming]]></description><link>https://silentmaker.github.io/blog/javascript-metaprogramming/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/javascript-metaprogramming/</guid><pubDate>Fri, 20 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Meta-Programming&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Modern Web Media]]></title><link>https://silentmaker.github.io/blog/modern-web-media/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/modern-web-media/</guid><pubDate>Fri, 20 Jul 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Gatsby.js Introduction]]></title><description><![CDATA[Why Gatsby.js]]></description><link>https://silentmaker.github.io/blog/gatsby-js-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/gatsby-js-intro/</guid><pubDate>Wed, 11 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Why Gatsby.js&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[SSR Optimization]]></title><description><![CDATA[Pros & Cons]]></description><link>https://silentmaker.github.io/blog/ssr-optimization/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ssr-optimization/</guid><pubDate>Fri, 29 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Pros &amp;#x26; Cons&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Typescript with React]]></title><description><![CDATA[Typescript]]></description><link>https://silentmaker.github.io/blog/typescript-with-react/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/typescript-with-react/</guid><pubDate>Tue, 26 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Typescript&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[SSR Introduction]]></title><description><![CDATA[Why SSR]]></description><link>https://silentmaker.github.io/blog/ssr-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ssr-intro/</guid><pubDate>Tue, 26 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Why SSR&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Font-Awesome Usage]]></title><description><![CDATA[Why Font-awesome]]></description><link>https://silentmaker.github.io/blog/font-awesome-usage/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/font-awesome-usage/</guid><pubDate>Fri, 22 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Why Font-awesome&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[D3.js Introduction]]></title><description><![CDATA[Data Visualization]]></description><link>https://silentmaker.github.io/blog/d3-js-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/d3-js-intro/</guid><pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Data Visualization&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Gulp, Webpack, Parcel and Rollup]]></title><link>https://silentmaker.github.io/blog/gulp-webpack-parcel-roolup/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/gulp-webpack-parcel-roolup/</guid><pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[D3: 力导向图]]></title><description><![CDATA[What 力导向图是D3的图形布局中非常热门的一种]]></description><link>https://silentmaker.github.io/blog/d3-force-directed-graph/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/d3-force-directed-graph/</guid><pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;What&lt;/h3&gt;
+&lt;p&gt;Workbox is a set of service worker libraries that making build progressive web apps easy.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Image Editing with Javascript]]></title><link>https://silentmaker.github.io/blog/image-editing-with-javascript/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/image-editing-with-javascript/</guid><pubDate>Fri, 20 Jul 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Javascript Meta-Programming]]></title><description><![CDATA[Meta-Programming]]></description><link>https://silentmaker.github.io/blog/javascript-metaprogramming/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/javascript-metaprogramming/</guid><pubDate>Fri, 20 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Meta-Programming&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Modern Web Media]]></title><link>https://silentmaker.github.io/blog/modern-web-media/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/modern-web-media/</guid><pubDate>Fri, 20 Jul 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Gatsby.js Introduction]]></title><description><![CDATA[Why Gatsby.js]]></description><link>https://silentmaker.github.io/blog/gatsby-js-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/gatsby-js-intro/</guid><pubDate>Wed, 11 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Why Gatsby.js&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[SSR Optimization]]></title><description><![CDATA[Pros & Cons]]></description><link>https://silentmaker.github.io/blog/ssr-optimization/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ssr-optimization/</guid><pubDate>Fri, 29 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Pros &amp;#x26; Cons&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Typescript with React]]></title><description><![CDATA[Typescript]]></description><link>https://silentmaker.github.io/blog/typescript-with-react/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/typescript-with-react/</guid><pubDate>Tue, 26 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Typescript&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[SSR Introduction]]></title><description><![CDATA[Why SSR]]></description><link>https://silentmaker.github.io/blog/ssr-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ssr-intro/</guid><pubDate>Tue, 26 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Why SSR&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Web Workers总结]]></title><description><![CDATA[Worker  是在 Javascript 中实现多线程的一种方法，通常用于进行耗时/次要的任务，可以提高计算速度，并且达到不阻塞UI的目的 在 Web Workers API 中，Worker可以分为  dedicated Woker ， SharedWorker…]]></description><link>https://silentmaker.github.io/blog/web-workers-notes/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/web-workers-notes/</guid><pubDate>Tue, 26 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Worker&lt;/strong&gt; 是在 Javascript 中实现多线程的一种方法，通常用于进行耗时/次要的任务，可以提高计算速度，并且达到不阻塞UI的目的&lt;/p&gt;
+&lt;p&gt;在 Web Workers API 中，Worker可以分为 &lt;em&gt;dedicated Woker&lt;/em&gt;，&lt;em&gt;SharedWorker&lt;/em&gt; 和 &lt;em&gt;ServiceWorker&lt;/em&gt;，
+其 constructor 为分别为 &lt;em&gt;Worker&lt;/em&gt;，&lt;em&gt;SharedWorker&lt;/em&gt; 和 &lt;em&gt;ServiceWorker&lt;/em&gt;，并且都基于 &lt;em&gt;AbstractWorker&lt;/em&gt; 实现，
+其 scope 分别为 &lt;em&gt;DedicatedWorkerGlobalScope&lt;/em&gt;，&lt;em&gt;SharedWorkerGlobalScope&lt;/em&gt; 和 &lt;em&gt;ServiceWorkerGlobalScope&lt;/em&gt;，并且都基于 &lt;em&gt;WorkerGlobalScope&lt;/em&gt; 实现&lt;/p&gt;
+&lt;h3&gt;Worker&lt;/h3&gt;
+&lt;p&gt;在同源策略下，Worker也可以创建Worker，不过目前在 Blink/WebKit 等内核中还没有实现&lt;/p&gt;
+&lt;p&gt;主线程与Worker线程之间通过很简单的方式通信，核心代码如下&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// main.js&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Worker&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; myWorker &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Worker&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;worker.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    myWorker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;postMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    myWoker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;onmessage&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;result
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// worker.js&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;onmessage&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;postMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;computed&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Worker 继承了 EventTarget，并且实现了AbstractWorker的属性和方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AbstractWorker.onerror&lt;/li&gt;
+&lt;li&gt;Worker.onmessage&lt;/li&gt;
+&lt;li&gt;Worker.onmessageerror&lt;/li&gt;
+&lt;li&gt;Worker.postMessage()&lt;/li&gt;
+&lt;li&gt;Worker.terminate()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Worker 可访问的全局变量（大多继承自WorkerGlobalScope，并且只读）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;self&lt;/li&gt;
+&lt;li&gt;navigator&lt;/li&gt;
+&lt;li&gt;location&lt;/li&gt;
+&lt;li&gt;console&lt;/li&gt;
+&lt;li&gt;caches&lt;/li&gt;
+&lt;li&gt;indexedDB&lt;/li&gt;
+&lt;li&gt;atob/setTimeout/setInterval&lt;/li&gt;
+&lt;li&gt;XMLHttpRequest (responseXML和channel属性会一直为null)&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Worker 没有浏览器上下文，故没有 window/document/parent 等全局变量，详细列表可见：&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/API/Web&lt;em&gt;Workers&lt;/em&gt;API/Functions&lt;em&gt;and&lt;/em&gt;classes&lt;em&gt;available&lt;/em&gt;to_workers&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;SharedWorker&lt;/h3&gt;
+&lt;p&gt;SharedWorker 是一种特殊的 Worker，在同源策略下，可以从 windows，iframes 和 workers 等不同的上下文中访问到&lt;/p&gt;
+&lt;p&gt;SharedWorker 的通信机制和Worker类似，但比Worker多了一层port，在其他上下文中，通过 port.postMessage() 和 port.onmessage 来传递数据，通过 port.start() 来建立连接，而在worker内，则通过SharedWorkerGlobalScope.onconnect 来监听连接请求&lt;/p&gt;
+&lt;p&gt;最简示例代码如下：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// main-1/2/3.js&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; myWorker &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SharedWorker&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;worker.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+myWorker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;port&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+$input&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;onchange&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    myWorker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;port&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;postMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+myWorker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;port&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;onmessage&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// worker.js&lt;/span&gt;
+&lt;span class=&quot;token function-variable function&quot;&gt;onconnect&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; port &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ports&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    
+    port&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;message&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        port&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;postMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    port&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;ServiceWorker&lt;/h3&gt;
+&lt;p&gt;…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Font-Awesome Usage]]></title><description><![CDATA[Why Font-awesome]]></description><link>https://silentmaker.github.io/blog/font-awesome-usage/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/font-awesome-usage/</guid><pubDate>Fri, 22 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Why Font-awesome&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[D3.js Introduction]]></title><description><![CDATA[Data Visualization]]></description><link>https://silentmaker.github.io/blog/d3-js-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/d3-js-intro/</guid><pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Data Visualization&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Gulp, Webpack, Parcel and Rollup]]></title><link>https://silentmaker.github.io/blog/gulp-webpack-parcel-roolup/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/gulp-webpack-parcel-roolup/</guid><pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[D3: 力导向图]]></title><description><![CDATA[What 力导向图是D3的图形布局中非常热门的一种]]></description><link>https://silentmaker.github.io/blog/d3-force-directed-graph/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/d3-force-directed-graph/</guid><pubDate>Wed, 20 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;What&lt;/h3&gt;
 &lt;p&gt;力导向图是D3的图形布局中非常热门的一种&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Scope Chain Notes]]></title><link>https://silentmaker.github.io/blog/scope-chain-notes/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/scope-chain-notes/</guid><pubDate>Sat, 16 Jun 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Fetch vs Axios]]></title><description><![CDATA[Fetch]]></description><link>https://silentmaker.github.io/blog/fetch-vs-axios/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/fetch-vs-axios/</guid><pubDate>Sat, 02 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Fetch&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Redux Source Code]]></title><description><![CDATA[Redux]]></description><link>https://silentmaker.github.io/blog/redux-source-code/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/redux-source-code/</guid><pubDate>Sat, 26 May 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Redux&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Optimizing Runtime Performance]]></title><description><![CDATA[Runtime Performance]]></description><link>https://silentmaker.github.io/blog/optimizing-runtime-performance/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/optimizing-runtime-performance/</guid><pubDate>Sat, 26 May 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Runtime Performance&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[React Notes]]></title><description><![CDATA[React Notes]]></description><link>https://silentmaker.github.io/blog/react-notes/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/react-notes/</guid><pubDate>Sat, 26 May 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;React Notes&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[When to Use Arrow Functin]]></title><description><![CDATA[What]]></description><link>https://silentmaker.github.io/blog/when-to-use-arrow-function/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/when-to-use-arrow-function/</guid><pubDate>Sat, 26 May 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;What&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[More of React Native]]></title><description><![CDATA[How React Native works]]></description><link>https://silentmaker.github.io/blog/more-of-react-native/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/more-of-react-native/</guid><pubDate>Fri, 27 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;How React Native works&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[React Internals]]></title><description><![CDATA[React]]></description><link>https://silentmaker.github.io/blog/react-internals/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/react-internals/</guid><pubDate>Thu, 26 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;React&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[React Native Introduction]]></title><description><![CDATA[What is RN]]></description><link>https://silentmaker.github.io/blog/react-native-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/react-native-intro/</guid><pubDate>Thu, 26 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;What is RN&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[GraphQL: Basics]]></title><description><![CDATA[Definition GraphQL is a query language proposed by Facebook. Why GraphQL]]></description><link>https://silentmaker.github.io/blog/graphql-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/graphql-intro/</guid><pubDate>Fri, 20 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Definition&lt;/h3&gt;
 &lt;p&gt;GraphQL is a query language proposed by Facebook.&lt;/p&gt;
-&lt;h3&gt;Why GraphQL&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Electron Introduction]]></title><description><![CDATA[How Electron Works]]></description><link>https://silentmaker.github.io/blog/electron-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/electron-intro/</guid><pubDate>Thu, 12 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;How Electron Works&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Notes on Javascript Ninja]]></title><link>https://silentmaker.github.io/blog/notes-on-javascript-ninja/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/notes-on-javascript-ninja/</guid><pubDate>Mon, 26 Mar 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Npm vs Yarn]]></title><description><![CDATA[Difference]]></description><link>https://silentmaker.github.io/blog/npm-vs-yarn/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/npm-vs-yarn/</guid><pubDate>Mon, 26 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Difference&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Web Security]]></title><description><![CDATA[Dangers]]></description><link>https://silentmaker.github.io/blog/web-security/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/web-security/</guid><pubDate>Tue, 20 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Dangers&lt;/h3&gt;</content:encoded></item></channel></rss>
+&lt;h3&gt;Why GraphQL&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Electron Introduction]]></title><description><![CDATA[How Electron Works]]></description><link>https://silentmaker.github.io/blog/electron-intro/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/electron-intro/</guid><pubDate>Thu, 12 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;How Electron Works&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[前端监控笔记]]></title><description><![CDATA[后端监控  - 采集服务器以及链路上各种中间件的数据
+ 前端监控  - 运行在用户终端上的代码 最简实现：通过 window.onerror 采集到所有的未捕获异常，并通过 new Image() 的方式构造一个 404 的 HTTP 请求，最后在服务端实时过滤 access…]]></description><link>https://silentmaker.github.io/blog/front-end-monitor/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/front-end-monitor/</guid><pubDate>Fri, 06 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;后端监控&lt;/strong&gt; - 采集服务器以及链路上各种中间件的数据
+&lt;strong&gt;前端监控&lt;/strong&gt; - 运行在用户终端上的代码&lt;/p&gt;
+&lt;p&gt;最简实现：通过 window.onerror 采集到所有的未捕获异常，并通过 new Image() 的方式构造一个 404 的 HTTP 请求，最后在服务端实时过滤 access.log 中匹配的请求并计数即可&lt;/p&gt;
+&lt;h3&gt;采集&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;可采集的异常&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;HTML 标签异常、CSS 展现异常、样式、图片、脚本文件的请求异常、脚本执行异常、网速很慢、运营商拦截等问题很难规避&lt;/p&gt;
+&lt;p&gt;文本和按钮没有对齐、文本折行，仅仅是展示上的问题，用户自己就能觉察和规避，不影响正常使用&lt;/p&gt;
+&lt;p&gt;主要应监控的异常，如交互逻辑错误、获取填充数据提交导致的脚本错误，会立刻终止用户的下一步操作，这类异常用户不知道是什么问题导致脚本异常，甚至不知道已经发生了异常&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;同源（ 协议、域名、端口）策略下&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全局异常：window.onerror = function (message, url, lineNo, columnNo, error)，有兼容性问题&lt;/li&gt;
+&lt;li&gt;Ajax 上下文：patch open send方法&lt;/li&gt;
+&lt;li&gt;操作上下文：记录tagName和关键attribute，比如select的value和text&lt;/li&gt;
+&lt;li&gt;页面依赖：记录类库的版本信息，简单方法可以遍历一下window对象，看看哪些属性包含有 Version、version、VERSION字段&lt;/li&gt;
+&lt;li&gt;自定义数据：对开发者有用的字段，比如用lang字段区分语言环境&lt;/li&gt;
+&lt;li&gt;浏览器数据：一般用于定位兼容性问题， 这些通过 userAgent 获得osType、browserType、browserVersion就可以了&lt;/li&gt;
+&lt;li&gt;动态加载的内容：对 img、link、script 可以通过给标签添加 onerror 回调函数&lt;/li&gt;
+&lt;li&gt;其他：屏幕的分辨率、错误发生的客户端时间信息，在流量允许的范围内，应该提供尽可能多的环境数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;非同源策略（如CDN）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;非同源脚本中的报错在 window.onerror 中只会出现 script error，要解决这个问题，需要在服务器端增加 Access-Control-Allow-Origin 的配置，并且在客户端脚本增加 crossorigin=”anonymous”属性，不过这个做法会有兼容性问题&lt;/p&gt;
+&lt;p&gt;其他的方法还有同域化，patch原生方法加入try catch，babel自动patch&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;框架层解决方案&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Angular：ErrorHandler&lt;/li&gt;
+&lt;li&gt;Vue：Vue.config.errorHandler&lt;/li&gt;
+&lt;li&gt;React：componentDidCatch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;数据处理&lt;/h3&gt;
+&lt;p&gt;一个重复的错误，不应该不断上报，否则会造成数据冗余和流量浪费，因此，应该对上报的内容频率加以限制&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;随机上报 - 不是所有的错误都上报，满足给定条件的才上报&lt;/li&gt;
+&lt;li&gt;合并上报 - 当出现异常时，给定一个队列和延时。如果延时期内又出现了新的错误，就加入到错误队列中。延时期到或者队列达到最大容量，把队列中的所有异常信息集中上报，还可以将公共的信息，比如依赖信息、浏览器相关、用户自定义数据都可以合并到一起&lt;/li&gt;
+&lt;li&gt;服务端限制 - 客户端总是不可控的，当客户端在单位时间内上报的错误数超过限制时，可以返回429（Too Many Request）&lt;/li&gt;
+&lt;li&gt;数据压缩 - 如果要采集的数据量不大，可以明文上报，对于合并上报的数据量可能要十几Kb，对于PV大的站点，产生的流量还是很可观的，所以要压缩上报，比如 lz-string 之类的字符串压缩类库&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;数据差异化&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;相同的异常，在不同浏览器下，message、columnNo、error 都有可能不一致，所以要对信息进行normalize，
+比如 raven.js 会使用 TraceKit 来 normalize error strings，其他类似的库还有 stacktrace.js&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;数据持久化&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;传统的监控服务一般都会使用 MySQL 等数据库进行数据持久化，但当数据量指数级增长时，MySQL 这种 OLTP 数据库已经不再适合用来提供监控数据分析服务。&lt;/p&gt;
+&lt;h3&gt;分析 &amp;#x26; 告警&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;找到问题触发的特征，比如是否集在某个页面或者某种浏览器等等&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;仅仅通过报错数的多少不足以判断系统是否稳定，某天的数据出现暴增，可能是因为页面的访问量出现暴增，或者有爬虫用户&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;异常波动一定有元凶：新发布的版本存在 Bug，后端接口突然故障&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;绝大多数的监控平台都提供按规则报警的能力，报警的问题在于随着业务的不断发展，原本配置的规则将会出现阈值过低或过高的问题，若阈值配置过低，则会产生大量的误报，继而引起整个监控能力的报警疲劳&lt;/p&gt;
+&lt;p&gt;解决上述问题，可以引入一些简单的数学模型来解决时序数据的异常识别工作，以常见的高斯分布（正态分布）为例，利用 3-sigma 原则可以快速判断某一时刻的报错数是否满足概率分布，继而可以产生报警&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Notes on Javascript Ninja]]></title><link>https://silentmaker.github.io/blog/notes-on-javascript-ninja/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/notes-on-javascript-ninja/</guid><pubDate>Mon, 26 Mar 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Npm vs Yarn]]></title><description><![CDATA[Difference]]></description><link>https://silentmaker.github.io/blog/npm-vs-yarn/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/npm-vs-yarn/</guid><pubDate>Mon, 26 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Difference&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Web Security]]></title><description><![CDATA[Dangers]]></description><link>https://silentmaker.github.io/blog/web-security/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/web-security/</guid><pubDate>Tue, 20 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Dangers&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[函数式编程基本概念]]></title><description><![CDATA[编程范式  是指一种基于基本原则来思考如何构建软件的方式，常见的范式还有  面向对象编程 、 面向过程编程  和  函数式编程 函数式编程 （Functional Programming…]]></description><link>https://silentmaker.github.io/blog/functional-programming-basics/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/functional-programming-basics/</guid><pubDate>Tue, 06 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;编程范式&lt;/em&gt; 是指一种基于基本原则来思考如何构建软件的方式，常见的范式还有 &lt;em&gt;面向对象编程&lt;/em&gt;、&lt;em&gt;面向过程编程&lt;/em&gt; 和 &lt;em&gt;函数式编程&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;函数式编程&lt;/em&gt;（Functional Programming）是通过编写&lt;em&gt;纯函数&lt;/em&gt;，避免&lt;em&gt;共享状态&lt;/em&gt;，避免&lt;em&gt;可变数据&lt;/em&gt;，和避免&lt;em&gt;副作用&lt;/em&gt;，从而构建软件的过程&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;函数式编程是声明性的而不是命令式的，应用程序状态是通过纯函数来流转的&lt;/li&gt;
+&lt;li&gt;函数式编程通过不可变数据结构和纯函数来从现在数据中得到新数据&lt;/li&gt;
+&lt;li&gt;函数式的功能代码往往更简洁，更容易预测和测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;纯函数（Pure Function）&lt;/h4&gt;
+&lt;p&gt;纯函数一般指符合下面两个条件的函数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;给定相同输入时输出也必定相同&lt;/li&gt;
+&lt;li&gt;没有副作用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;状态共享（Shared State）&lt;/h4&gt;
+&lt;p&gt;状态共享一般指：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;存在于共享作用域中的任何变量，对象或者内存空间&lt;/li&gt;
+&lt;li&gt;作用域与作用域之间传递的属性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;状态共享可能导致的问题有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;执行时间的先后可能会导致竞争状态&lt;/li&gt;
+&lt;li&gt;更改调用函数的顺序可能会导致级联失败，即作用于共享状态的函数与时序有关&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;不可变性（Immutable）&lt;/h4&gt;
+&lt;p&gt;不可变对象是指一旦创建后则不可以再修改的对象
+Javascript中暂无现成的不可变对象：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;const 声明创建的对象，不可重新赋值，但可以随意修改属性&lt;/li&gt;
+&lt;li&gt;调用 Object.preventExtensions(obj) 操作对象，不可拓展新属性，严格模式下会报错，否则会静默失败&lt;/li&gt;
+&lt;li&gt;调用 Object.seal() 操作对象，现有属性密封（属性描述符configurable为false）且不可拓展新属性&lt;/li&gt;
+&lt;li&gt;调用 Object.freeze() 操作对旬，属性密封且不可拓展，现在属性configurable和writable都为false
+用字面量声明的对象属性一般writable、enumerable 和 configurable 都为true
+用 Object.defineProperty() 声明的对象属性中未定义的描述符属性为false&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在很多函数式编程语言中都存在称为 trie 的特殊不可以变数据结构，trie可以通过结构共享来处理对象中不变的那部分结构，
+使得内存消耗更低，很多操作的性能也会大大提升，javascript中也有对实现此类结构的尝试，比如immutable.js和mori&lt;/p&gt;
+&lt;h4&gt;副作用（Side Effect）&lt;/h4&gt;
+&lt;p&gt;常见的副作用包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;修改任何外部变量或对象属性&lt;/li&gt;
+&lt;li&gt;输出到console、屏幕或者文件&lt;/li&gt;
+&lt;li&gt;输出到网络&lt;/li&gt;
+&lt;li&gt;触发任何外部处理&lt;/li&gt;
+&lt;li&gt;调用其他有副作用的函数
+将副作用和程序逻辑的其他部分隔离开来，可以使得软件的拓展、重构、调试、测试和维护变得更容易
+很多前端框架也会鼓励开发者分别在独立的、低耦合的模块中管理状态和组件渲染&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;高阶函数（High-Order Function）与可复用性（Reusability）&lt;/h4&gt;
+&lt;p&gt;高阶函数是指把函数作为参数的函数，或者返回一个函数的函数，其常用场景包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用回调或者promise的独立操作或者异步控制流&lt;/li&gt;
+&lt;li&gt;创建可以接受多种数据类型的工具函数&lt;/li&gt;
+&lt;li&gt;选取部分参数作用于函数，或者为了复用性进行函数库里化，或者用于函数组合&lt;/li&gt;
+&lt;li&gt;取一系列函数，并组合其返回结果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;容器（Container），函子（Functor），列表（List）和流（Stream）&lt;/h3&gt;
+&lt;p&gt;函子是指具有可映射性的容器，比如Array.prototype.map()的容器一般是数组，但也可以是任何可迭代的对象
+也即任何提供了映射接口的列表，随时间推移而变化的列表就可以称为流，流也可以和列表用相同的处理函数&lt;/p&gt;
+&lt;h4&gt;声明式（Declarative）与命令式（Imperative）&lt;/h4&gt;
+&lt;p&gt;声明式的程序只描述得出想要的结果的步骤或者控制流，即How to do
+命令式的程序则主要强调对数据流的变化，即What to do
+在 Javascript 中，声明式和命令式的区别可以体现在分别用for和map去改变一个数组
+一般而言，命令式更依赖于语句，而声明式更依赖于表达式&lt;/p&gt;</content:encoded></item><item><title><![CDATA[小程序原理笔记]]></title><description><![CDATA[运行环境 在iOS上，小程序的javascript代码是运行在 JavaScriptCore 中 在Android上，小程序的javascript代码是通过X5内核来解析 在 开发工具上， 小程序的javascript代码是运行于 nwjs（原node-webkit） nw.js…]]></description><link>https://silentmaker.github.io/blog/mini-program-notes/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/mini-program-notes/</guid><pubDate>Thu, 01 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;运行环境&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在iOS上，小程序的javascript代码是运行在 JavaScriptCore 中&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在Android上，小程序的javascript代码是通过X5内核来解析&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 开发工具上， 小程序的javascript代码是运行于 nwjs（原node-webkit）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;nw.js 与 Electron 类似，两者都同时提供了 Broswer 和 Node.js 的 runtime 环境，使得开发者即可以编写和操作DOM，同时可以借助 Node.js 来访问操作系统原生API的能力&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通信原理&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;小程序的 UI 经由 WKWebView 来渲染，API调用通过 JSBridge 将逻辑结果传递到 webview 做渲染，可以类似地参考 React-Native的实现原理：&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/rn-communication-2bcb54a9db3431b5b644bada6c8c444a-eae6d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.12384473197782%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAAClElEQVQ4yz2TWW8TMRDH8/2/ABIPvPHAA4cEElAKBSEQFUnpTZK2adPm7GZP7+H1rvfH2GmxNPJ47Ln+/3GvqDSlbkhVgSoqr5faYOqaohCbUqRpSp7n1LXxd+6de59kOUVVex+ta7mv6RXhHJsuWF4es7kdYrMlJl35AEmScH8fsFgsiKKIIs/82/huyPziiJvzPlV4R5fOKbIILQl7ZvQeTp/D6LXIGzgR/fIDKi9oG8PjMqYhT0K64Vv4+xLGr0Tk/Uj0g2cUyyF129GLVUkQK7KiJsk1m0ShKmkrS+VcE1UQlR1hVpJnCdz+wCzPmMYdi8Rwl1iWQUwah5JUKvw+0excdny7gc+Tzuv7t4KVijmc1excwacJ9G8EryQQ5QnZyTt2r+HXtGH3qmO8UJR5usVQa40Tay1t2wgRud8dEWVZir2Vc0suRETBUuB5QTLc4+OF5ed1zYdxw3UgZKrUk9brGg1OaD1WztkFCsPQM+yyuoRppnzArv8UM/7InYKZ4DFLO7Kq9RD5CkcrLa1pLoKWRoJtK209yw6Tx+WyF1lMdy7kTb/Cqo+d7MF64MlzHXkMD2cVhyshd2X9LLnq3Pw5qeRspPBaJC8rbzOt9XPoRioIAg+PC+QC+gqx1UMN3f9qlJvBaMOp9PVFwP8ipBxMC6Jwwx8h6tet5fcCvk0azoUnbEPyWOForRmFMIkEymbbssuUJREXq5L9OezPhIt5hUpjrjYtx2t5H1pGQcfpPWyUecBQAg6mOf1Zy9HcCG6FtOy+27bC8TxlMG8ZzBrOZvIF4w2jZSk2y+W64u+y8veOnLJQ8lOk5UbLaJiKtq54HCEnTSPY1LLXpRcj9+63NLJbbxMf8bNG7vTW13X2DzAm2k13RUX+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;react native theory&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/rn-communication-2bcb54a9db3431b5b644bada6c8c444a-fb8a0.png&quot;
+        srcset=&quot;/blog/static/rn-communication-2bcb54a9db3431b5b644bada6c8c444a-1a291.png 148w,
+/blog/static/rn-communication-2bcb54a9db3431b5b644bada6c8c444a-2bc4a.png 295w,
+/blog/static/rn-communication-2bcb54a9db3431b5b644bada6c8c444a-fb8a0.png 590w,
+/blog/static/rn-communication-2bcb54a9db3431b5b644bada6c8c444a-526de.png 885w,
+/blog/static/rn-communication-2bcb54a9db3431b5b644bada6c8c444a-eae6d.png 1082w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文件结构&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;App由app.js、app.json、app.wxss 组成&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Page由page.js、page.json、page.wxss 和 page.wxml 组成&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;生命周期&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;App&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;钩子&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;th&gt;时间点&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;onLaunch&lt;/td&gt;
+&lt;td&gt;小程序初始化&lt;/td&gt;
+&lt;td&gt;当初始化完成时调用，全局只触发一次&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onShow&lt;/td&gt;
+&lt;td&gt;小程序显示&lt;/td&gt;
+&lt;td&gt;启动或从后台进入前台展示时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onHide&lt;/td&gt;
+&lt;td&gt;小程序隐藏&lt;/td&gt;
+&lt;td&gt;从前台进入后台时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Page&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;钩子&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;th&gt;时间点&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;onLoad&lt;/td&gt;
+&lt;td&gt;页面加载&lt;/td&gt;
+&lt;td&gt;一个页面只调用一次&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onShow&lt;/td&gt;
+&lt;td&gt;页面显示&lt;/td&gt;
+&lt;td&gt;每次打开页面都会触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onReady&lt;/td&gt;
+&lt;td&gt;页面初次渲染完成&lt;/td&gt;
+&lt;td&gt;一个页面只调用一次，且表示页面已可交互，可进行页面设置，如 
+&lt;em&gt;wx.setNavigationBarTitle&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onHide&lt;/td&gt;
+&lt;td&gt;页面隐藏&lt;/td&gt;
+&lt;td&gt;当 
+&lt;em&gt;wx.navigateTo&lt;/em&gt;
+ 或底部Tab切换时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onUnload&lt;/td&gt;
+&lt;td&gt;页面卸载&lt;/td&gt;
+&lt;td&gt;当 
+&lt;em&gt;wx.redirectTo&lt;/em&gt;
+ 或 
+&lt;em&gt;wx.navigateBack&lt;/em&gt;
+ 时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;两类线程&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;界面线程（View Thread） - 负责界面渲染&lt;/li&gt;
+&lt;li&gt;服务线程（Appservice Thread） - 负责数据，服务处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/mp-thread-2c5245e41bb67471703f6aa7f167abf0-bb6bf.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 153.17220543806647%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAIAAABoLHqZAAAACXBIWXMAAAsSAAALEgHS3X78AAAFXUlEQVQ4y21VWWwTVxQdVUKitOpH099KVO0PRS20bBUVP7TQfiKKKgFtpaoCGiEEH1CEI6BpCyJOSJwVW4Gw2glNgISYxtkTIA1kaRw7IQQnthMvcezx7PNmH/eOnRjS5uloNPNmzrvvnnvuG4xhmLGxsUgkkkoPPT2y93ANhUJer5dl2exMdmAcw7947vNP+QVeUGQlTVoChmb9U4HQTBjxgiRKmqoBMq8wjkYMxVJJmqX5ucjctG86Go5mXwMEFrEkyxA0z/AzwRn4IDYXWyAzHBGZmwmF/SST4HkegquKurCt9BchkvbOREYDIV8MJylaEgSaoiRRhBywcNIzNtvtDXYFEsOyLKmKBnye43VNB8AKnYG5qscea5/37sQsi1BKlRFN8BSuSAL2LNjZ+tTWNlg9Mu2EQBAWmHgcZygG8Ujkeceo72yPO7/Xc9nt59JkjkwgOqkpAhaIDYxMOd3+vyZmH9I0BRyKoBiaoUhKkmSIfMXjP9LtPdrjLRry0Swri0CMI5pSFRHjeZwVcAYlODEZCYcnJyaDgSAkDzQtve2a0elDzf25D56Y/36GYD1JEmU5UzPMPd3cNVjTM3h1aPIOSeGiIMoS5C6D4JmiGuSmR7nOPnOfV01PZWuNtbnL6nrz6npMriEzKAVTIBiRJCBzJS37ZU/g547Rw50e86BP0bUl5O4xm3P4gnO4oMNdJst8+p2eMROQFVFqHPeXPpkofzphH51meF4UBIamFcWQA+vyWu8Pnge0j5RmIhv56Avrw/0sg14QyEciPyUoUD4Jsck4m0woIsKc/ZZb7SZ7R55rqFhWkBE3S06jzReu9wbvjgcbxwMkzymyyHOsIom6pmLdXqtz4DygfcSyEDm1RJV9t1o3W+q2VdZvv3QnQtIpiJ1Vu3e8umW4ENA5WiFBznoKfAKayTLkZeA7R/u6otpNJX9+ZWtKcOhlb4G37z85V9Ny4Krr0O3ukwxLyKKSiCeikSj0ENgTSg3kjwtrNxXf3mltjP+HXNOSe6J84y/lm8sb9iqqAJPgSo7lVFWFUoPg+24++DDf9mnBtZ22BbK22PNYw6PTFU17K5v232w/JkqcpurgTWg6HMdh/9An+x0tay/e2FBiz0bOuAf42O0eU4F9l9m++0pLLmzbaGAkZI0Nj/trXWuLb2ywOCDnCMlAS/IIkSTFMqyRc7XzQLXzYP1Dk1GqxZT0xVJlyBstji8v3ZsMRWiSTOA4HF6yLGO9YzbXcKHrH0PtBYel6/x/8g7rvSgNJ5nKkoTIMilNgTpXOQfOAQyHyWg5MuR8HXIG8jwLq6sCx8qIUxUJ6/ZUNQ+cazbIliWRF02yp/TaulMXt5y1fP5r2VQ4ypAU1JIgwGw89nC8unWkCACrADmjNoGnuyptkl1m6+qDpjVHzmwxFb4IhDiawRM4HKmKomCNffmX7v9obf7J0XWCZUlN0aEf52PzcMoa8TV9d5Ht3QMnPzh8+rO8ohhBQ8vSeFygCV2VsPpek9mx2+zYc73tiLScYN+U1Lx/7Pc1x89vPWOJJqmUpiKWlRDsSwS1rS3DFwCdRj8vI9j39tatpXXbqxp2WO9ECErg+VhsXkCiIqtYh7uiqf83gGvo4vKlsrd+VHBrY3HtF5UNgbm4iBBBENA3hj37fdXtnoI2T8Hj55UvTfIK+YeG3vWldzdXNH1d02LYUxHpxDyXTEC1MPuDP6rqjlbWHr3WmCeInEHWXiXr35bdXHOicN2pkm35lbPzxgFCUaQkIU2TsdWr33t95aqVK1blvJ2DJxIvyYvXT9avX4G99tYbb76TkxMJGT9T40+WHv8CDkweH9UsGoUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;mini program threads&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/mp-thread-2c5245e41bb67471703f6aa7f167abf0-fb8a0.png&quot;
+        srcset=&quot;/blog/static/mp-thread-2c5245e41bb67471703f6aa7f167abf0-1a291.png 148w,
+/blog/static/mp-thread-2c5245e41bb67471703f6aa7f167abf0-2bc4a.png 295w,
+/blog/static/mp-thread-2c5245e41bb67471703f6aa7f167abf0-fb8a0.png 590w,
+/blog/static/mp-thread-2c5245e41bb67471703f6aa7f167abf0-bb6bf.png 662w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;界面线程的四类状态&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初始化状态：初始化界面线程所需要的工作，包括工作机制，基本和我们开发者没有关系，等初始化完毕就向 “服务线程”发送初始化完毕信号，然后进入等待传回初始化数据状态。&lt;/li&gt;
+&lt;li&gt;首次渲染状态：收到“服务线程”发来的初始化数据后（就是 json和js中的data数据），就开始渲染小程序界面，渲染完毕后，发送“首次渲染完毕信号”给服务线程，并将页面展示给用户。&lt;/li&gt;
+&lt;li&gt;持续渲染状态：此时界面线程继续一直等待“服务线程”通过this.setdata()函数发送来的界面数据，只要收到就重新局部渲染，也因此只要更新数据并发送信号，界面就自动更新。&lt;/li&gt;
+&lt;li&gt;结束状态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;服务线程五状态&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初始化状态：无需和其他模块交流，跟小程序开发也没多大关联，此阶段就是启动服务线程所需的基本功能，比如信号发送模块。系统的初始化工作完毕，就调用自定义的onload和onshow，然后等待界面线程的“界面线程初始化完成”信号。onload是只会首次渲染的时候执行一次，onshow是每次界面切换都会执行&lt;/li&gt;
+&lt;li&gt;等待激活状态：接收到“界面线程初始化完成”信号后，将初始化数据发送给“界面线程”，等待界面线程完成初次渲染&lt;/li&gt;
+&lt;li&gt;激活状态：收到界面线程发送来的“首次渲染完成”信号后，就进入激活状态既程序的正常运行状态，并调用自定义的onReady()函数。此状态下就可以通过 this.setData 函数发送界面数据给界面线程进行局部渲染，更新页面&lt;/li&gt;
+&lt;li&gt;后台运行状态：如果界面进入后台，服务线程就进入后台运行状态，从目前的官方解读来说，这个状态挺奇怪的，和激活状态是相同的，也可以通过setdata函数更新界面的&lt;/li&gt;
+&lt;li&gt;结束状态：页面被回收或者销毁、应用被系统回收、销毁时触发&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;更新&lt;/h3&gt;
+&lt;p&gt;小程序冷启动时如果发现有新版本，将会异步下载新版本的代码包，并同时用客户端本地的包进行启动，即新版本的小程序需要等下一次冷启动才会应用上&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OpenConnectSever搭建VPN总结]]></title><description><![CDATA[首先需要购置一台VPN用主机和自用域名，将域名 DOMAIN 的 A/AAAA 记录指向该主机，安装nginx并启动，主机推荐腾讯云香港区域的S1系列（CentOS） Let’s Encrypt 为了内容传输的隐密性，可以采用 Let’s Encrypt…]]></description><link>https://silentmaker.github.io/blog/ocserv-letsencrypt-vpn/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/ocserv-letsencrypt-vpn/</guid><pubDate>Fri, 26 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;首先需要购置一台VPN用主机和自用域名，将域名 DOMAIN 的 A/AAAA 记录指向该主机，安装nginx并启动，主机推荐腾讯云香港区域的S1系列（CentOS）&lt;/p&gt;
+&lt;h3&gt;Let’s Encrypt&lt;/h3&gt;
+&lt;p&gt;为了内容传输的隐密性，可以采用 Let’s Encrypt 来获取合法的服务器证书，自建 CA 并签发服务器证书固然是可行方案，但需要在每台设备上都信任该自建 CA，较为麻烦且不安全&lt;/p&gt;
+&lt;p&gt;TLS/SSL 协议的允许连接双方都对端做身份认证，对服务器端认证一般采用证书认证的，客户端认证一般采用用户名+密码的认证，也可以采用证书认证的方式&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;获取证书&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;测试时建议加上 —test-cert 以免用完 Let’s Encrypt 的证书获取速率限制&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; letsencrypt
+letsencrypt certonly // 为DOMAIN申请证书&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;自动更新证书&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;添加以下 cron 脚本至 /etc/cron.monthly/certbot，实现每月自动更新&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+WD&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/root/certbot&quot;&lt;/span&gt;
+LOG&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WD}&lt;/span&gt;/cron.log&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -p &lt;span class=&quot;token variable&quot;&gt;$WD&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$LOG&lt;/span&gt;
+certbot renew &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$LOG&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;生成用户证书&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用户证书只需 ocserv 信任 CA 即可，因此可以使用自建 CA 签发证书，将以下脚本保存到 /etc/ocserv/certs/，然后运行 &lt;code class=&quot;language-text&quot;&gt;./ocm generate USERNAME&lt;/code&gt; 即可直接生成用户证书 USERNAME.p12&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+init&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    WORK&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./work&quot;&lt;/span&gt;
+    CA_TMPL&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WORK}&lt;/span&gt;/ca.tmpl&quot;&lt;/span&gt;
+    CA_KEY&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WORK}&lt;/span&gt;/ca-key.pem&quot;&lt;/span&gt;
+    CA_CERT&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./ca.pem&quot;&lt;/span&gt;
+    USER&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt;&quot;&lt;/span&gt;
+    USER_TMPL&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WORK}&lt;/span&gt;/&lt;span class=&quot;token variable&quot;&gt;${USER}&lt;/span&gt;.tmpl&quot;&lt;/span&gt;
+    USER_KEY&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WORK}&lt;/span&gt;/&lt;span class=&quot;token variable&quot;&gt;${USER}&lt;/span&gt;-key.pem&quot;&lt;/span&gt;
+    USER_CERT&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WORK}&lt;/span&gt;/&lt;span class=&quot;token variable&quot;&gt;${USER}&lt;/span&gt;.pem&quot;&lt;/span&gt;
+    USER_P12&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./&lt;span class=&quot;token variable&quot;&gt;${USER}&lt;/span&gt;.p12&quot;&lt;/span&gt;
+    REVOKED_CERT&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WORK}&lt;/span&gt;/revoked.pem&quot;&lt;/span&gt;
+    CRL_TMPL&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${WORK}&lt;/span&gt;/crl.tmpl&quot;&lt;/span&gt;
+    CRL_CERT&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./crl.pem&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# Ensure working directory&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -d &lt;span class=&quot;token variable&quot;&gt;$WORK&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -p &lt;span class=&quot;token variable&quot;&gt;$WORK&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# CA Template&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -f &lt;span class=&quot;token variable&quot;&gt;$CA_TMPL&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; _EOF_ &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$CA_TMPL&lt;/span&gt;
+cn &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;VPN CA&quot;&lt;/span&gt;
+serial &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 1
+expiration_days &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 3650
+ca
+signing_key
+cert_signing_key
+crl_signing_key
+_EOF_
+
+    &lt;span class=&quot;token comment&quot;&gt;# CA Private Key&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -f &lt;span class=&quot;token variable&quot;&gt;$CA_KEY&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; certtool --generate-privkey --outfile &lt;span class=&quot;token variable&quot;&gt;$CA_KEY&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# CA Certificate&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -f &lt;span class=&quot;token variable&quot;&gt;$CA_CERT&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; certtool --generate-self-signed --load-privkey &lt;span class=&quot;token variable&quot;&gt;$CA_KEY&lt;/span&gt; --template &lt;span class=&quot;token variable&quot;&gt;$CA_TMPL&lt;/span&gt; --outfile &lt;span class=&quot;token variable&quot;&gt;$CA_CERT&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+generate&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# User Template&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; _EOF_ &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$USER_TMPL&lt;/span&gt;
+cn &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$USER&lt;/span&gt;&quot;&lt;/span&gt;
+expiration_days &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 3650
+signing_key
+tls_www_client
+_EOF_
+
+    &lt;span class=&quot;token comment&quot;&gt;# User Private Key&lt;/span&gt;
+    certtool --generate-privkey --outfile &lt;span class=&quot;token variable&quot;&gt;$USER_KEY&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# User Certificate&lt;/span&gt;
+    certtool --generate-certificate --load-privkey &lt;span class=&quot;token variable&quot;&gt;$USER_KEY&lt;/span&gt; --load-ca-certificate &lt;span class=&quot;token variable&quot;&gt;$CA_CERT&lt;/span&gt; --load-ca-privkey &lt;span class=&quot;token variable&quot;&gt;$CA_KEY&lt;/span&gt; --template &lt;span class=&quot;token variable&quot;&gt;$USER_TMPL&lt;/span&gt; --outfile &lt;span class=&quot;token variable&quot;&gt;$USER_CERT&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# Export User Certificate&lt;/span&gt;
+    certtool --to-p12 --pkcs-cipher 3des-pkcs12 --load-privkey &lt;span class=&quot;token variable&quot;&gt;$USER_KEY&lt;/span&gt; --load-certificate &lt;span class=&quot;token variable&quot;&gt;$USER_CERT&lt;/span&gt; --outfile &lt;span class=&quot;token variable&quot;&gt;$USER_P12&lt;/span&gt; --outder
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+revoke&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# Copy User Certificate to Revoked Certificate&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$USER_CERT&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$REVOKED_CERT&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;# CRL Template&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -f &lt;span class=&quot;token variable&quot;&gt;$CRL_TMPL&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; _EOF_ &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$CRL_TMPL&lt;/span&gt;
+crl_next_update &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 3650
+crl_number &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 1
+_EOF_
+
+    &lt;span class=&quot;token comment&quot;&gt;# CRL Certificate&lt;/span&gt;
+    certtool --generate-crl --load-certificate &lt;span class=&quot;token variable&quot;&gt;$REVOKED_CERT&lt;/span&gt; --load-ca-privkey &lt;span class=&quot;token variable&quot;&gt;$CA_KEY&lt;/span&gt; --load-ca-certificate &lt;span class=&quot;token variable&quot;&gt;$CA_CERT&lt;/span&gt; --template &lt;span class=&quot;token variable&quot;&gt;$CRL_TMPL&lt;/span&gt; --outfile &lt;span class=&quot;token variable&quot;&gt;$CRL_CERT&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt;
+    generate&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        init &lt;span class=&quot;token variable&quot;&gt;$2&lt;/span&gt;
+        generate
+        &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    revoke&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        init &lt;span class=&quot;token variable&quot;&gt;$2&lt;/span&gt;
+        revoke
+        &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    *&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;\
+Usage:
+    &lt;span class=&quot;token variable&quot;&gt;$0&lt;/span&gt; generate USER
+    &lt;span class=&quot;token variable&quot;&gt;$0&lt;/span&gt; revoke USER
+&quot;&lt;/span&gt;
+esac&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;ocserv&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;安装 &amp;#x26; 配置&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; ocserv&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;复制配置文件：cp /opt/ocserv-${VERSION}/doc/sample.config /etc/ocserv/ocserv.conf
+并修改以下项：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 打开 PMTUD&lt;/span&gt;
+try-mtu-discovery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 以 CN 为用户 ID。（用户证书认证）&lt;/span&gt;
+cert-user-oid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 2.5.4.3
+
+&lt;span class=&quot;token comment&quot;&gt;# 服务器证书与密钥（Let&apos;s Encrypt）&lt;/span&gt;
+server-cert &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /etc/letsencrypt/live/DOMAIN/fullchain.pem
+server-key &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /etc/letsencrypt/live/DOMAIN/privkey.pem
+
+&lt;span class=&quot;token comment&quot;&gt;# 如有需要，可修改 VPN 端口&lt;/span&gt;
+tcp-port &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 443
+udp-port &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 443
+
+&lt;span class=&quot;token comment&quot;&gt;# 修改 VPN 子网网段（避免和常用内网网段相同）&lt;/span&gt;
+ipv4-network &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 192.168.111/24
+
+&lt;span class=&quot;token comment&quot;&gt;# 修改 DNS&lt;/span&gt;
+dns &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 8.8.8.8
+dns &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 8.8.4.4
+
+&lt;span class=&quot;token comment&quot;&gt;# 注释掉所有的 route，让服务器成为 gateway&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# route = 192.168.1.0/255.255.255.0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;配置防火墙和 IP Forwarding：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;iptables -t nat -A POSTROUTING -s 10.12.0.0/24 -o eth0 -j MASQUERADE
+iptables -A FORWARD -s 10.12.0.0/24 -j ACCEPT
+
+f （net.ipv4.ip_forward&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;1）
+sysctl -p /etc/sysctl.conf&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;测试连接&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;修改 ocserv.conf 中的&lt;code class=&quot;language-text&quot;&gt;auth = &amp;quot;plain[passwd=/etc/ocserv/passwd]&amp;quot;&lt;/code&gt;，并通过 ocpasswd 创建用户&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;ocpasswd -c /etc/ocserv/passwd your-username&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;运行&lt;code class=&quot;language-text&quot;&gt;ocserv ocserv -f -d 1&lt;/code&gt;，在手机上通过 AnyConnect 尝试连接。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;配置证书认证&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;修改 /etc/ocserv/ocserv.conf 中的以下项：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;auth &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;certificate&quot;&lt;/span&gt;
+ca-cert &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; /etc/ocserv/certs/ca-cert.pem&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;重新测试连接&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;安装用户证书&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将生成的用户证书 USER.p12 复制到 nginx 的 WEBROOT&lt;/li&gt;
+&lt;li&gt;打开 AnyConnect 客户端，切换到 Diagnostics - Certificates - Import User Certiticate…&lt;/li&gt;
+&lt;li&gt;输入 &lt;a href=&quot;http://DOMAIN/USER.p12%EF%BC%8C%E7%84%B6%E5%90%8E%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81&quot;&gt;http://DOMAIN/USER.p12，然后输入密码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新建连接即可，地址为DOMAIN:443&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[箭头函数总结]]></title><description><![CDATA[箭头函数用起来比较潮，但是原来的函数写法依旧有其用处，毕竟这两者并不造价 箭头函数缺失的东西 没有自己的 this ，其this是由执行时在当前scope中继承的 没有 prototype 属性，所以用于new，如 没有 arguments 对象，也没有 new.target…]]></description><link>https://silentmaker.github.io/blog/arrow-function-notices/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/arrow-function-notices/</guid><pubDate>Tue, 26 Dec 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;箭头函数用起来比较潮，但是原来的函数写法依旧有其用处，毕竟这两者并不造价&lt;/p&gt;
+&lt;h4&gt;箭头函数缺失的东西&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;没有自己的 this ，其this是由执行时在当前scope中继承的&lt;/li&gt;
+&lt;li&gt;没有 prototype 属性，所以用于new，如&lt;code class=&quot;language-text&quot;&gt;new (() =&amp;gt; {})&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;没有 arguments 对象，也没有 new.target 和 super&lt;/li&gt;
+&lt;li&gt;不能做为生成器函数（generator function），但是可以返回generator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;new.target&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此属性用于判断函数是否被 new 操作符调用或者是否是构造函数，否则返回 undefined&lt;/p&gt;
+&lt;h4&gt;什么时候不该用箭头函数&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;事件监听&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;button&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// this会指向window&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;对象方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    age&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    older&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;age&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;对象原型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;Car&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;summarize&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`This car is &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;需要用于 arguments 对象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;orderChildren&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; children &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arguments&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// undefined&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;不过也可以通过别的方式来模拟 arguments 对象：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;</content:encoded></item></channel></rss>

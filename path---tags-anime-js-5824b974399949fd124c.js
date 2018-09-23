@@ -1,2 +1,2 @@
-webpackJsonp([20534942046853],{536:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"What",fields:{slug:"/animation-with-anime-js/"},frontmatter:{date:"26 July, 2018",title:"Animation With Anime.js"}}}]}},pathContext:{tag:"anime.js"}}}});
+webpackJsonp([20534942046853],{549:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"What",fields:{slug:"/animation-with-anime-js/"},frontmatter:{date:"26 July, 2018",title:"Animation With Anime.js"}}}]}},pathContext:{tag:"anime.js"}}}});
 //# sourceMappingURL=path---tags-anime-js-5824b974399949fd124c.js.map

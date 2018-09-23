@@ -1,2 +1,2 @@
-webpackJsonp([0x944ff8a0296a],{540:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Fetch",fields:{slug:"/fetch-vs-axios/"},frontmatter:{date:"02 June, 2018",title:"Fetch vs Axios"}}}]}},pathContext:{tag:"axios"}}}});
+webpackJsonp([0x944ff8a0296a],{554:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Fetch",fields:{slug:"/fetch-vs-axios/"},frontmatter:{date:"02 June, 2018",title:"Fetch vs Axios"}}}]}},pathContext:{tag:"axios"}}}});
 //# sourceMappingURL=path---tags-axios-60c6a4be2a0c9a267ed9.js.map

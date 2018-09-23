@@ -1,2 +1,2 @@
-webpackJsonp([81175481084121],{565:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"",fields:{slug:"/notes-on-javascript-ninja/"},frontmatter:{date:"26 March, 2018",title:"Notes on Javascript Ninja"}}}]}},pathContext:{tag:"note"}}}});
+webpackJsonp([81175481084121],{581:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"",fields:{slug:"/notes-on-javascript-ninja/"},frontmatter:{date:"26 March, 2018",title:"Notes on Javascript Ninja"}}}]}},pathContext:{tag:"note"}}}});
 //# sourceMappingURL=path---tags-note-2fd31a94b4ed3d227638.js.map

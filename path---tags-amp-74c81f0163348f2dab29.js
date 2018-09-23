@@ -1,2 +1,2 @@
-webpackJsonp([0xb3dac6560c9e],{534:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Accelerated Mobile Page",fields:{slug:"/amp-intro/"},frontmatter:{date:"22 July, 2018",title:"AMP Introduction"}}}]}},pathContext:{tag:"amp"}}}});
+webpackJsonp([0xb3dac6560c9e],{547:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Accelerated Mobile Page",fields:{slug:"/amp-intro/"},frontmatter:{date:"22 July, 2018",title:"AMP Introduction"}}}]}},pathContext:{tag:"amp"}}}});
 //# sourceMappingURL=path---tags-amp-74c81f0163348f2dab29.js.map
