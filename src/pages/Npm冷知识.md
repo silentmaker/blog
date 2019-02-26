@@ -6,7 +6,7 @@ categories: ['编程']
 path: '/tricks-about-npm'
 ---
 
-##### 用scope避免命名冲突
+#### 用scope避免命名冲突
 
 ```bash
 npm init --scope=myname
@@ -14,7 +14,7 @@ npm install @myname/mypackage
 require('@myname/mypackage');
 ```
 
-##### 创建可复用的npm init
+#### 创建可复用的npm init
 
 ```javascript
 // ~/.npm-init.js
@@ -33,14 +33,14 @@ module.exports = {
 npm init
 ```
 
-##### devDependencies的用外
+#### devDependencies的用外
 
 ```bash
 # 可以节约正式环境的安装依赖的时间
 npm install --production
 ```
 
-##### npm脚本
+#### npm脚本
 
 ```json
 {
@@ -56,7 +56,7 @@ npm run start
 # 等同于yarn start
 ```
 
-##### 版本管理
+#### 版本管理
 
 ```bash
 # 语义化版本号
@@ -65,7 +65,7 @@ npm version minor
 npm version patch
 ```
 
-##### 发布管理
+#### 发布管理
 
 ```bash
 # 旧方法
@@ -82,7 +82,7 @@ npm unpublish <package>@<version>
 npm deprecate
 ```
 
-##### 安全检查 
+#### 安全检查 
 
 ```bash
 # Node Security Project
