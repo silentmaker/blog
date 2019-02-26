@@ -1,0 +1,457 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/blog/component---src-layouts-index-js-381f7dc58380dc0cc91c.js" as="script"/><link rel="preload" href="/blog/component---src-templates-blog-post-js-74a1f27b159f9f13fa8a.js" as="script"/><link rel="preload" href="/blog/path---常见架构模式笔记-e1d40ca3f0fe49537863.js" as="script"/><link rel="preload" href="/blog/app-07a723349cc6f023683f.js" as="script"/><link rel="preload" href="/blog/commons-4df8a7916fd236c3e69d.js" as="script"/><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml"/><title data-react-helmet="true">常见架构模式笔记 | Elvin&#x27;s Blog</title><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><style id="gatsby-inlined-css">code[class*=language-],pre[class*=language-]{color:#ccc;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}</style></head><body><div id="___gatsby"><div style="margin-left:auto;margin-right:auto;max-width:56rem;padding:2.625rem 1.3125rem;" data-reactroot="" data-reactid="1" data-react-checksum="-1265328503"><h3 style="margin-top:0;" data-reactid="2"><a style="box-shadow:none;text-decoration:none;color:#007acc;" href="/blog/" data-reactid="3">← Elvin&#x27;s Blog</a></h3><div data-reactid="4"><!-- react-empty: 5 --><h1 data-reactid="6">常见架构模式笔记</h1><div style="font-size:0.91244rem;line-height:1.75rem;margin-bottom:1.75rem;" data-reactid="7"><span style="margin-right:1.75rem;" data-reactid="8">August 22, 2018</span><span style="margin-right:1.75rem;" data-reactid="9"><!-- react-text: 10 -->Tags:<!-- /react-text --><a style="margin-left:0.4375rem;" href="/blog/tags/架构" data-reactid="11">架构</a></span><span data-reactid="12"><!-- react-text: 13 -->Categories:<!-- /react-text --><a style="margin-left:0.4375rem;" href="/blog/categories/编程" data-reactid="14">编程</a></span></div><div data-reactid="15"><p>维基百科定义中，架构模式是指：在给定环境中，对常见的软件架构问题的一种通用的、可复用的解决方案，架构模式与设计模式很相似，只是边界范围更明确</p>
+<ul>
+<li>
+<p>Layered Pattern 层级模式</p>
+</li>
+<li>
+<p>Client-Sever Pattern 客户端-服务端模式</p>
+</li>
+<li>
+<p>Master-Slave Pattern 主从模式</p>
+</li>
+<li>
+<p>Pipe-Filter Pattern 管道模式</p>
+</li>
+<li>
+<p>Broker Pattern 经纪人模式</p>
+</li>
+<li>
+<p>Peer-to-Peer Pattern 点对点/对等模式</p>
+</li>
+<li>
+<p>Event-Bus Pattern 事件总线模式</p>
+</li>
+<li>
+<p>Model-View-Controller Pattern 模型-视图-控制器模式</p>
+</li>
+<li>
+<p>Blackboard Pattern 黑板模式</p>
+</li>
+<li>
+<p>Interpreter Pattern 拦截器模式</p>
+</li>
+</ul>
+<h3>层级模式（Layered Pattern）</h3>
+<p>软件架构可以可分解为很多不同的子任务层次时，刚适合此模式，每个层级都代表不同程度的任务抽象，并且每一层都负责像上一层提供服务</p>
+<p>通用信息系统中最常见的四个层级如下：</p>
+<ul>
+<li>表现层/UI层（Presentation Layer / UI Layer）</li>
+<li>应用层/服务层（Application Layer / Service Layer）</li>
+<li>业务逻辑层/领域层（Business Logic Layer / Domain Layer）</li>
+<li>数据接入层/持久层（Data Access Layer / Persistence Layer）</li>
+</ul>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-9fc5f.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 188px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 175%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAIAAAAblL1PAAAACXBIWXMAAAsSAAALEgHS3X78AAADDklEQVRIx+1VXU/bMBTl/7/wBn8AKlCFmDSkMqQieFmRKgRoqCrQlqZN0iY0X7YTx4mT7rhxS8VAHex11ql1r33P/bDdm635P4wt/HLf54NBOhqlhqEwHGrhXYxGvN/Pg0CTwSziuMzzMssUIABFAXleFIBWMQsBFUxh25oMf8puMbCNvVJKyRisZRzDbyGEJASLlQ0WM8dZkodD5XIxUAK7uwubzcnOjn9yYm1vvxwcIDW3VhOmqcmUZtPpGjnPdeQ8Zzc34NPr6/j2VhgGMiySBKEKzjWZsVcyHOMM0vFYndl4LCYTmCJOYhjcsjLbVou2jRUUqNa7XTEaaTKKUYUliUYcw/dcCM+27cFgnmWqcsbWDar6t969wLIsMftBMFmkV6nv33P5xyhwQ/N5EATO4lShvjF4JX8UuffY69x3NkRmgpmRaRN7BTM0QxnWG/X9b/tREUHFokUszBMyGYdjUDR54A+82KMppYJiJikBIh4lMgEgYz1KoyRLsAsa+FZkabIRGLlU95zmqZDqtZRznWdRqmoxQ4a7vFBmsYgdunxhQ3+YZimEB/cBKZ10To5+HZ12T3d/7kKG673rPdQF2aUuzBB/SqevkTOp3jb8tYat86fzRrdxObhsGa2u24Xp/eQe1nZk84y/jfw0e0JAeHWZCws/8ZHLlExxELN4hkUIwEv8As6MzfpeH/GWzzPj2AMHCHgAOeQhTsjyLMMxwjSEi4pf2UDlOd9wz5xzRtmGe/6InCQJpfQ/+TNkQsgXyXHMCAk3kKUsCZHrCMMM7eD4+Mfh4XcIUN8YgKLJo5Fqkmh7tq2BhmdZ+eNj2OmgkUnTFItGqDCdZmiWEJb/qmGKj8HffJyq9NEL4WJFFkJoMlKCikRaLYb54oK026hcttvxbKZ7O6VrZKS9ikypvLpiZ2dRreY1GlG97jebBLvPz6nnaTIasePkmtzrpVEkOdddGQEdJ0ORKLVq2NhCL69auxCF6+amuYyMfJAq9PFYoTo5kAGcXLW4Asz6feF5Hzf9T3zccYZfAMZv+xXb2rrJbcwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Layered Pattern"
+        title=""
+        src="/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-9fc5f.png"
+        srcset="/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-c96ad.png 148w,
+/blog/static/arch-pattern-1-9f67d60b4d54c211710befa9203a1d89-9fc5f.png 188w"
+        sizes="(max-width: 188px) 100vw, 188px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：桌面应用，电商网站应用</p>
+<p><em>优点</em>：低的层级可以被不同的高层级调用，只要层级定义清晰，可以很容易做到标准化，层级内的变更不会影响到其他层级</p>
+<p><em>缺点</em>：并不是万试万灵；特定情况下有的层级需要被跳过</p>
+<h3>客户端-服务端模式（Client-Sever Pattern）</h3>
+<p>服务端与客户端是一对多关系，客户端发出对服务的请求，而服务端监听并响应请求</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-0e013.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 284px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 112.67605633802818%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAAsSAAALEgHS3X78AAACTElEQVQ4y32UW2+iUBSF/f8/pUnT5ya2qWniS33QyeAlEwc4chFULIgXEHA+2Q6COrNAcjxnr732DVpFUSRJstvttv9FHMdZlp2aaMHs9/uLxSKKovV6/f0PcOS67g2/td/vfd/3PA8L3G8EUXS+a0Acm9FoRKRXMrthGOLYMAzTNA2BUudb1893CV3XLcviiRg0cdEiW9GESQp5nmd5nm42aRznp1NWFFmaHo9HrDHDJk3ThjKyBMZBldJhNIre3sLX183nZ/z1JZsi0CDzZz6f41UphSP+Jmm6dd2NroeaFrPpOEkpHgTBLZkfaQyHQ7MGZVmGZf1i4Tgm67IcgJwPh8M1Z/GBJuLST0EUhnPXpfthGZQ0AhuKckuuN0CAEb5YUAh6Wdk0WlWRbwBHyGRLUVCWuPYl6NGVfA+UmTkhL5fLwWDQ6/W63W6n02m325PJ5EIuHgFlcQ+ZsKkT40lT8cgsN8J+qFzlLNb3dWlhRA1lQutYrVbMI/vEPJ1OabIEkpe4kImHfLCgDEjt/oI1EUptWLMgbBnsqzJnePVKsEBwybVaYUqFZAeIjaZplKAx2xI2k2CXcGzH93yG6f3tHRe2ZZ9vHpY1m80aE1a9VcygzG1yTObR/FLzPEuzVJJEoLK5KEMjJCFLSHESP/98ftFeukb36cfTx+8PMWU8b8l4JTaaQdj4JguM7IVt+EbwHaiF8gJvG58LSbcfvFV0cjwel98PJW/PTM0sZSlTseBpmOe3ilMKwQfjdrYJGN9JDQeuO9Cq+qj8AZ1JGsS7xcCQAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Client Sever Pattern"
+        title=""
+        src="/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-0e013.png"
+        srcset="/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-cbf60.png 148w,
+/blog/static/arch-pattern-2-fd259d2efe99ba07f76cf6dc050a8626-0e013.png 284w"
+        sizes="(max-width: 284px) 100vw, 284px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：email，文档在线共享，在线理财</p>
+<p><em>优点</em>：很好了模拟了多客户请求多服务的场景</p>
+<p><em>缺点</em>：请求一般需要服务端进行多线程处理，用户有多点表征时内部通信管理困难</p>
+<h3>主从模式（Master-Slave Pattern）</h3>
+<p>主机可以将任务分配到各个从机上，每个从机都是独立、可标识的，主机可以对从机的返回结果进行汇总计算</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-59b8a.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 542px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 39.11439114391143%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAA90lEQVQY041Py27CQAzM//8XHBAS4gZHmrZJNmQT4rX36YWR6IWqVWutrBmvZ2w399eoqoVImVVEvUcGrTnff4rmuziESpSNWbfbdbOJXVdhxPw/sSpPk0xTMMb3fbCWjNGU/haXgh2JRYBjSj4EAB/jShRj/FWsigO9I1dyeVZEBEZf69QKyo5zeTm+WfzCmfuxH+zgknPR3fwNYLpN4zwCgEoSAEu27VryRIHWsGrVJpZ4/DwePg7t0sLsylef/UDD7m13Hs+gqSQrtmi5zJf9+/5kTlDCDsIGxrOf0bTI8rTELrPMxhk8APxyYmRYoIJOYPRg8gM/8c6XEkdTzgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Master Slave Pattern"
+        title=""
+        src="/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-59b8a.png"
+        srcset="/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-70593.png 148w,
+/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-427b7.png 295w,
+/blog/static/arch-pattern-3-3c96ff5dbd5a7287786bb1aeed1bed06-59b8a.png 542w"
+        sizes="(max-width: 542px) 100vw, 542px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用情景</em>：数据库的主从同步和读写分离，电脑系统中通过总线接入外部设备</p>
+<p><em>优点</em>：准确性 - 服务的执行委托到不同的从机，不同的从机可以有不同的实现</p>
+<p><em>缺点</em>：从机是分离的，没有共享状态；主从延时在实时性系统中会造成问题；只适用于解决于可分解的问题</p>
+<h3>管道-过滤器模式（Pipe-Filter Pattern）</h3>
+<p>此模式适用于处理并生成一系列数据流的软件架构，其中每个处理步骤后都附带一个过滤器组件，数据通过管道来传输，管道可用于缓存或者同步</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-381b1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 19.095477386934675%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsSAAALEgHS3X78AAAAj0lEQVQI11WOiwrCMAxF+/+/ad2jrrileSzpxoytiB4CzYVecoKqmhkx+3M1jvOw47M79aw+fdf+syEiYWsQkcxzHUYmmGF6yspltVuknBKmBRfZ0WKUaeJSAICZETGkBpZiTJfswiWu8YGLKr8jwrDdBxh3FY+K6OWcs/f9XnDnWiv/a389e/T51fZK134BDLnnCUML+QcAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Pipe Filter Pattern"
+        title=""
+        src="/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-fb8a0.png"
+        srcset="/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-1a291.png 148w,
+/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-2bc4a.png 295w,
+/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-fb8a0.png 590w,
+/blog/static/arch-pattern-4-e5adb4bf00f4870f89a850e77acab48a-381b1.png 796w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：编译器（词法分析，转义，语义分析，代码生成等一系列连贯的过滤器），生物信息学中的工作流（如DNA序列分析）</p>
+<p><em>优点</em>：可以很好地表现同步处理过程；数据流一产生即可开始处理；增加过滤器非常方便，过滤器可复用并且可以组合成不同的流水线</p>
+<p><em>缺点</em>：有短板效应，更换过滤器的时候要管理数据异构</p>
+<h3>经纪人模式（Broker Pattern）</h3>
+<p>此模式适用于组件解耦化的系统，组件之间可以通过远程服务调用来交互，同时，有一个经纪人组件负责协调组件间的通信，组件将自己的特征和服务等能力信息注册给经纪人，客户端向经纪人请求服务的时候，经纪再根据注册信息将请求重定向到合适的模式</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-0b4cf.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 60.79545454545454%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABOElEQVQoz42Si27DIAxF8//fmKkPVaJ5iYQAxmDIbkq1Vm03zbKQbY6NMTTbJxHnMlFeV5nn3fB+y/kdaz4mZ2ux0vHov762UpBcRP6dHMLGbLWmxZTAOfA7U8ovyVUohBjjH0DjfX5X54R5m7XprgNs3JqovDDWSoPR1B6qVhsSY+l7GQZ2zkOZ4wtmzFMyJKVkjLlfO2/n83o6mdsujvVd1wH4gffk20Pc+xxHo9QEo7rTpLVeMDsAcJUah8HcXKmdPwYmgpB/ngcz16MeIySSpzdrUk6cOOe8LEtIgWV/lShRCn6K8+QBwN1rCccU52WukSSpoUjQw3Q4TkdsoxBWSmTZtkN70RdUBIBgiEGTbvv2aq7A1rA24Bw7ZVRvex89XBQGbYKpQRfdPZhIe61WNboRwMrrNzxrvbHi5QzqAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Broker Pattern"
+        title=""
+        src="/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-fb8a0.png"
+        srcset="/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-1a291.png 148w,
+/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-2bc4a.png 295w,
+/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-fb8a0.png 590w,
+/blog/static/arch-pattern-5-3a9db9ec655cc7dc9b42e6b19543a9fd-0b4cf.png 704w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：ActiveMQ、Kafka、RabbitMQ 和 JBoss Messaging</p>
+<p><em>优点</em>：支持动态地改动和增删对象，服务分布对开发者而言更透明</p>
+<p><em>缺点</em>：必须要对服务描述进行标准化</p>
+<h3>点对点/对等模式（Peer-to-Peer Pattern）</h3>
+<p>在此模式中，独立组件都是对等的Peer，并且的动态地切换角色，做为客户端时向其他Peer请求服务，做为服务端时可以提供服务</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-2a034.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 260px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 95.38461538461539%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsSAAALEgHS3X78AAACZUlEQVQ4y4VSaW/aQBD1//8fqZREIgpfiBQIzaFEUS5VJDQtIPDaxvjCt3e9B+6znUIbUdV6WmZm35t5jK1VVbXhXFH6F4qiRp7X56erBpuyhFDDDyOEBwH3vA+4rkwSmWUyTRGIIBBhiOKO4PvMMDZSamiDvKoNbLZn+vSU3N4W43Hx/l5TCflEQEf43S+m8zn0Yb+PFjKOMXZHaB7h+x9iRHBIZzM6nZa2XRoGdxxUtlYxp1wucYVKaZpoJ9brRlwUiGAvubuLBoPg6Ci+ukqfn6Ph0Ds8jIfD4vU1OD0Nul36+Bh0OlG/XxKCLWBZzcIWCzTGyW07J4RhguNgAtJ6YDOTWZY3mZSWVTMNg+n6Rgit/i9CwAO2h9i17SJNK6XqYgvOKylZnp/3eqqh1WQh6le13cGm2Yfn+5TSat/juK5S6s/KZ7Hruv8S27b9H3EYhoyx/ZNXzh6xVJJJxgRTlRp8HTi+IyuJtEUpS5xccd3UKadcclQgqcVISEjczF0lKy/3RrMR8UnCEiCmcUQjP/eDPHBSxwgMcBC4qQsJ9BqaeZm3td2eL9bLvX4/8SZTfwoxqDtCVZ8oYqpGxR7x2Blfzi67b93+pL8u1mZkbq/a57eYU0RooYc6JoRFCFcQoALPLVKWBkUAxCzGpKzMQKjFBS8geFu93cxvet97X16+DCaDB+PhYnpx8Hxw/vN8ZI9ORiedUed6fn387fjsx9l8PUdHrE3DJklEVulqsV7YiW3GJlbiZA6sLpMlgCsrtgAYbItWYhmRIVTzeaIHgAROhBRtingHxds3VHMUbwkQ/gJaDDGrX8QwmwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Peer to Peer Pattern"
+        title=""
+        src="/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-2a034.png"
+        srcset="/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-67ba2.png 148w,
+/blog/static/arch-pattern-6-762c9516f5df5940cfcd4b1f600aa697-2a034.png 260w"
+        sizes="(max-width: 260px) 100vw, 260px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：Gnutella 和 G2 等文档共享网络，P2PTV 和 PDTP 等多媒体协议</p>
+<p><em>优点</em>：支持去中心化计算；单点故障时的鲁棒性高；资源和算力的伸缩性比较高</p>
+<p><em>缺点</em>：服务的质量无法保障，Peer之间的协作比较脆弱，安全很难保障，性能取决于Peer的数量</p>
+<h3>事件总线模式（Event-Bus Pattern）</h3>
+<p>此模式主要用于处理事件，主要的组件有如下四种：</p>
+<ul>
+<li>事件源（Event Source）</li>
+<li>事件监听器（Event Listener）</li>
+<li>频道（Channel）</li>
+<li>事件总线（Event Bus）- 事件源通过向特定频道发布消息，而监听器则订阅了特定的频道，从而得知事件发生</li>
+</ul>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-f18e1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 63.92405063291139%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABhklEQVQoz21SyXLCMBTL/39eOXDoAQhLQjbvz7upjDudtvDGcZ6FZMsi3aNVKZmohFBizN6jf+QMOBtTwedAD9rjV3Xf2pSSEO54tIdDmOekFNjAoxBA3OnkrlcQynPHF3HOSUo/TW4cI2NVnFIVA7zfAYZpipy/P/mnCOb/MlDO+1ewiuHXex9jwEAJIXxA36o2ACXOr5y2+i4sOq01TsPV1pWkdH1/E4K2jTi3UtYGy/N5ZMwwZjkn51xTQtUR2ZyztQXW+j6cTvF2w08FMeMGAC+X2PcVxJKoBjYMw4xQU+qMIYRlTBYiIZe+p/s9KJW0xl+TloWGwV8udhw9CMBxd2O0Uqraho3mnMh4D7ercxYg53yeJ86Zs3DOrDWV8Sz7rGr7J7ryqHkyxqBEbJhbwniwUUr5TdrtlUpSTmmvF7lselvVmktlc8uBA8QsrGjgizhX8X7afwwfV3nVQYdUv7DVrJ/L527cHbbDopf3YjjEscYbCoRhgmm8BtpgMWP3f5/KF6Af8kk7iI3wAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Event Bus Pattern"
+        title=""
+        src="/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-fb8a0.png"
+        srcset="/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-1a291.png 148w,
+/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-2bc4a.png 295w,
+/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-fb8a0.png 590w,
+/blog/static/arch-pattern-7-56efaa6cd50c5ec0ba05e9b36a403ffd-f18e1.png 632w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：安卓开发，消息类服务</p>
+<p><em>优点</em>：发布者、订阅者和链接都可以很方便地增加；对高分布性的系统来说很有效</p>
+<p><em>缺点</em>：系统规模的伸缩性不好，并且所有的消息都必须经过总线</p>
+<h3>模型-视图-控制器模式（Model-View-Controller Pattern）</h3>
+<p>MVC 模式则是将交互型应用拆分为三部分，使得信息从产生到被用户接收的过程变得更清晰，有利于组件的解耦和复用：</p>
+<ul>
+<li>模型（Model）包含核心的功能和数据</li>
+<li>视图（View）向用户展示数据</li>
+<li>控制器（Controller）处理用户的输入</li>
+</ul>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-0ccd1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 43.48925410872314%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABEklEQVQoz32Q247DIAxE+/+f19dWVdSLsiQESFLA2EA6abSXdrVrIWTZnLGZnTHGWttrPc/zIpKJakqFuSARcc6N49j3fQhBipBQkpRyQiJZdiCVUh36SgVjllrpcuGuq8w0Tf0wrJ0P1elu8tPgh6M+4rjooLJbPqOUso5l5mmK1m7za62ob93IcRgHPeo5zYHXRb7hn5GwWs4gm6bZ7/fYDkURoUgll69nL/AqHyNIIoIFyG+32/l81lpDywfP8tyllhcYJdze+8Ph0Lbt9Xq11jCnrY4bcpCAFgyCHLZ4n/wWMTKshhXGuBgJEmBWa54/+g8OoaRU2zadTnS/i/fl+f4l/oRhPHjnslISwpr/hh9b7wsAgLPRtAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="MVC Pattern"
+        title=""
+        src="/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-fb8a0.png"
+        srcset="/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-1a291.png 148w,
+/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-2bc4a.png 295w,
+/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-fb8a0.png 590w,
+/blog/static/arch-pattern-8-6ce0e512f2614d5ecdae320af4eb1b0e-0ccd1.png 791w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：Web站点，Web框架</p>
+<p><em>优点</em>：同个模型可以有多种视图，并且在运行时动态展示</p>
+<p><em>缺点</em>：复杂性增加，用户行为可能会触发很多不必要的更新</p>
+<h3>黑板模式（Blackboard Pattern）</h3>
+<p>这类模式一般用于已知解决方案不确定的问题，核心的三个组件为：</p>
+<ul>
+<li>
+<p>黑板（Blackboard）- 结构性的全局内存，包含了所有可能的解决方案</p>
+</li>
+<li>
+<p>知识源（Knowledge Source）- 带有自身实现的特定模块</p>
+</li>
+<li>
+<p>控制组件（Control Component）- 选择和配置并运行模块</p>
+</li>
+</ul>
+<p>所有的组件都可访问黑板组件，组件可以产生新数据并添加到黑板上，同时，组件也可以通过对知识源的模式匹配在黑板上找到特定类型的数据</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-fde3e.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 530px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 56.41509433962264%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABgUlEQVQoz4VRXU/jMBDM//9XiIc+IKC5SkioCFG4po7j2I436287bAOl0t0Do5UV25nZ8Wyz/IZcs3a6h54Z9lUcuLTSRtv8SnbRMWAta+/+3t2+3W4+Ng/dw17slVVXcq0VEed5xh9YBAO96DveHd4OVN2xO3WnnvW5ZOPNlZxSAoBSSl5RVpCiT16jBgSwoI1WRqHDkAJ4uJKd95MxXxb+cR5yIIlYIxOMXPjsMWIqqSmIyZg8jmq/58/PeRhom7T+X4LgqYMPP9smjWPUGp6eYLPBx0ds2zLPifOa0iWLJYRClctCMUwGcj6fpFQbK+X76+vH8TgBpJxDjCEEr9RSyvdzXBGC/C2HQ7i5Mff3KCUZTUKkxinFuq7v+2manHOWxK3FcawXcgiV81kIuq3WUvPiPX1UrfO585/ttt3tHN1c0rLj2J9ONCwAoxS+vLzvdlvOmZRDWUVpDgC5ofk4IbyU59joYK2kFE1sFaoxFqWiUn4YcBgspUm/0DrP+RPKo3bDsyvDeQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Blackboard Pattern"
+        title=""
+        src="/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-fde3e.png"
+        srcset="/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-8803e.png 148w,
+/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-77437.png 295w,
+/blog/static/arch-pattern-9-fc4c1afba74eba7ef729b15ceb59e4e7-fde3e.png 530w"
+        sizes="(max-width: 530px) 100vw, 530px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：语音识别，车辆识别和追踪，蛋白质结构识别，声纳信号拦截</p>
+<p><em>优点</em>：添加新应用很方便，数据空间的拓展也很容易</p>
+<p><em>缺点</em>：变更数据空间很难，因为所有的应用都会被影响到；经常需要做同步或者访问限制</p>
+<h3>拦截器模式（Interpreter Pattern）</h3>
+<p>此模式主要用于在现存软件架构中设计拦截器组件，比如用于识别一种语言的程序中特定的几行语句或者表达式，从而使得语言中的每种符号都能被分类</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-7c491.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 70.75757575757575%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABfUlEQVQoz41Sa3PCIBD0//+6aqs2nzJtRcxD5RHggBC7gbbOWO30csOQO/ZuuWVxuWdjthijUmr4NufczbHFbyQwWmvvvZSy73vGWFVVnPMCnqbpCkbIWoujRITyKSVs8FvSSBljSuef4BVc0tvtFk1AEt1Kics/7AsshNDZUB6REAJyybnRmOLYJ2unHL+Cp2zlMmUDJO4wX75p3Hptnp8N1tWK6joNwyUffTgwgMEFFPqPD1bXh/f3/dvbifPJOd11IcbgfbnXHTD6A+mI3Pk8Ec0D1BqEwdwKUUpTprZ4NIw4jrMEWYzT8TiL4WYVoH9WxP8FHvSAJhFfNpDFq0ElaAFq9ztTJOEEvJGN8kqSdHF+G1onKScpx6ah0ym0rcHsb8HKqaqplrvl0+4J62v72g9HxOvaLZdqsxlWK/3yYqqKGPO3YGnlbr/jBw5vuzamqL1GvOs0Y3vOW8b4+awQESL+oh2IRvIYFjx5G6wJBnE8E7zO4kRQDZKPn8ONLKITwXVrAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Interpreter Pattern"
+        title=""
+        src="/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-fb8a0.png"
+        srcset="/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-1a291.png 148w,
+/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-2bc4a.png 295w,
+/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-fb8a0.png 590w,
+/blog/static/arch-pattern-10-3bc063debec6657191ef04d87ef82859-7c491.png 660w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>常用场景</em>：数据库查询语言，用于描述通信协议的程序语言pa</p>
+<p><em>优点</em>：高度动态化，对用户重编程很友好，拦截器的替换很方便，所以提高了可拓展性</p>
+<p><em>缺点</em>：拦截器模式的编程语言一般要比编译的语言慢，性能可能会成为问题</p></div><hr style="margin-bottom:1.75rem;" data-reactid="16"/><div style="display:flex;flex-wrap:wrap;" data-reactid="17"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0iQjg1RUQ2ODg1Qjk2Q0E1OTVEMTk5QTA5NzVGMDI3MjQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUUxQkFFRkE5N0ZCMTFFOEE5RkFCNzhFQTU2RDNCMjEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUUxQkFFRjk5N0ZCMTFFOEE5RkFCNzhFQTU2RDNCMjEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTFjY2QwODktZjdjMC00NzIwLTljOGUtNWU2YzhkZWFhOTRjIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjUxY2NkMDg5LWY3YzAtNDcyMC05YzhlLTVlNmM4ZGVhYTk0YyIvPiA8L3JkZjpEZXNj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" style="margin-right:0.875rem;margin-bottom:0;width:3.5rem;height:3.5rem;" data-reactid="18"/><div style="flex:1 1 0;" data-reactid="19"><p data-reactid="20"><!-- react-text: 21 -->Written by <!-- /react-text --><strong data-reactid="22">Elvin Ma</strong><br data-reactid="23"/><!-- react-text: 24 -->Living, working and building<!-- /react-text --><span style="cursor:pointer;color:#007acc;" data-reactid="25"> interesting stuff</span><!-- react-text: 26 -->.<!-- /react-text --></p></div><ul style="margin:0;display:flex;visibility:hidden;opacity:0;max-height:0;list-style:none;flex-wrap:wrap;transition:all 0.5s ease;text-align:center;font-size:0.8rem;line-height:2rem;" data-reactid="27"><li style="flex:0 1 111px;" data-reactid="28"><a target="blank" href="https://silentmaker.github.io/angry-pigs" data-reactid="29"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:0px 0;" data-reactid="30"></div><div style="color:#999;" data-reactid="31">angry-pigs</div></a></li><li style="flex:0 1 111px;" data-reactid="32"><a target="blank" href="https://silentmaker.github.io/doodle-jump" data-reactid="33"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-64px 0;" data-reactid="34"></div><div style="color:#999;" data-reactid="35">doodle-jump</div></a></li><li style="flex:0 1 111px;" data-reactid="36"><a target="blank" href="https://silentmaker.github.io/earth" data-reactid="37"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-128px 0;" data-reactid="38"></div><div style="color:#999;" data-reactid="39">earth</div></a></li><li style="flex:0 1 111px;" data-reactid="40"><a target="blank" href="https://silentmaker.github.io/icon-studio" data-reactid="41"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-192px 0;" data-reactid="42"></div><div style="color:#999;" data-reactid="43">icon-studio</div></a></li><li style="flex:0 1 111px;" data-reactid="44"><a target="blank" href="https://silentmaker.github.io/lecturer" data-reactid="45"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-256px 0;" data-reactid="46"></div><div style="color:#999;" data-reactid="47">lecturer</div></a></li><li style="flex:0 1 111px;" data-reactid="48"><a target="blank" href="https://silentmaker.github.io/mind-map" data-reactid="49"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-320px 0;" data-reactid="50"></div><div style="color:#999;" data-reactid="51">mind-map</div></a></li><li style="flex:0 1 111px;" data-reactid="52"><a target="blank" href="https://silentmaker.github.io/plinko" data-reactid="53"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-384px 0;" data-reactid="54"></div><div style="color:#999;" data-reactid="55">plinko</div></a></li><li style="flex:0 1 111px;" data-reactid="56"><a target="blank" href="https://silentmaker.github.io/snake" data-reactid="57"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-448px 0;" data-reactid="58"></div><div style="color:#999;" data-reactid="59">snake</div></a></li><li style="flex:0 1 111px;" data-reactid="60"><a target="blank" href="https://silentmaker.github.io/sprite-generator" data-reactid="61"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-512px 0;" data-reactid="62"></div><div style="color:#999;" data-reactid="63">sprite-generator</div></a></li><li style="flex:0 1 111px;" data-reactid="64"><a target="blank" href="https://silentmaker.github.io/tailor" data-reactid="65"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-576px 0;" data-reactid="66"></div><div style="color:#999;" data-reactid="67">tailor</div></a></li><li style="flex:0 1 111px;" data-reactid="68"><a target="blank" href="https://silentmaker.github.io/todos" data-reactid="69"><div style="width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-image:url(/blog/static/sprite.736de411.png);background-size:auto 125px;background-position:-640px 0;" data-reactid="70"></div><div style="color:#999;" data-reactid="71">todos</div></a></li></ul></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0;" data-reactid="72"><li data-reactid="73"><a rel="prev" href="/blog/vue-in-depth/" data-reactid="74"><!-- react-text: 75 -->← <!-- /react-text --><!-- react-text: 76 -->Vue in Depth<!-- /react-text --></a></li><li data-reactid="77"><a rel="next" href="/blog/如何实现javascript的私有变量/" data-reactid="78"><!-- react-text: 79 -->事件循环<!-- /react-text --><!-- react-text: 80 --> →<!-- /react-text --></a></li></ul></div></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-07a723349cc6f023683f.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","107818501498521":"component---src-templates-blog-post-js-74a1f27b159f9f13fa8a.js","50739212244294":"component---src-templates-tags-js-3b5ad4f33fe3d6e9eb37.js","26379419371658":"component---src-templates-categories-js-40d57939ad0b9035c4c1.js","162898551421021":"component---src-pages-404-js-4503918ea3a16cfcdb75.js","35783957827783":"component---src-pages-index-js-bfb01f977f86e284a839.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","152209814325684":"path---pwa-checklist-7b49d18aa25d962d9a7c.js","29725994337405":"path---关于管理者-646929fcac0dd92b7958.js","56919714933545":"path---关于学习和实践-b706996558253c72625f.js","86114944496880":"path---关于敏捷开发-56cd183161b8a8f706f7.js","29301326412179":"path---cdn基础总结-710bbaf1e6897e6a2885.js","70869382568578":"path---如何实现javascript的私有变量-8df10156a4d33e06a47e.js","17370563923357":"path---常见架构模式笔记-e1d40ca3f0fe49537863.js","124895945516689":"path---vue-in-depth-c6e04b6319600cc9f9fb.js","133819422041281":"path---build-snake-game-with-p-5-js-f7749466268f9cc35953.js","199540794892958":"path---matter-js-intro-703114ce08602961f344.js","204396777873400":"path---presentation-on-the-web-with-reveal-js-5834de6e68b47b392d06.js","138926941538800":"path---three-js-intro-94af08c50ff7a3f96ce0.js","52355807448137":"path---event-loop-e2ec15c1843c6bc01a1d.js","190549353693087":"path---ploymer入门-1719ac8adc489bbbaadd.js","139947674720595":"path---rail性能模型笔记-4584ac896bfe5cd17308.js","192611108146900":"path---redux基础-62796e7dc6a7f4763cc7.js","31561069684164":"path---amp-intro-2249eb4c14d103525570.js","6515634699170":"path---workbox-usage-578e4535b8ff4baff2b9.js","253558645966524":"path---javascript-metaprogramming-eb98857bf1a57289b606.js","18153917449945":"path---ssr-optimization-b9b1a12e9fda586cc37b.js","149721835974184":"path---web-worker笔记-9526dfd9a2bc4b0bf819.js","122737756078394":"path---d-3-force-directed-graph-764dc2df11f8cca59ba0.js","177074755663005":"path---fetch-vs-axios-1f0c4b8fcf1f4cccfcf1.js","138443546706885":"path---optimizing-runtime-performance-f8779da1f6be4ba4dbb8.js","46900025108153":"path---页面渲染问题总结-2606a3e825997fbf2495.js","223550459169644":"path---babel笔记-4b85720bb3e07a57fe9b.js","245073411151466":"path---前端工程师的一专多长-cff86bd2be5630b66a9d.js","277944256796573":"path---graphql-intro-c26b2ba600a2c8169c3e.js","45182713251922":"path---前端监控系统总结-51e9e0b34935a57b0e13.js","23518298290265":"path---函数式编程基本概念-1343beb4bb947d7726ae.js","267498388724982":"path---用-open-connect-sever搭建-vpn-6580620d030563665a43.js","45530087768325":"path---关于大前端-640eb9e6f4184ebc400b.js","121842516411680":"path---箭头函数总结-260a21069b84b388aae3.js","224641556761869":"path---事件循环原理-bf65f310d2d62445c91a.js","89739269026605":"path---一个极简的-promise垫片实现-0a32b7af1a6c6960a0a9.js","21984445403115":"path---网站性能优化总结-b1ff74965bec52026dd1.js","8504286995630":"path---react-native入门笔记-1b1c722e627e3bb68f5e.js","57227495939072":"path---小程序基本原理-76eeafa4b53ea1b47412.js","213088764613819":"path---内存管理与垃圾回收-05ee36c8d0feaa742186.js","33805935564660":"path---javascript忍者禁术笔记-runtime-be406842da1e7cd62e15.js","177213297255053":"path---javascript忍者禁术笔记-object-3b63fb1b2521be209d3b.js","115002713898180":"path---javascript忍者禁术笔记-function-1d0e8fd83baea10b2954.js","188168918438932":"path---js的模块系统-fbcb992fd2e295dfb2e5.js","266019269853472":"path---npm冷知识-a7eed2b84f75c9fa3ebd.js","150941911651951":"path---js里的严格模式-bbb6e5d1d57a4244725e.js","73546786215923":"path---tags-pwa-e3bb0ebc096003b3e65d.js","67335324583948":"path---tags-javascript-034d65250d616c5bd940.js","276392415027055":"path---tags-项目管理-b66787ed3eaafba0040a.js","49162036416786":"path---tags-学习-be8b674a4cddca61b8e0.js","198727112194860":"path---tags-web-27f052317a23476f42cc.js","23522073470661":"path---tags-架构-0331f83daa07338e6951.js","122518637514710":"path---tags-vue-8a200827f681ce3ab2a0.js","132056812191107":"path---tags-game-c80ae5e2269dce160f8f.js","108668466126655":"path---tags-p-5-js-909a35df9415397e2a45.js","114334666964762":"path---tags-matter-js-0b470ef4d5902fa6d5c2.js","223215108996900":"path---tags-web-presentations-f317086eb9cb04e56ab7.js","43224792655151":"path---tags-three-js-b10318548d12948aa236.js","244513232299342":"path---tags-event-loop-7da1fe0d6058e97a0306.js","255810444536664":"path---tags-polymer-13cec3c7b2a1ab1460d8.js","85273878220361":"path---tags-performance-0231fd5dd1d48a1d572a.js","197752211770526":"path---tags-amp-74c81f0163348f2dab29.js","126397933228485":"path---tags-workbox-7e9a40d616bbd538f5fe.js","257990476120450":"path---tags-service-worker-ff0170274db4c2e202f5.js","64666208081412":"path---tags-image-a69ab53632fa4c57ecfc.js","195395655687074":"path---tags-ssr-37c71c957fc5c473504b.js","127501106087498":"path---tags-d-3-js-a3edf42162154e342d4f.js","109152504318123":"path---tags-fetch-9dd05f2ee316cd337029.js","163071194573162":"path---tags-axios-60c6a4be2a0c9a267ed9.js","58192557520156":"path---tags-性能-304b62a251cfad3ab584.js","195479872904023":"path---tags-前端-1913da5ff6bc83067df8.js","50597499775658":"path---tags-graphql-7132c3266eae17bea89c.js","262293125353445":"path---tags-front-end-9d0ce73ba9962c6014dc.js","20956934260092":"path---tags-programming-e9d06ee8500384b05aaa.js","32220295004952":"path---tags-vpn-71a46490701ce022ce0e.js","267768730224922":"path---tags-mini-program-2e50415b4aef3c71e09c.js","256147262351551":"path---tags-npm-ecfd52cc455a04b36f43.js","155721282821762":"path---tags-js-conf-33d5d84f1c6e91d9b6b1.js","171494925846906":"path---categories-dev-ace36d14974ef56f1155.js","100001959687580":"path---categories-随笔-bd889c8b0faf1a9e1db3.js","260249089781156":"path---categories-编程-fd9dc0cb92993439d47b.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-6e628ccb981bc4e46a70.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","114276838955818":"component---src-layouts-index-js-381f7dc58380dc0cc91c.js"}/*]]>*/</script><script>
+            
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'undefined', 'auto');
+      }
+      </script><script>/*<![CDATA[*/["/blog/commons-4df8a7916fd236c3e69d.js","/blog/app-07a723349cc6f023683f.js","/blog/path---常见架构模式笔记-e1d40ca3f0fe49537863.js","/blog/component---src-templates-blog-post-js-74a1f27b159f9f13fa8a.js","/blog/component---src-layouts-index-js-381f7dc58380dc0cc91c.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>

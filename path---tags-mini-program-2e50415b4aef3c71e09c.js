@@ -1,0 +1,2 @@
+webpackJsonp([0xf388c40c091a],{486:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"运行环境 在iOS上，小程序的javascript代码是运行在 JavaScriptCore 中 在Android上，小程序的javascript代码是通过X5内核来解析 在 开发工具上， 小程序的javascript代码是运行于 nwjs（原node-webkit） nw.js…",fields:{slug:"/小程序基本原理/"},frontmatter:{date:"01 May, 2017",title:"小程序基本原理"}}}]}},pathContext:{tag:"mini program"}}}});
+//# sourceMappingURL=path---tags-mini-program-2e50415b4aef3c71e09c.js.map

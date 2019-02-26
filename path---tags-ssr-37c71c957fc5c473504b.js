@@ -1,0 +1,2 @@
+webpackJsonp([0xb1b618a5dba2],{494:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Pros & Cons",fields:{slug:"/ssr-optimization/"},frontmatter:{date:"29 June, 2018",title:"SSR Optimization"}}}]}},pathContext:{tag:"ssr"}}}});
+//# sourceMappingURL=path---tags-ssr-37c71c957fc5c473504b.js.map

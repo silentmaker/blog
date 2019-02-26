@@ -1,0 +1,2 @@
+webpackJsonp([0xb1c9b4629b57],{501:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"…",fields:{slug:"/前端工程师的一专多长/"},frontmatter:{date:"17 May, 2018",title:"前端工程师的一专多长"}}},{node:{excerpt:"大前端，简而言之，就是统一三端的开发( Web, Desktop, Mobile) 现在前端涉及的领域十分广泛，各种技术层出不穷—— 在多媒体领域，比如基于 WebRTC 的语音视频通话，基于P2P + CDN的流建媒体分发网络技术 在图形学领域，比如AR / VR…",fields:{slug:"/关于大前端/"},frontmatter:{date:"26 December, 2017",title:"关于大前端"}}}]}},pathContext:{tag:"前端"}}}});
+//# sourceMappingURL=path---tags-前端-1913da5ff6bc83067df8.js.map

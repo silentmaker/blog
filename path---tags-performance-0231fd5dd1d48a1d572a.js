@@ -1,0 +1,2 @@
+webpackJsonp([85273878220361],{489:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Runtime Performance",fields:{slug:"/optimizing-runtime-performance/"},frontmatter:{date:"26 May, 2018",title:"Optimizing Runtime Performance"}}}]}},pathContext:{tag:"performance"}}}});
+//# sourceMappingURL=path---tags-performance-0231fd5dd1d48a1d572a.js.map
