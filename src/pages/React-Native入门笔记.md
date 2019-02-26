@@ -1,3 +1,11 @@
+---
+title: 'React-Native入门'
+date: '2017-06-26'
+tags: ['Javascript']
+categories: ['编程']
+path: '/react-native-intro'
+---
+
 - 脚手架工具：
 
 ```bash

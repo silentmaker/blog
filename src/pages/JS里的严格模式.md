@@ -3,7 +3,7 @@ title: 'JS里的严格模式'
 date: '2016-11-19'
 tags: ['javascript']
 categories: ['编程']
-path: '/js-strict-mode
+path: '/js-strict-mode'
 ---
 
 ```javascript

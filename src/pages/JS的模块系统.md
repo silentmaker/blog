@@ -3,7 +3,7 @@ title: 'JS的模块系统'
 date: '2017-01-19'
 tags: ['javascript']
 categories: ['编程']
-path: '/js-module-system
+path: '/js-module-system'
 ---
 
 ##### CommonJS模式
