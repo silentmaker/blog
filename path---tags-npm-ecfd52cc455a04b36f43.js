@@ -1,2 +1,2 @@
-webpackJsonp([0xe8f6ee9528bf],{487:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"用scope避免命名冲突 创建可复用的npm init devDependencies的用外 npm脚本 版本管理 发布管理 安全检查",fields:{slug:"/Npm冷知识/"},frontmatter:{date:"13 January, 2017",title:"Npm冷知识"}}}]}},pathContext:{tag:"npm"}}}});
+webpackJsonp([0xe8f6ee9528bf],{452:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"用scope避免命名冲突 创建可复用的npm init devDependencies的用外 npm脚本 版本管理 发布管理 安全检查",fields:{slug:"/Npm冷知识/"},frontmatter:{date:"13 January, 2017",title:"Npm冷知识"}}}]}},pathContext:{tag:"npm"}}}});
 //# sourceMappingURL=path---tags-npm-ecfd52cc455a04b36f43.js.map

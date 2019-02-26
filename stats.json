@@ -1,32 +1,24 @@
 {
   "assetsByChunkName": {
-    "path---workbox-usage": [
-      "path---workbox-usage-578e4535b8ff4baff2b9.js",
-      "path---workbox-usage-578e4535b8ff4baff2b9.js.map"
-    ],
     "path---react-native入门笔记": [
       "path---react-native入门笔记-1b1c722e627e3bb68f5e.js",
       "path---react-native入门笔记-1b1c722e627e3bb68f5e.js.map"
     ],
     "path---常见架构模式笔记": [
-      "path---常见架构模式笔记-e1d40ca3f0fe49537863.js",
-      "path---常见架构模式笔记-e1d40ca3f0fe49537863.js.map"
-    ],
-    "path---ssr-optimization": [
-      "path---ssr-optimization-b9b1a12e9fda586cc37b.js",
-      "path---ssr-optimization-b9b1a12e9fda586cc37b.js.map"
+      "path---常见架构模式笔记-101227eb7150deb8ad6b.js",
+      "path---常见架构模式笔记-101227eb7150deb8ad6b.js.map"
     ],
     "path---tags-programming": [
       "path---tags-programming-e9d06ee8500384b05aaa.js",
       "path---tags-programming-e9d06ee8500384b05aaa.js.map"
     ],
     "path---网站性能优化总结": [
-      "path---网站性能优化总结-b1ff74965bec52026dd1.js",
-      "path---网站性能优化总结-b1ff74965bec52026dd1.js.map"
+      "path---网站性能优化总结-d09d6b866cf8ea2d039b.js",
+      "path---网站性能优化总结-d09d6b866cf8ea2d039b.js.map"
     ],
     "path---函数式编程基本概念": [
-      "path---函数式编程基本概念-1343beb4bb947d7726ae.js",
-      "path---函数式编程基本概念-1343beb4bb947d7726ae.js.map"
+      "path---函数式编程基本概念-7f58c22270b072fdb051.js",
+      "path---函数式编程基本概念-7f58c22270b072fdb051.js.map"
     ],
     "path---tags-架构": [
       "path---tags-架构-0331f83daa07338e6951.js",
@@ -37,24 +29,24 @@
       "component---src-templates-categories-js-40d57939ad0b9035c4c1.js.map"
     ],
     "path---cdn基础总结": [
-      "path---cdn基础总结-710bbaf1e6897e6a2885.js",
-      "path---cdn基础总结-710bbaf1e6897e6a2885.js.map"
+      "path---cdn基础总结-7b5a7c5818607c936533.js",
+      "path---cdn基础总结-7b5a7c5818607c936533.js.map"
     ],
     "path---关于管理者": [
       "path---关于管理者-646929fcac0dd92b7958.js",
       "path---关于管理者-646929fcac0dd92b7958.js.map"
     ],
-    "path---amp-intro": [
-      "path---amp-intro-2249eb4c14d103525570.js",
-      "path---amp-intro-2249eb4c14d103525570.js.map"
+    "path---amp简介": [
+      "path---amp简介-56c1eedd0084afec813d.js",
+      "path---amp简介-56c1eedd0084afec813d.js.map"
     ],
     "path---tags-vpn": [
       "path---tags-vpn-71a46490701ce022ce0e.js",
       "path---tags-vpn-71a46490701ce022ce0e.js.map"
     ],
     "path---javascript忍者禁术笔记-runtime": [
-      "path---javascript忍者禁术笔记-runtime-be406842da1e7cd62e15.js",
-      "path---javascript忍者禁术笔记-runtime-be406842da1e7cd62e15.js.map"
+      "path---javascript忍者禁术笔记-runtime-bcdc3bdbceabdabf5ba0.js",
+      "path---javascript忍者禁术笔记-runtime-bcdc3bdbceabdabf5ba0.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-bfb01f977f86e284a839.js",
@@ -65,32 +57,24 @@
       "path---tags-three-js-b10318548d12948aa236.js.map"
     ],
     "path---前端监控系统总结": [
-      "path---前端监控系统总结-51e9e0b34935a57b0e13.js",
-      "path---前端监控系统总结-51e9e0b34935a57b0e13.js.map"
+      "path---前端监控系统总结-6d41ef1ec6ed9ad02d50.js",
+      "path---前端监控系统总结-6d41ef1ec6ed9ad02d50.js.map"
     ],
     "path---关于大前端": [
-      "path---关于大前端-640eb9e6f4184ebc400b.js",
-      "path---关于大前端-640eb9e6f4184ebc400b.js.map"
+      "path---关于大前端-a20eb9198bc66856cce0.js",
+      "path---关于大前端-a20eb9198bc66856cce0.js.map"
     ],
     "path---页面渲染问题总结": [
-      "path---页面渲染问题总结-2606a3e825997fbf2495.js",
-      "path---页面渲染问题总结-2606a3e825997fbf2495.js.map"
+      "path---页面渲染问题总结-dd15e2d003c7c54395c0.js",
+      "path---页面渲染问题总结-dd15e2d003c7c54395c0.js.map"
     ],
     "path---tags-学习": [
       "path---tags-学习-be8b674a4cddca61b8e0.js",
       "path---tags-学习-be8b674a4cddca61b8e0.js.map"
     ],
-    "path---tags-graphql": [
-      "path---tags-graphql-7132c3266eae17bea89c.js",
-      "path---tags-graphql-7132c3266eae17bea89c.js.map"
-    ],
     "component---src-templates-tags-js": [
       "component---src-templates-tags-js-3b5ad4f33fe3d6e9eb37.js",
       "component---src-templates-tags-js-3b5ad4f33fe3d6e9eb37.js.map"
-    ],
-    "path---event-loop": [
-      "path---event-loop-e2ec15c1843c6bc01a1d.js",
-      "path---event-loop-e2ec15c1843c6bc01a1d.js.map"
     ],
     "path---关于学习和实践": [
       "path---关于学习和实践-b706996558253c72625f.js",
@@ -101,36 +85,32 @@
       "path---小程序基本原理-76eeafa4b53ea1b47412.js.map"
     ],
     "path---tags-性能": [
-      "path---tags-性能-304b62a251cfad3ab584.js",
-      "path---tags-性能-304b62a251cfad3ab584.js.map"
+      "path---tags-性能-8077beba2a57022b89ef.js",
+      "path---tags-性能-8077beba2a57022b89ef.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---tags-image": [
-      "path---tags-image-a69ab53632fa4c57ecfc.js",
-      "path---tags-image-a69ab53632fa4c57ecfc.js.map"
-    ],
     "path---tags-javascript": [
-      "path---tags-javascript-034d65250d616c5bd940.js",
-      "path---tags-javascript-034d65250d616c5bd940.js.map"
+      "path---tags-javascript-40679bee2c907ddfd0f1.js",
+      "path---tags-javascript-40679bee2c907ddfd0f1.js.map"
     ],
     "path---如何实现javascript的私有变量": [
-      "path---如何实现javascript的私有变量-8df10156a4d33e06a47e.js",
-      "path---如何实现javascript的私有变量-8df10156a4d33e06a47e.js.map"
+      "path---如何实现javascript的私有变量-30c423e64951895e5ad4.js",
+      "path---如何实现javascript的私有变量-30c423e64951895e5ad4.js.map"
     ],
     "path---tags-pwa": [
-      "path---tags-pwa-e3bb0ebc096003b3e65d.js",
-      "path---tags-pwa-e3bb0ebc096003b3e65d.js.map"
+      "path---tags-pwa-3ee913e63492da29bc54.js",
+      "path---tags-pwa-3ee913e63492da29bc54.js.map"
     ],
     "path---tags-performance": [
-      "path---tags-performance-0231fd5dd1d48a1d572a.js",
-      "path---tags-performance-0231fd5dd1d48a1d572a.js.map"
+      "path---tags-performance-59218194dcaa881213ae.js",
+      "path---tags-performance-59218194dcaa881213ae.js.map"
     ],
     "path---关于敏捷开发": [
-      "path---关于敏捷开发-56cd183161b8a8f706f7.js",
-      "path---关于敏捷开发-56cd183161b8a8f706f7.js.map"
+      "path---关于敏捷开发-cdef6ef7395c3432bf7e.js",
+      "path---关于敏捷开发-cdef6ef7395c3432bf7e.js.map"
     ],
     "path---一个极简的-promise垫片实现": [
       "path---一个极简的-promise垫片实现-0a32b7af1a6c6960a0a9.js",
@@ -148,14 +128,6 @@
       "component---src-templates-blog-post-js-74a1f27b159f9f13fa8a.js",
       "component---src-templates-blog-post-js-74a1f27b159f9f13fa8a.js.map"
     ],
-    "path---tags-p-5-js": [
-      "path---tags-p-5-js-909a35df9415397e2a45.js",
-      "path---tags-p-5-js-909a35df9415397e2a45.js.map"
-    ],
-    "path---tags-fetch": [
-      "path---tags-fetch-9dd05f2ee316cd337029.js",
-      "path---tags-fetch-9dd05f2ee316cd337029.js.map"
-    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-381f7dc58380dc0cc91c.js",
       "component---src-layouts-index-js-381f7dc58380dc0cc91c.js.map"
@@ -165,60 +137,32 @@
       "path---tags-matter-js-0b470ef4d5902fa6d5c2.js.map"
     ],
     "path---javascript忍者禁术笔记-function": [
-      "path---javascript忍者禁术笔记-function-1d0e8fd83baea10b2954.js",
-      "path---javascript忍者禁术笔记-function-1d0e8fd83baea10b2954.js.map"
+      "path---javascript忍者禁术笔记-function-0535e0d41f8df890c099.js",
+      "path---javascript忍者禁术笔记-function-0535e0d41f8df890c099.js.map"
     ],
     "path---箭头函数总结": [
-      "path---箭头函数总结-260a21069b84b388aae3.js",
-      "path---箭头函数总结-260a21069b84b388aae3.js.map"
-    ],
-    "path---tags-vue": [
-      "path---tags-vue-8a200827f681ce3ab2a0.js",
-      "path---tags-vue-8a200827f681ce3ab2a0.js.map"
-    ],
-    "path---d-3-force-directed-graph": [
-      "path---d-3-force-directed-graph-764dc2df11f8cca59ba0.js",
-      "path---d-3-force-directed-graph-764dc2df11f8cca59ba0.js.map"
-    ],
-    "path---vue-in-depth": [
-      "path---vue-in-depth-c6e04b6319600cc9f9fb.js",
-      "path---vue-in-depth-c6e04b6319600cc9f9fb.js.map"
-    ],
-    "path---tags-workbox": [
-      "path---tags-workbox-7e9a40d616bbd538f5fe.js",
-      "path---tags-workbox-7e9a40d616bbd538f5fe.js.map"
-    ],
-    "path---tags-d-3-js": [
-      "path---tags-d-3-js-a3edf42162154e342d4f.js",
-      "path---tags-d-3-js-a3edf42162154e342d4f.js.map"
+      "path---箭头函数总结-ebbc13330efaab675d13.js",
+      "path---箭头函数总结-ebbc13330efaab675d13.js.map"
     ],
     "path---tags-game": [
-      "path---tags-game-c80ae5e2269dce160f8f.js",
-      "path---tags-game-c80ae5e2269dce160f8f.js.map"
-    ],
-    "path---build-snake-game-with-p-5-js": [
-      "path---build-snake-game-with-p-5-js-f7749466268f9cc35953.js",
-      "path---build-snake-game-with-p-5-js-f7749466268f9cc35953.js.map"
-    ],
-    "path---optimizing-runtime-performance": [
-      "path---optimizing-runtime-performance-f8779da1f6be4ba4dbb8.js",
-      "path---optimizing-runtime-performance-f8779da1f6be4ba4dbb8.js.map"
+      "path---tags-game-2340e343fe89d8c991af.js",
+      "path---tags-game-2340e343fe89d8c991af.js.map"
     ],
     "path---three-js-intro": [
-      "path---three-js-intro-94af08c50ff7a3f96ce0.js",
-      "path---three-js-intro-94af08c50ff7a3f96ce0.js.map"
+      "path---three-js-intro-beea8a7765e0e938a155.js",
+      "path---three-js-intro-beea8a7765e0e938a155.js.map"
     ],
     "path---rail性能模型笔记": [
       "path---rail性能模型笔记-4584ac896bfe5cd17308.js",
       "path---rail性能模型笔记-4584ac896bfe5cd17308.js.map"
     ],
     "path---index": [
-      "path---index-6e628ccb981bc4e46a70.js",
-      "path---index-6e628ccb981bc4e46a70.js.map"
+      "path---index-6322a8f904c597099b90.js",
+      "path---index-6322a8f904c597099b90.js.map"
     ],
     "path---web-worker笔记": [
-      "path---web-worker笔记-9526dfd9a2bc4b0bf819.js",
-      "path---web-worker笔记-9526dfd9a2bc4b0bf819.js.map"
+      "path---web-worker笔记-b4734f2c83d1a59619de.js",
+      "path---web-worker笔记-b4734f2c83d1a59619de.js.map"
     ],
     "path---js里的严格模式": [
       "path---js里的严格模式-bbb6e5d1d57a4244725e.js",
@@ -232,67 +176,55 @@
       "path---tags-js-conf-33d5d84f1c6e91d9b6b1.js",
       "path---tags-js-conf-33d5d84f1c6e91d9b6b1.js.map"
     ],
+    "path---p-5-js和贪吃蛇游戏": [
+      "path---p-5-js和贪吃蛇游戏-816e751017a45051abfc.js",
+      "path---p-5-js和贪吃蛇游戏-816e751017a45051abfc.js.map"
+    ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
-    "path---tags-axios": [
-      "path---tags-axios-60c6a4be2a0c9a267ed9.js",
-      "path---tags-axios-60c6a4be2a0c9a267ed9.js.map"
-    ],
     "commons": [
-      "commons-4df8a7916fd236c3e69d.js",
+      "commons-c76fff1f8137915e45ba.js",
       "build-js-styles.css",
-      "commons-4df8a7916fd236c3e69d.js.map",
+      "commons-c76fff1f8137915e45ba.js.map",
       "build-js-styles.css.map"
     ],
     "path---categories-dev": [
-      "path---categories-dev-ace36d14974ef56f1155.js",
-      "path---categories-dev-ace36d14974ef56f1155.js.map"
-    ],
-    "path---fetch-vs-axios": [
-      "path---fetch-vs-axios-1f0c4b8fcf1f4cccfcf1.js",
-      "path---fetch-vs-axios-1f0c4b8fcf1f4cccfcf1.js.map"
+      "path---categories-dev-3b6f0d00fd276e2e7b36.js",
+      "path---categories-dev-3b6f0d00fd276e2e7b36.js.map"
     ],
     "path---javascript忍者禁术笔记-object": [
-      "path---javascript忍者禁术笔记-object-3b63fb1b2521be209d3b.js",
-      "path---javascript忍者禁术笔记-object-3b63fb1b2521be209d3b.js.map"
+      "path---javascript忍者禁术笔记-object-cfeb147da88af01730f3.js",
+      "path---javascript忍者禁术笔记-object-cfeb147da88af01730f3.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---js的模块系统": [
-      "path---js的模块系统-fbcb992fd2e295dfb2e5.js",
-      "path---js的模块系统-fbcb992fd2e295dfb2e5.js.map"
+      "path---js的模块系统-4e745a0ca6d9284e429e.js",
+      "path---js的模块系统-4e745a0ca6d9284e429e.js.map"
     ],
     "path---ploymer入门": [
-      "path---ploymer入门-1719ac8adc489bbbaadd.js",
-      "path---ploymer入门-1719ac8adc489bbbaadd.js.map"
+      "path---ploymer入门-f019dff3312ab4bb20a1.js",
+      "path---ploymer入门-f019dff3312ab4bb20a1.js.map"
     ],
     "path---redux基础": [
-      "path---redux基础-62796e7dc6a7f4763cc7.js",
-      "path---redux基础-62796e7dc6a7f4763cc7.js.map"
-    ],
-    "path---tags-ssr": [
-      "path---tags-ssr-37c71c957fc5c473504b.js",
-      "path---tags-ssr-37c71c957fc5c473504b.js.map"
+      "path---redux基础-03d32caa91cbab7b0ba5.js",
+      "path---redux基础-03d32caa91cbab7b0ba5.js.map"
     ],
     "path---tags-前端": [
       "path---tags-前端-1913da5ff6bc83067df8.js",
       "path---tags-前端-1913da5ff6bc83067df8.js.map"
     ],
-    "path---tags-amp": [
-      "path---tags-amp-74c81f0163348f2dab29.js",
-      "path---tags-amp-74c81f0163348f2dab29.js.map"
-    ],
     "path---tags-web": [
-      "path---tags-web-27f052317a23476f42cc.js",
-      "path---tags-web-27f052317a23476f42cc.js.map"
+      "path---tags-web-0444bb4b24accba7eb10.js",
+      "path---tags-web-0444bb4b24accba7eb10.js.map"
     ],
     "path---matter-js-intro": [
-      "path---matter-js-intro-703114ce08602961f344.js",
-      "path---matter-js-intro-703114ce08602961f344.js.map"
+      "path---matter-js-intro-170dffed6b1b5cb4a446.js",
+      "path---matter-js-intro-170dffed6b1b5cb4a446.js.map"
     ],
     "path---presentation-on-the-web-with-reveal-js": [
       "path---presentation-on-the-web-with-reveal-js-5834de6e68b47b392d06.js",
@@ -303,8 +235,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---内存管理与垃圾回收": [
-      "path---内存管理与垃圾回收-05ee36c8d0feaa742186.js",
-      "path---内存管理与垃圾回收-05ee36c8d0feaa742186.js.map"
+      "path---内存管理与垃圾回收-a68115a0f81226c0351d.js",
+      "path---内存管理与垃圾回收-a68115a0f81226c0351d.js.map"
     ],
     "path---tags-web-presentations": [
       "path---tags-web-presentations-f317086eb9cb04e56ab7.js",
@@ -315,26 +247,22 @@
       "path---babel笔记-4b85720bb3e07a57fe9b.js.map"
     ],
     "path---事件循环原理": [
-      "path---事件循环原理-bf65f310d2d62445c91a.js",
-      "path---事件循环原理-bf65f310d2d62445c91a.js.map"
+      "path---事件循环原理-4c032b0eda011b2ede15.js",
+      "path---事件循环原理-4c032b0eda011b2ede15.js.map"
+    ],
+    "path---用-d-3-力导向图做思维导图": [
+      "path---用-d-3-力导向图做思维导图-5297ee597b32183ef71a.js",
+      "path---用-d-3-力导向图做思维导图-5297ee597b32183ef71a.js.map"
     ],
     "app": [
-      "app-07a723349cc6f023683f.js",
+      "app-4df5ba5c98a8618ee5ab.js",
       "build-js-styles.css",
-      "app-07a723349cc6f023683f.js.map",
+      "app-4df5ba5c98a8618ee5ab.js.map",
       "build-js-styles.css.map"
     ],
-    "path---tags-event-loop": [
-      "path---tags-event-loop-7da1fe0d6058e97a0306.js",
-      "path---tags-event-loop-7da1fe0d6058e97a0306.js.map"
-    ],
     "path---前端工程师的一专多长": [
-      "path---前端工程师的一专多长-cff86bd2be5630b66a9d.js",
-      "path---前端工程师的一专多长-cff86bd2be5630b66a9d.js.map"
-    ],
-    "path---javascript-metaprogramming": [
-      "path---javascript-metaprogramming-eb98857bf1a57289b606.js",
-      "path---javascript-metaprogramming-eb98857bf1a57289b606.js.map"
+      "path---前端工程师的一专多长-9c04c7372db89fdee73d.js",
+      "path---前端工程师的一专多长-9c04c7372db89fdee73d.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -348,25 +276,21 @@
       "path---tags-npm-ecfd52cc455a04b36f43.js",
       "path---tags-npm-ecfd52cc455a04b36f43.js.map"
     ],
-    "path---tags-service-worker": [
-      "path---tags-service-worker-ff0170274db4c2e202f5.js",
-      "path---tags-service-worker-ff0170274db4c2e202f5.js.map"
-    ],
     "path---categories-编程": [
-      "path---categories-编程-fd9dc0cb92993439d47b.js",
-      "path---categories-编程-fd9dc0cb92993439d47b.js.map"
+      "path---categories-编程-f4bddd2edd48e4ebec6c.js",
+      "path---categories-编程-f4bddd2edd48e4ebec6c.js.map"
     ],
     "path---tags-front-end": [
       "path---tags-front-end-9d0ce73ba9962c6014dc.js",
       "path---tags-front-end-9d0ce73ba9962c6014dc.js.map"
     ],
     "path---npm冷知识": [
-      "path---npm冷知识-a7eed2b84f75c9fa3ebd.js",
-      "path---npm冷知识-a7eed2b84f75c9fa3ebd.js.map"
+      "path---npm冷知识-5f3118515357c6200d63.js",
+      "path---npm冷知识-5f3118515357c6200d63.js.map"
     ],
     "path---用-open-connect-sever搭建-vpn": [
-      "path---用-open-connect-sever搭建-vpn-6580620d030563665a43.js",
-      "path---用-open-connect-sever搭建-vpn-6580620d030563665a43.js.map"
+      "path---用-open-connect-sever搭建-vpn-1e2ba3a68e7639bd80af.js",
+      "path---用-open-connect-sever搭建-vpn-1e2ba3a68e7639bd80af.js.map"
     ],
     "path---tags-mini-program": [
       "path---tags-mini-program-2e50415b4aef3c71e09c.js",
@@ -375,10 +299,6 @@
     "path---tags-项目管理": [
       "path---tags-项目管理-b66787ed3eaafba0040a.js",
       "path---tags-项目管理-b66787ed3eaafba0040a.js.map"
-    ],
-    "path---graphql-intro": [
-      "path---graphql-intro-c26b2ba600a2c8169c3e.js",
-      "path---graphql-intro-c26b2ba600a2c8169c3e.js.map"
     ]
   }
 }
