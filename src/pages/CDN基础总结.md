@@ -44,22 +44,18 @@ path: '/cdn-notes'
 ### CDN与FEO
 
 - CDN使内容更靠近用户，可以算是“中端”优化，FEO(Front End Optimization，前端优化)关注的是减少请求数量，减小文体大小，并优化元素加载到浏览器的顺序
-
 - 一般FEO的性能提升高于使用CDN，所以要优先或者结合使用
 
 ### 使用CDN 
 
 - 开通服务
-
 - 添加域名，复制CNAME地址，配置到DNS服务商 
-
 - ping域名验证是否生效 
 
 ### CDN效率低的原因（命中率）
 
 - 源站设置了no-cache不缓存，命中率为0
 - 在CDN控制台设置了不缓存规则(cache-control=no-cache/no-store/max-age=0/private, Pragma=no-cache, etag/last-modified不存在)
-
 - 源站上的必要Header缺失或设置不当
 - url中带有可变参数，则每次都会MISS
 - 动态内空居多的情况下，回源也会比较多

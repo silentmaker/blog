@@ -8,7 +8,7 @@ path: '/redux-cheatsheet'
 
 ### Redux
 
-Create a store
+创建Store
 
 ```javascript
 import { createStore } from 'redux'
@@ -28,7 +28,7 @@ let store = createStore(counter)
 let store = createStore(counter, { value: 0 })
 ```
 
-Use a store
+使用Store
 
 ```javascript
 let store = createStore(counter)
@@ -45,7 +45,7 @@ unsubscribe()
 
 ### React Redux
 
-Provider
+通过Provider注入store
 
 ```javascript
 import { Provider } from 'react-redux'
@@ -55,7 +55,7 @@ React.render(
   </Provider>, mountNode)
 ```
 
-Mapping state
+状态映射
 
 ```javascript
 import { connect } from 'react-redux'
@@ -86,7 +86,7 @@ function mapDispatch (dispatch) {
 export default connect(mapState, mapDispatch)(App)
 ```
 
-Shorthand
+简化版本如下
 
 ```javascript
 export default connect(
@@ -101,7 +101,7 @@ export default connect(
 )(App)
 ```
 
-Combining reducers
+合并Reducers
 
 ```javascript
 const reducer = combineReducers({
@@ -109,9 +109,9 @@ const reducer = combineReducers({
 })
 ```
 
-### Middleware
+### Redux Middleware
 
-Signature
+创建中间件
 
 ```javascript
 // noop middleware
@@ -131,14 +131,14 @@ const logger = store => {
 }
 ```
 
-Applying Middleware
+应用中间件
 
 ```javascript
 const enhancer = applyMiddleware(logger, thunk, ...)
 const store = createStore(reducer, {}, enhancer)
 ```
 
-### More
+### 其他
 
 [Redux Documentation](https://redux.js.org/)
 
