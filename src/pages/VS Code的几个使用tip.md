@@ -1,6 +1,6 @@
 ---
 title: 'VS Code的几个使用tip'
-date: '2017-03-02'
+date: '2017-12-02'
 categories: ['编程']
 path: '/several-vs-code-tips'
 ---
