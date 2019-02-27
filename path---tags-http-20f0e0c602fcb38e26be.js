@@ -1,0 +1,2 @@
+webpackJsonp([71366857429703],{475:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"1xx的状态码表示临时响应 100 “continue” 用于让客户端得知服务端没有拒绝请求，可以发送正式的请求体，请求Header一般包含Expect 101 “switching protocols” 服务端按客户端请求变更协议，请求Header一般包含Upgrade 10…",fields:{slug:"/常见状态码和使用场景/"},frontmatter:{date:"22 December, 2018",title:"常见架构模式笔记"}}}]}},pathContext:{tag:"HTTP"}}}});
+//# sourceMappingURL=path---tags-http-20f0e0c602fcb38e26be.js.map

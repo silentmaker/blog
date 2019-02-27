@@ -1,0 +1,2 @@
+webpackJsonp([0x6f6e17de0fd6],{487:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"之前看VueConf，有一个Lightning Talk的内容挺有趣的，基本思路大概就是，Vue组件不一定要用来渲染HTML，或者说用组件这种声明式的写法可以做一些别的事情 下面提到的在Github上可以找到对应的项目： vue-motion 、 vue-promised…",fields:{slug:"/用Vue写不是组件的组件/"},frontmatter:{date:"22 November, 2018",title:""}}}]}},pathContext:{tag:"Vue"}}}});
+//# sourceMappingURL=path---tags-vue-c8a3a8f1ba8febe270c8.js.map
