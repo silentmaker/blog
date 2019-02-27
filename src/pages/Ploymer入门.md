@@ -18,7 +18,7 @@ Web Components are now implemented natively on Safari and Chrome, and run well o
 
 ### Basics
 
-#### scripts
+### scripts
 
 load webcomponents-loader.js to check and load any polyfills your browser needs
 
@@ -35,7 +35,7 @@ load webcomponents-loader.js to check and load any polyfills your browser needs
 </html>
 ```
 
-#### basic Polymer element definition
+### basic Polymer element definition
 
 Note: ==LiteElement== is the successor to PolymerElement now.
 
@@ -76,7 +76,7 @@ class XCustom extends PolymerElement {
 customElements.define('x-custom', XCustom);
 ```
 
-#### element composition
+### element composition
 
 ```javascript
 import {PolymerElement, html} from "@polymer/polymer/polymer-element.js"
@@ -105,7 +105,7 @@ customElements.define('picture-frame', PictureFrame);
 
 ```
 
-#### data binding
+### data binding
 
 ```javascript
 import {PolymerElement, html} from "@polymer/polymer/polymer-element.js"
@@ -126,7 +126,7 @@ class NameTag extends PolymerElement {
 customElements.define('name-tag', NameTag);
 ```
 
-#### declare properties
+### declare properties
 
 ```javascript
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js'
@@ -150,7 +150,7 @@ class ConfigurableNameTag extends PolymerElement {
 customElements.define('configurable-name-tag', ConfigurableNameTag);
 ```
 
-#### two-way binding
+### two-way binding
 
 ```html
 <!-- non-Polymer element -->
@@ -164,7 +164,7 @@ customElements.define('configurable-name-tag', ConfigurableNameTag);
 <my-element value="{{hostValue}}">
 ```
 
-#### array to list
+### array to list
 
 use ```<dom-repeat>```
 
@@ -207,7 +207,7 @@ ploymer serve
 
 ### Development
 
-#### create new page
+### create new page
 
 Edit ==src/my-new-view.js==
 
@@ -309,7 +309,7 @@ Add navigation menu item
 </app-drawer>
 ```
 
-#### create new component
+### create new component
 
 Using existed web component:
 

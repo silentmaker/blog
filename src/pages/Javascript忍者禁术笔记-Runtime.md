@@ -6,7 +6,7 @@ categories: ['编程']
 path: '/javascript-ninja-runtime'
 ---
 
-#### 运行机制
+### 运行机制
 
 javascript是解释型语言，采用JIT(Just In Time)机制，运行用机器码并不是提前生成的(AOT, Ahead Of Time)，这是与C等编译型语言的主要不同之一，javascript还具有很多独特的语言特性：
 
@@ -14,19 +14,19 @@ javascript是解释型语言，采用JIT(Just In Time)机制，运行用机器�
 - 函数闭包
 - 基于原型的面向对象
 
-#### 运行环境
+### 运行环境
 
 在客户端和服务端的运行环境有所不同
 
 ![Runtime](/Users/maxingcong/Code/blog/src/pages/images/runtime-difference.png)
 
-#### Web应用的生命周期
+### Web应用的生命周期
 
 ![Life Cycle](/Users/maxingcong/Code/blog/src/pages/images/webapp-lifecycle.png)
 
 基本分成两步：Page Building 阶段和 Event Handling 阶段
 
-#### Page Building 阶段
+### Page Building 阶段
 
 在 Page Building 阶段主要做两件事： 
 
@@ -40,7 +40,7 @@ javascript是解释型语言，采用JIT(Just In Time)机制，运行用机器�
 
 同时，浏览器会自动容错，构建可用的DOM
 
-#### Event handling阶段
+### Event handling阶段
 
 ![Event Handling](/Users/maxingcong/Code/blog/src/pages/images/event-handling.png)
 

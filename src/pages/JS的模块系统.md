@@ -6,7 +6,7 @@ categories: ['编程']
 path: '/js-module-system'
 ---
 
-#### CommonJS模式
+### CommonJS模式
 
 ```javascript
 module.exports = () => {
@@ -21,7 +21,7 @@ CommonJS是Node的主要模块机制，从设计的出发点就是考虑了服�
 
 而其缺点在于，同步的API设计使其不适合客户端的很多异步场景，在浏览器里使用需要loader或者转译，模块只能是一个文件，不适用于静态代码分析器
 
-#### AMD模式
+### AMD模式
 
 Asynchronous Module Definition，比如require.js和Dojo.js，不互相依赖的模块可以同时加载，加载速度更快
 
@@ -40,7 +40,7 @@ define(function(require) {
 
 这个机制的优点主要是异步加载，兼容CommonJS，并且支持多文件模块，缺点主要是语法上复杂一点，使用时需要loader或者转译，同样不适用于静态代码分析器
 
-#### CMD模式
+### CMD模式
 
 CMD是另一种模块化方案，它与AMD很类似，不同点在于 AMD 推崇依赖前置、提前执行，CMD推崇依赖就近、延迟执行
 
@@ -72,7 +72,7 @@ seajs.use(['math.js'], function(math) {
 });
 ```
 
-#### ES2015 Module
+### ES2015 Module
 
 ```javascript
 // lib.js

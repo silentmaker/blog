@@ -15,7 +15,7 @@ path: '/babel-notes'
 4. Stage 3：candidate - 至少要有2个符合规范的具体实现
 5. Stage 4：finished - 完成
 
-#### Babel6
+### Babel6
 
 
 Babel6增加了以下配置项：
@@ -30,7 +30,7 @@ Babel6增加了以下配置项：
 * *babel-polyfill*：引入新的内置对象如Promise和静态方法如Array.from以供使用
 * *babel-register*：模块注册器，在底层改写node的require方法，不带后缀情况下会默认转译.es6、.es、.jsx和.js后缀的模块，其实等同于babel-core/register模块，也可以单独引入
 
-#### 插件
+### 插件
 
 官方插件列表：http://babeljs.io/docs/en/plugins/
 语法层次的转译，和api层次的垫片(polyfill)，都是通过一系列插件来实现
@@ -77,7 +77,7 @@ external-helpers则提供了常见的工具函数，比如Object.extend
 - 后者更全能也更稳妥，提供了完整的ES6+环境，官方也建议全局引入
 - 建议开发库或框架时引入不会前者，不会污染全局作用域；大型web应用则推荐后者，全局引入后者打包后的文件体积可能比各模块重复引入体积更小
 
-#### Preset配置
+### Preset配置
 官方已经不推荐使用{ "presets": ["es2015"] }的方式，而是用*babel-preset-env*
 
 ```javascript

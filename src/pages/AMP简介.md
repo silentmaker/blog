@@ -6,11 +6,11 @@ categories: ['dev']
 path: '/amp-intro'
 ---
 
-#### 加速的移动网页
+### 加速的移动网页
 
 AMP, Accelerated Mobile Page，是google一个团队提出来的性能优化技术，目标是加快移动端页面呈现速度，提高整体体验
 
-AMP 主要由 AMP HTML、AMP JS 以及 AMP Cache 三部分组成，其中，AMP HTML 是 HTML 的子集，在 AMP HTML 中只允许使用有限的标签，比如 <p>、<article> 等标签可以直接使用，有些标签允许有限制的使用，比如 <meta> 标签不能使用 http-equiv 属性；而像 <img>、<audio> 等标签需要替换为 <amp-img>、<amp-audio> 等 AMP Components；还有些标签比如 <frame>、<form> 则不允许使用
+AMP 主要由 AMP HTML、AMP JS 以及 AMP Cache 三部分组成，其中，AMP HTML 是 HTML 的子集，在 AMP HTML 中只允许使用有限的标签，比如p、artcicle等标签可以直接使用，有些标签允许有限制的使用，比如meta标签不能使用 http-equiv 属性；而像 img、audio 等标签需要替换为 apm-img、amp-audio 等 AMP Components；还有些标签比如 frame、form 则不允许使用
 
 以下是一个AMP页面的基础模板：
 
@@ -58,21 +58,21 @@ AMP 主要由 AMP HTML、AMP JS 以及 AMP Cache 三部分组成，其中，AMP 
 
 AMP HTML 有一些强制的格式要求：
 
-- DTD 必须是： <!doctype html>
-- 顶层标签必须包含 AMP 属性，如：<html ⚡> 或 <html amp>
--  必须在 Head 区域中放置 <link rel="canonical" href="$SOME_URL" /> 标签，用来指定该文档普通版本的 url；如果只有一个版本，使用当前 url 即可
-- 必须将 <meta charset="utf-8"> 放置在 Head 区域最开始的位置
--  必须在 Head 区域包含这个 ViewPort：<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-- 必须将 <script async src="https://cdn.ampproject.org/v0.js"></script> 作为 Head 区域最后的元素
--  必须在 Head 区域包含以下代码：<style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>；
+- DTD 必须是：` <!doctype html>`
+- 顶层标签必须包含 AMP 属性，如：`<html ⚡>` 或 `<html amp>`
+-  必须在 Head 区域中放置 `<link rel="canonical" href="$SOME_URL" />` 标签，用来指定该文档普通版本的 url；如果只有一个版本，使用当前 url 即可
+- 必须将 `<meta charset="utf-8">` 放置在 Head 区域最开始的位置
+-  必须在 Head 区域包含这个 ViewPort：`<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">`
+- 必须将 `<script async src="https://cdn.ampproject.org/v0.js"></script>` 作为 Head 区域最后的元素
+-  必须在 Head 区域包含以下代码：`<style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>`
 
-#### 减少页面控制
+### 减少页面控制
 
 AMP 适用于新闻、博客等信息内容为主的页面，其他性能优势是通过减少很多互动功能和对页面的控制来得到了，网页的 CSS代码也要简化，并且要写在HTML中，同时也不能调用外部CSS文件，JS也大部分不能用了，图片、视频等都会等到用户下拉到时再加载，广告展示的体验也得到了优化，这些都是通过 AMP JS 和 AMP Components 来达成的，最后通过 AMP Cache，Google将页面缓存在自己的CDN，以实现静态资源的高度缓存
 
-#### AMP 组件
+### AMP 组件
 
-AMP Components 是使用浏览器自定义元素，即Custom Elements实现的组件，用来替换 HTML 中默认的 `<img>` 和 `<video>` 等标签，用来实现对资源的自定义加载策略，还有一些复杂的交互效果，如图片轮播等
+AMP Components 是使用浏览器自定义元素，即Custom Elements实现的组件，用来替换 HTML 中默认的img 和 video 等标签，用来实现对资源的自定义加载策略，还有一些复杂的交互效果，如图片轮播等
 
 AMP 内置组件，包括：amp-img、amp-audio、amp-anim、amp-ad、amp-pixel、amp-video，引入了cdn.ampproject.org/v0.js 之后就可以直接使用。
 
@@ -87,7 +87,7 @@ AMP 扩展组件，包括：amp-carousel、amp-lightbox、amp-iframe、amp-insta
 
 为了避免页面抖动，每个 AMP Component 都必须设置高宽属性，在响应式布局下会按比例自动调整大小
 
-#### 更好的内容分发
+### 更好的内容分发
 
 Web性能优化的方案很多，但是普通的情况是具体业务场景下的优化很难通用化，而通用化方案常常依赖服务端，导致成本很高，或者没有在瓶颈上起效，效果不明显
 
