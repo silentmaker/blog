@@ -1,8 +1,8 @@
 ---
 title: 'AMP简介'
 date: '2018-07-22'
-tags: ['性能']
-categories: ['dev']
+tags: ['前端']
+categories: ['编程']
 path: '/amp-intro'
 ---
 

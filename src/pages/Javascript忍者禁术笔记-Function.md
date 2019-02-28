@@ -1,7 +1,7 @@
 ---
 title: 'Javascript忍者禁术笔记-Function'
 date: '2017-04-13'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/javascript-ninja-function'
 ---

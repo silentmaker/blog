@@ -1,7 +1,6 @@
 ---
 title: '什么是Shadow DOM'
-date: '2016-12-28'
-tags: ['javascript']
+date: '2018-02-28'
 categories: ['编程']
 path: '/what-is-shadow-dom'
 ---

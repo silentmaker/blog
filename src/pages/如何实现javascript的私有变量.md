@@ -1,7 +1,7 @@
 ---
 title: '如何实现javascript的私有变量'
 date: '2018-01-26'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/javascript-private-variables'
 ---

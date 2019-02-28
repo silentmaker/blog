@@ -1,7 +1,7 @@
 ---
 title: 'Javascript忍者禁术笔记-Runtime'
 date: '2017-04-10'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/javascript-ninja-runtime'
 ---

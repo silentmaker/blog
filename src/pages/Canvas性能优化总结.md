@@ -1,7 +1,6 @@
 ---
 title: 'Canvas性能优化总结'
 date: '2018-09-20'
-tags: ['Javascript']
 categories: ['编程']
 path: '/canvas-performance'
 ---

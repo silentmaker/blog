@@ -1,7 +1,6 @@
 ---
 title: 'OpenConnectSever搭建VPN总结'
 date: '2018-01-26'
-tags: ['VPN', 'Web']
 categories: ['编程']
 path: '/ocserv-letsencrypt-vpn'
 ---

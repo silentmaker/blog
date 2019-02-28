@@ -1,7 +1,6 @@
 ---
 title: 'Npm冷知识'
 date: '2017-01-13'
-tags: ['npm', 'JSConf']
 categories: ['编程']
 path: '/tricks-about-npm'
 ---

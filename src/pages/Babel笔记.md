@@ -1,7 +1,6 @@
 ---
 title: 'Babel笔记'
 date: '2018-05-20'
-tags: ['Javascript']
 categories: ['编程']
 path: '/babel-notes'
 ---

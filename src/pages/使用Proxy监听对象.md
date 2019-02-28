@@ -1,7 +1,7 @@
 ---
 title: '使用Proxy监听对象'
 date: '2017-05-25'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/using-proxy-to-monitor-object'
 ---

@@ -1,12 +1,11 @@
 ---
 title: 'Rollup的基本使用'
 date: '2018-10-26'
-tags: ['Javascript']
 categories: ['编程']
 path: '/rollup-basic-usage'
 ---
 
-Rollup 是一个和 Webpack 类似的 JavaScript 模块打包工具，不同的是 Rollup 默认对模块使用新的标准化格式，这些标准都是包含在 JavaScript 的 ES6 版本中的，而非以前的特殊解决方案，比如 CommonJS 和 AMD，ES6 模块最终还是要由浏览器原生实现，但当前 Rollup 可以使你提前体验，这样打包出来的包文件体积也更小，打包速度也更快
+Rollup 是一个和 Webpack 类似的 JavaScript 模块打包工具，不同的是 Rollup 默认对模块采用ES6 的处理标准，而不是以前CommonJS 和 AMD之类的解决方案，这样打包出来的包文件体积更小，打包速度也更快
 
 ### 初始化与基本配置
 

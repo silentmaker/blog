@@ -1,7 +1,7 @@
 ---
 title: 'Redux基础'
 date: '2018-07-26'
-tags: ['Web', 'Javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/redux-cheatsheet'
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Promise及其垫片实现'
 date: '2017-09-06'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/a-tiny-promise-polyfill'
 ---

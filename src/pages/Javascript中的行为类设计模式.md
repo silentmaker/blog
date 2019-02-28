@@ -1,7 +1,7 @@
 ---
 title: 'Javascript中的行为类设计模式'
 date: '2017-08-10'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/javascript-behavioral-design-pattern'
 ---

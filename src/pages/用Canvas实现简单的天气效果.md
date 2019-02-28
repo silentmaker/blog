@@ -1,7 +1,6 @@
 ---
 title: '用Canvas实现简单的天气效果'
 date: '2018-08-11'
-tags: ['Javascript']
 categories: ['编程']
 path: '/simple-weather-effect-with-canvas'
 ---

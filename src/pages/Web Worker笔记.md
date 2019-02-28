@@ -1,7 +1,6 @@
 ---
 title: 'Web Workers笔记'
 date: '2018-06-26'
-tags: ['Web', 'Javascript']
 categories: ['编程']
 path: '/web-workers-notes'
 ---

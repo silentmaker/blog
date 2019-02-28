@@ -1,6 +1,6 @@
 ---
 title: 'Generator与asyncIterator'
-date: '2018-06-26'
+date: '2018-11-06'
 tags: ['Javascript']
 categories: ['编程']
 path: '/generator-and-async-iterator'

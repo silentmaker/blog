@@ -1,7 +1,7 @@
 ---
 title: 'JS里的严格模式'
 date: '2016-11-19'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/js-strict-mode'
 ---

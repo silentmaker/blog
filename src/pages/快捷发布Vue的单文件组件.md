@@ -1,7 +1,7 @@
 ---
 title: '快捷发布Vue的单文件组件'
 date: '2018-10-02'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/how-to-publish-vue-sfc'
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'RAIL性能模型笔记'
 date: '2018-07-26'
-tags: ['Web', 'Performance', 'Javascript']
+tags: ['前端']
 categories: ['编程']
 path: '/rail-performance-model'
 ---

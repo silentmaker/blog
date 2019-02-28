@@ -1,7 +1,7 @@
 ---
 title: 'Ploymer入门'
 date: '2018-07-26'
-tags: ['Polymer', 'Javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/polymer-introduction'
 ---
@@ -14,7 +14,7 @@ path: '/polymer-introduction'
 
 Polymer lets you build encapsulated, reusable [Web Components](https://www.webcomponents.org/introduction) that work just like standard HTML elements.
 
-Web Components are now implemented natively on Safari and Chrome, and run well on Firefox, Edge, and IE11 using polyfills. :smile:
+Web Components are now implemented natively on Safari and Chrome, and run well on Firefox, Edge, and IE11 using polyfills.
 
 ### Basics
 
@@ -37,7 +37,7 @@ load webcomponents-loader.js to check and load any polyfills your browser needs
 
 ### basic Polymer element definition
 
-Note: ==LiteElement== is the successor to PolymerElement now.
+Note: LitElement is the successor to PolymerElement now.
 
 ```javascript
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';

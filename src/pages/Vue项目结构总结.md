@@ -1,6 +1,7 @@
 ---
 title: 'Vue项目结构总结'
 date: '2018-12-03'
+tags: ['前端']
 categories: ['编程']
 path: '/vue-project-structure'
 ---

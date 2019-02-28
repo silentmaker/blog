@@ -1,6 +1,7 @@
 ---
+title: '用D3力导向图做思维导图'
 date: '2018-11-22'
-tags: ['Vue']
+tags: ['Javascript']
 categories: ['编程']
 path: '/vue-beyond-html'
 ---

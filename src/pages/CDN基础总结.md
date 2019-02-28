@@ -1,7 +1,6 @@
 ---
 title: 'CDN基础总结'
 date: '2018-09-26'
-tags: ['Web']
 categories: ['编程']
 path: '/cdn-notes'
 ---

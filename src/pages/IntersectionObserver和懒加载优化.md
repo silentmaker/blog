@@ -1,7 +1,7 @@
 ---
 title: 'IntersectionObserver和懒加载优化'
 date: '2019-02-20'
-tags: ['Javascript']
+tags: ['前端']
 categories: ['编程']
 path: '/intersection-observer-and-lazy-loading'
 ---
@@ -14,9 +14,9 @@ path: '/intersection-observer-and-lazy-loading'
 
 ### IntersectionObserver
 
-IntersectionObserver 是一个用于检测被观察元素何时进入或离开了浏览器视窗的Web API，大多数现代浏览器都已经支持，而且它是观察者模式的异步传调用，不会影响主线程，可以说是一个为了懒加载而生的API
+IntersectionObserver 是一个用于检测被观察元素何时进入或离开了浏览器视窗的Web API，大多数现代浏览器都已经支持了，而且它是观察者模式的异步调用，不影响主线程，可以说是一个为了懒加载而生的API
 
-为了更好地复用，我们可以通过Web Component 或者 Vue 抽取一个`<lazy-img>`组件，这里用Web Component举例：
+为了更好地复用，我们可以抽取一个`<lazy-img>`组件，这里用Web Component 的方式举例：
 
 ```javascript
 class LazyImage extends HTMLElement {
@@ -38,7 +38,7 @@ class LazyImage extends HTMLElement {
             this.appendChild(this.img);
         }
     }
-    // 实际鉵发图片加载
+    // 实际触发图片加载
     set visible(visible) {
         if(!this.src || !visible || this.loaded) return;
         this.img.src = this.src;
@@ -63,7 +63,7 @@ class LazyImage extends HTMLElement {
 customElements.define('lazy-img', LazyImage);
 ```
 
-有了组件之后，就可以写观察元素的代码了：
+有了组件之后，就可以写实际观测图片元素的代码了：
 
 ```javascript
 const images = document.querySelectAll('lazy-img');
@@ -75,7 +75,7 @@ const io = new IntersectionObserver((entries) => {
 for (const image of images) io.observe(image);
 ```
 
-如上IntersectionObserver就可以追踪所有`<lazy-img>`元素，并在图片进入视窗时加载图片
+如上，IntersectionObserver追踪所有`<lazy-img>`元素的状态，并在图片进入视窗时触发加载图片
 
 ### 体验优化
 

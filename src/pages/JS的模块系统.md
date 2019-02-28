@@ -1,7 +1,7 @@
 ---
 title: 'JS的模块系统'
 date: '2017-01-19'
-tags: ['javascript']
+tags: ['Javascript']
 categories: ['编程']
 path: '/js-module-system'
 ---
