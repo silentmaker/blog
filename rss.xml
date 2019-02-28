@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elvin's Blog]]></title><description><![CDATA[Elvin's Blog]]></description><link>https://silentmaker.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 28 Feb 2019 20:35:26 GMT</lastBuildDate><item><title><![CDATA[IntersectionObserver和懒加载优化]]></title><description><![CDATA[…]]></description><link>https://silentmaker.github.io/blog/IntersectionObserver和懒加载优化/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/IntersectionObserver和懒加载优化/</guid><pubDate>Wed, 20 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;延迟加载的目的在于让用户只在他们需要时才下载他们需要的东西&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Elvin's Blog]]></title><description><![CDATA[Elvin's Blog]]></description><link>https://silentmaker.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 28 Feb 2019 20:45:41 GMT</lastBuildDate><item><title><![CDATA[IntersectionObserver和懒加载优化]]></title><description><![CDATA[…]]></description><link>https://silentmaker.github.io/blog/IntersectionObserver和懒加载优化/</link><guid isPermaLink="false">https://silentmaker.github.io/blog/IntersectionObserver和懒加载优化/</guid><pubDate>Wed, 20 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;延迟加载的目的在于让用户只在他们需要时才下载他们需要的东西&lt;/p&gt;
 &lt;p&gt;比如，当用户浏览一个很多图片的页面，图片进入可见区域时才加载，可以节省带宽，并且能让网页加载更快&lt;/p&gt;
 &lt;p&gt;图片懒加载的概念已经是老生常谈了，不过以前大部分用于懒加载的库都是用滚动事件或者定时器来检查元素是否进入视区的，这类方法的问题是会可能导致浏览器重新布局和重绘，有时候还会导致卡顿&lt;/p&gt;
 &lt;h3&gt;IntersectionObserver&lt;/h3&gt;
@@ -122,6 +122,10 @@ customElements&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;D3.JS实现的思维导图工具&lt;/p&gt;
 &lt;p&gt;GitHub地址：&lt;a href=&quot;https://github.com/silentmaker/mind-map&quot;&gt;mind-map&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;DEMO地址：&lt;a href=&quot;https://silentmaker.github.io/mind-map&quot;&gt;Mind Map&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Angry Pigs&lt;/h3&gt;
+&lt;p&gt;Matter.JS物理引擎的Demo&lt;/p&gt;
+&lt;p&gt;GitHub地址：&lt;a href=&quot;https://silentmaker.github.io/angry-pigs&quot;&gt;angry-pigs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DEMO地址：&lt;a href=&quot;https://silentmaker.github.io/angry-pigs/&quot;&gt;Angry Pigs&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Todos&lt;/h3&gt;
 &lt;p&gt;Todos工具，基于PWA&lt;/p&gt;
 &lt;p&gt;GitHub地址：&lt;a href=&quot;https://github.com/silentmaker/todos&quot;&gt;todos&lt;/a&gt;&lt;/p&gt;
