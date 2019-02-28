@@ -1,0 +1,2 @@
+webpackJsonp([0xfdba7fe24434],{440:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Elvin's Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"…",fields:{slug:"/金融的解释笔记/"},frontmatter:{date:"02 December, 2018",title:"金融的解释笔记"}}}]}},pathContext:{category:"金融"}}}});
+//# sourceMappingURL=path---categories-金融-cd0bfbd57e2c2bfed679.js.map
